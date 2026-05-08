@@ -1,0 +1,59 @@
+🔹 1. Methods that work with Locators (Elements)
+
+👉 These are used when you do:
+
+page.locator()
+getByRole()
+getByText()
+getByLabel()
+✅ Assertion Methods for Locators
+await expect(locator).toBeVisible();
+await expect(locator).toBeHidden();
+await expect(locator).toBeEnabled();
+await expect(locator).toBeDisabled();
+await expect(locator).toBeChecked();
+await expect(locator).toHaveText("text");
+await expect(locator).toContainText("text");
+await expect(locator).toHaveAttribute("type", "text");
+await expect(locator).toHaveValue("value");
+await expect(locator).toHaveCount(3);
+🔹 Example
+await expect(page.locator('#login')).toBeVisible();
+await expect(page.locator('h1')).toContainText("Welcome");
+🔹 Actions on Locators
+await locator.click();
+await locator.fill("text");
+await locator.type("text");
+await locator.check();
+await locator.uncheck();
+await locator.selectOption("value");
+await locator.hover();
+await locator.press("Enter");
+🔹 2. Methods that work with Elements (Values)
+
+👉 These are NOT locators, but actual values like:
+
+string
+number
+boolean
+
+Example:
+
+const title = await page.title(); // string
+✅ Assertion Methods for Values
+await expect(value).toBe("exact");
+await expect(value).toEqual("exact");
+await expect(value).toContain("partial");
+await expect(value).toBeTruthy();
+await expect(value).toBeFalsy();
+await expect(value).toBeNull();
+🔹 Example
+const title = await page.title();
+await expect(title).toContain("Amazon");
+🔥 MOST IMPORTANT DIFFERENCE
+Locator (Element)	Value (String/Number)
+toContainText() ✅	❌
+toHaveText() ✅	❌
+toBeVisible() ✅	❌
+toContain() ❌	✅
+toBe() ❌	✅
