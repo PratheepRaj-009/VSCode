@@ -36,7 +36,8 @@ export default defineConfig({
     trace: 'retry-with-trace',
     headless:true,
     screenshot:'only-on-failure',
-    video:'retry-with-video'
+    video:'retry-with-video',
+    //storageState:"auth.json"
     
   },
 

@@ -1,9 +1,9 @@
-const { chromium } = require('playwright');
+const { test, chromium } = require('@playwright/test');
 
-async function amazonShoppingAutomation() {
+test("amazonShoppingAutomation",async()=> {
   // Launch browser
   const browser = await chromium.launch({
-    headless: true // Set to true for headless mode
+    headless: false // Set to true for headless mode
   });
   
   const page = await browser.newPage();
@@ -81,7 +81,7 @@ async function amazonShoppingAutomation() {
     // Close browser
     await browser.close();
   }
-}
+})
 
 // Run the automation
-amazonShoppingAutomation();
+//amazonShoppingAutomation();

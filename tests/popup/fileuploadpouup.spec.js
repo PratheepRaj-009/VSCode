@@ -1,5 +1,5 @@
 import{test} from "@playwright/test"
-import path from "node:path"
+import path from "path"
 
 test.only("single fileupload",async({page})=>
 {

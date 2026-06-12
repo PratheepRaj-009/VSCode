@@ -19,7 +19,7 @@ test("fetch multiple data", async ({ page }) => {
    let sheet = await book.getWorksheet("MultipleData")
    
    let data = []
-   for (let row = 1; row <= sheet.actualRowCount; row++) {
+   for (let row = 1; row <=  sheet.actualRowCount; row++) {
       for (let cell = 1; cell <= sheet.actualColumnCount; cell++) {
          let data1 = sheet.getRow(row).getCell(cell).toString()
         

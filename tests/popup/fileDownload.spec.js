@@ -14,6 +14,8 @@ test.only("downloadfiles",async({browser})=>
     page.waitForEvent('download'),
     page.getByRole('button',{name:'Download'}).click()
     ])
+    console.log(__dirname);
+    
     
    let location=path.join(__dirname,'../../downloadedFiles')
     //let filename=downloads.suggestedFilename()
@@ -49,7 +51,8 @@ test("download to local machine", async({page})=>
    else
      {
     console.log("file is not exist");
+    
    }
-   let text=fs.readFileSync(folderpath,'utf-8')
-   expect(text,'')
+//    let text=fs.readFileSync(folderpath,'utf-8')
+//    expect(text,'')
 })

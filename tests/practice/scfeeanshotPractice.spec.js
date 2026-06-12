@@ -6,8 +6,9 @@ test("taking screenshot", async ({ page }) => {
     try {
         await page.locator("//input[@id='twotabsearchtextbox']").fill("shoes")
          let dateobj = new Date()
-        let time = dateobj.getDate() + "_" + dateobj.getHours() + "." + dateobj.getMinutes() + "." + dateobj.getSeconds()
+        let time = dateobj.getDate() + "_" + dateobj.getHours() + "." + dateobj.getMinutes()
         console.log(time);
+        await page.screenshot({ path: path.join("screenshot", "amazon" + time + ".png") })
         
     }
     catch (error) {

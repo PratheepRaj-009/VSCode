@@ -5,7 +5,7 @@ let data=JSON.parse(datafile)
 test.only("read json file",async({page})=>
 {
     await page.goto(data.url)
-    await page.locator('#usernam').fill(data.username)
+    await page.locator('#username').fill(data.username)
     await page.locator('#password').fill(data.password)
     
     await page.getByRole("button",{name:'Submit'}).click()
