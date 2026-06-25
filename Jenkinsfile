@@ -1,5 +1,14 @@
 pipeline {
+
     agent any
+
+    parameters {
+        string(
+            name: 'SPEC_FILE',
+            defaultValue: 'tests/login.spec.js',
+            description: 'Enter Playwright spec file'
+        )
+    }
 
     tools {
         nodejs 'NodeJS-22'
@@ -23,7 +32,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'npx playwright test'
+                bat "npx playwright test ${params.SPEC_FILE}"
             }
         }
     }
