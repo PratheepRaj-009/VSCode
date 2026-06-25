@@ -22,15 +22,7 @@ pipeline {
             }
         }
 
-        stage('Check Node & Playwright') {
-            steps {
-                bat 'node -v'
-                bat 'npm -v'
-                bat 'npx playwright --version'
-            }
-        }
-
-        stage('Run Tests') {
+        stage('Run Playwright Test') {
             steps {
                 bat "npx playwright test ${params.SPEC_FILE}"
             }
