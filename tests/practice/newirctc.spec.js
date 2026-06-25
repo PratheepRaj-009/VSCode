@@ -11,7 +11,7 @@ test("irctc train ticket", async ({ page }) => {
     await page.locator("//input[contains(@aria-label,'Enter To station.')]").fill("mumbai")
     await page.locator("//span[@class='ng-star-inserted' and contains(.,' MUMBAI CENTRAL - MMCT ')]").click()
     await page.locator("//p-calendar//input").click()
-    let date=12
+    let date=13
     await page.locator("//div[contains(@class,'ui-datepicker-calendar-container ')]//a[contains(@class,'ui-state-default') and .='"+date+"']").click()
     await page.locator("//span[.='All Classes']").click()
     await page.locator("//span[.='AC 2 Tier (2A)']").click()

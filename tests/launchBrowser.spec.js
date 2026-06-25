@@ -1,5 +1,5 @@
 import{test} from "@playwright/test"
-test.only("fixturs",async({page})=>
+test("fixturs",async({page})=>
     {
        await page.goto("https://v1.demo.horilla.com/recruitment/application-form?recruitmentId=12")
     

@@ -1,0 +1,402 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - text: "For Reservation Complaints/Feedback/Refund:"
+      - link "ptcsotrs@gmail.com" [ref=e5] [cursor=pointer]:
+        - /url: "#"
+      - text: ","
+      - link "commercial@tnstc.org" [ref=e6] [cursor=pointer]:
+        - /url: "#"
+      - text: ","
+      - link "tnmlcsupport@billdesk.com" [ref=e7] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e8]:
+        - text: "Other STU-specific Email IDs:"
+        - link "Click Here" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+    - generic [ref=e10]:
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link "Book TTDC Tour Packages/Hotel Accomodation" [ref=e14] [cursor=pointer]:
+            - /url: https://ttdconline.com/
+          - link "Click Here" [ref=e15] [cursor=pointer]:
+            - /url: https://ttdconline.com/
+        - listitem [ref=e16]: "|"
+        - listitem [ref=e17]:
+          - link "English" [ref=e18] [cursor=pointer]:
+            - /url: https://www.tnstc.in/OTRSOnline/
+        - listitem [ref=e19]: "|"
+        - listitem [ref=e20]:
+          - link "தமிழ்" [ref=e21] [cursor=pointer]:
+            - /url: https://www.tnstc.in/Tamil_2025/indexTamil.html
+      - generic [ref=e22]:
+        - generic [ref=e23]: 
+        - text: 24-06-2026 18:46:15
+  - banner [ref=e24]:
+    - generic [ref=e26]:
+      - link "TNSTC" [ref=e29] [cursor=pointer]:
+        - /url: https://www.tnstc.in/OTRSOnline/
+        - img "TNSTC" [ref=e30]
+      - navigation [ref=e32]:
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "Operator Login" [ref=e36] [cursor=pointer]:
+              - /url: https://www.tnstc.in/SETCWeb
+          - listitem [ref=e37]:
+            - link "Hire a Bus" [ref=e38] [cursor=pointer]:
+              - /url: https://www.tnstc.in/inner_pages_2024/hire_a__bus.html
+              - text: Hire a Bus
+          - listitem [ref=e39]:
+            - link "TDR Filling" [ref=e40] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e41]:
+            - link "Track Ticket" [ref=e42] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e43]:
+            - link "PG Refund Status" [ref=e44] [cursor=pointer]:
+              - /url: ./preBillDeskTransactionStatus.do
+          - listitem [ref=e45]:
+            - link "Login / Sign up " [ref=e46] [cursor=pointer]:
+              - /url: "#"
+              - text: Login / Sign up
+              - generic [ref=e48]: 
+  - generic [ref=e49]:
+    - generic [ref=e51]:
+      - generic [ref=e53]: Please ensure stable network connectivity before proceeding with ticket booking to avoid transaction failures.
+      - generic [ref=e54]:
+        - text: Online Ticket Reservation System (OTRS)
+        - generic [ref=e55]: Send “Hi” or “வணக்கம்” on WhatsApp to 9444018898 for ticket booking.
+      - tablist [ref=e57]:
+        - listitem [ref=e58]:
+          - tab " Bus Booking" [selected] [ref=e59] [cursor=pointer]:
+            - generic [ref=e61]: 
+            - text: Bus Booking
+        - listitem [ref=e62]:
+          - tab " Package Tour" [ref=e63] [cursor=pointer]:
+            - generic [ref=e65]: 
+            - text: Package Tour
+      - generic [ref=e66]:
+        - heading "Book Bus Tickets" [level=2] [ref=e67]
+        - tabpanel " Bus Booking" [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - generic [ref=e71]: Source
+              - textbox "From Place" [active] [ref=e72]
+              - generic:
+                - generic: 
+            - generic [ref=e73]:
+              - generic [ref=e74]: Destination
+              - textbox "To Place" [ref=e75]
+              - generic:
+                - generic: 
+            - generic [ref=e76]:
+              - generic [ref=e77]: Onward
+              - textbox "DD/MM/YYYY" [ref=e78]
+              - generic:
+                - generic: 
+            - generic [ref=e79]:
+              - generic [ref=e80]: Return
+              - textbox "DD/MM/YYYY" [ref=e81]
+              - generic:
+                - generic: 
+            - generic [ref=e82]:
+              - checkbox [ref=e83]
+              - text: Single Lady
+          - button "Search Bus" [ref=e85] [cursor=pointer]
+        - tabpanel [ref=e86]:
+          - generic [ref=e87]: Package Tour..
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - heading "Top Destinations" [level=2] [ref=e92]
+        - link "TDFC Banner" [ref=e94] [cursor=pointer]:
+          - /url: https://www.tdfc.in
+          - img "TDFC Banner" [ref=e95]
+      - iframe [ref=e97]:
+        - generic [ref=f1e1]:
+          - list [ref=f1e2]:
+            - listitem [ref=f1e3] [cursor=pointer]:
+              - img [ref=f1e4]
+              - generic [ref=f1e5]:
+                - heading "Thiruvannamalai" [level=4]
+                - paragraph [ref=f1e6]: Tiruvannamalai is a city & the administrative headquarters of Tiruvannamalai District. It is a Hindu pilgrimage center, famous for the Arulmigu Annamalaiyar Temple, Annamalai Hill, Girivalam.
+            - listitem [ref=f1e7] [cursor=pointer]:
+              - img [ref=f1e8]
+              - generic [ref=f1e9]:
+                - heading "Madurai" [level=4]
+                - paragraph [ref=f1e10]: is a historic Hindu temple located on the southern bank of the Vaigai River in the temple city of Madurai, Tamil Nadu, India. It is dedicated to the goddess Meenakshi. Madurai is an important industrial and educational.
+            - listitem [ref=f1e11] [cursor=pointer]:
+              - img [ref=f1e12]
+              - generic [ref=f1e13]:
+                - heading "Kanyakumari" [level=4]
+                - paragraph [ref=f1e14]: Kanyakumari is a coastal town in the state of Tamil Nadu on India's southern tip. Jutting into the Laccadive Sea, the town was known as Cape Comorin during British rule and is popular for watching sunrise...
+            - listitem [ref=f1e15] [cursor=pointer]:
+              - img [ref=f1e16]
+              - generic [ref=f1e17]:
+                - heading "Chennai" [level=4]
+                - paragraph [ref=f1e18]: Chennai, formerly known as Madras, is the capital city of Tamil Nadu, the southern most state of India. It is the state's primate city and is located on the Coromandel Coast of the Bay of Bengal..
+            - listitem [ref=f1e19] [cursor=pointer]:
+              - img [ref=f1e20]
+              - generic [ref=f1e21]:
+                - heading "Bengaluru" [level=4]
+                - paragraph [ref=f1e22]: Bengaluru is the capital of India's southern Karnataka state. The center of India's high-tech industry, the city is also known for its parks and nightlife. By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building.
+            - listitem [ref=f1e23] [cursor=pointer]:
+              - img [ref=f1e24]
+              - generic [ref=f1e25]:
+                - heading "Kumbakonam" [level=4]
+                - paragraph [ref=f1e26]: Kumbakonam is a city municipal corporation in the Thanjavur district in the Indian state of Tamil Nadu. It is located 40 km (25 mi) from Thanjavur and 282 km (175 mi) from Chennai read more...
+            - listitem [ref=f1e27] [cursor=pointer]:
+              - img [ref=f1e28]
+              - generic [ref=f1e29]:
+                - heading "Tirupati" [level=4]
+                - paragraph [ref=f1e30]: Tirupati is a city in the Indian state of Andhra Pradesh. It is the administrative headquarters of the Tirupati district. The city is home to the important Hindu shrine of Tirumala Venkateshwara Temple.
+            - listitem [ref=f1e31] [cursor=pointer]:
+              - img [ref=f1e32]
+              - generic [ref=f1e33]:
+                - heading "Thiruvannamalai" [level=4]
+                - paragraph [ref=f1e34]: Tiruvannamalai is a city & the administrative headquarters of Tiruvannamalai District. It is a Hindu pilgrimage center, famous for the Arulmigu Annamalaiyar Temple, Annamalai Hill, Girivalam.
+            - listitem [ref=f1e35] [cursor=pointer]:
+              - img [ref=f1e36]
+              - generic [ref=f1e37]:
+                - heading "Madurai" [level=4]
+                - paragraph [ref=f1e38]: is a historic Hindu temple located on the southern bank of the Vaigai River in the temple city of Madurai, Tamil Nadu, India. It is dedicated to the goddess Meenakshi. Madurai is an important industrial and educational.
+            - listitem [ref=f1e39] [cursor=pointer]:
+              - img [ref=f1e40]
+              - generic [ref=f1e41]:
+                - heading "Kanyakumari" [level=4]
+                - paragraph [ref=f1e42]: Kanyakumari is a coastal town in the state of Tamil Nadu on India's southern tip. Jutting into the Laccadive Sea, the town was known as Cape Comorin during British rule and is popular for watching sunrise...
+            - listitem [ref=f1e43] [cursor=pointer]:
+              - img [ref=f1e44]
+              - generic [ref=f1e45]:
+                - heading "Chennai" [level=4]
+                - paragraph [ref=f1e46]: Chennai, formerly known as Madras, is the capital city of Tamil Nadu, the southern most state of India. It is the state's primate city and is located on the Coromandel Coast of the Bay of Bengal..
+            - listitem [ref=f1e47] [cursor=pointer]:
+              - img [ref=f1e48]
+              - generic [ref=f1e49]:
+                - heading "Bengaluru" [level=4]
+                - paragraph [ref=f1e50]: Bengaluru is the capital of India's southern Karnataka state. The center of India's high-tech industry, the city is also known for its parks and nightlife. By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building.
+            - listitem [ref=f1e51] [cursor=pointer]:
+              - img [ref=f1e52]
+              - generic [ref=f1e53]:
+                - heading "Kumbakonam" [level=4]
+                - paragraph [ref=f1e54]: Kumbakonam is a city municipal corporation in the Thanjavur district in the Indian state of Tamil Nadu. It is located 40 km (25 mi) from Thanjavur and 282 km (175 mi) from Chennai read more...
+            - listitem [ref=f1e55] [cursor=pointer]:
+              - img [ref=f1e56]
+              - generic [ref=f1e57]:
+                - heading "Tirupati" [level=4]
+                - paragraph [ref=f1e58]: Tirupati is a city in the Indian state of Andhra Pradesh. It is the administrative headquarters of the Tirupati district. The city is home to the important Hindu shrine of Tirumala Venkateshwara Temple.
+            - listitem [ref=f1e59] [cursor=pointer]:
+              - img [ref=f1e60]
+              - generic [ref=f1e61]:
+                - heading "Thiruvannamalai" [level=4]
+                - paragraph [ref=f1e62]: Tiruvannamalai is a city & the administrative headquarters of Tiruvannamalai District. It is a Hindu pilgrimage center, famous for the Arulmigu Annamalaiyar Temple, Annamalai Hill, Girivalam.
+            - listitem [ref=f1e63] [cursor=pointer]:
+              - img [ref=f1e64]
+              - generic [ref=f1e65]:
+                - heading "Madurai" [level=4]
+                - paragraph [ref=f1e66]: is a historic Hindu temple located on the southern bank of the Vaigai River in the temple city of Madurai, Tamil Nadu, India. It is dedicated to the goddess Meenakshi. Madurai is an important industrial and educational.
+            - listitem [ref=f1e67] [cursor=pointer]:
+              - img [ref=f1e68]
+              - generic [ref=f1e69]:
+                - heading "Kanyakumari" [level=4]
+                - paragraph [ref=f1e70]: Kanyakumari is a coastal town in the state of Tamil Nadu on India's southern tip. Jutting into the Laccadive Sea, the town was known as Cape Comorin during British rule and is popular for watching sunrise...
+            - listitem [ref=f1e71] [cursor=pointer]:
+              - img [ref=f1e72]
+              - generic [ref=f1e73]:
+                - heading "Chennai" [level=4]
+                - paragraph [ref=f1e74]: Chennai, formerly known as Madras, is the capital city of Tamil Nadu, the southern most state of India. It is the state's primate city and is located on the Coromandel Coast of the Bay of Bengal..
+            - listitem [ref=f1e75] [cursor=pointer]:
+              - img [ref=f1e76]
+              - generic [ref=f1e77]:
+                - heading "Bengaluru" [level=4]
+                - paragraph [ref=f1e78]: Bengaluru is the capital of India's southern Karnataka state. The center of India's high-tech industry, the city is also known for its parks and nightlife. By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building.
+            - listitem [ref=f1e79] [cursor=pointer]:
+              - img [ref=f1e80]
+              - generic [ref=f1e81]:
+                - heading "Kumbakonam" [level=4]
+                - paragraph [ref=f1e82]: Kumbakonam is a city municipal corporation in the Thanjavur district in the Indian state of Tamil Nadu. It is located 40 km (25 mi) from Thanjavur and 282 km (175 mi) from Chennai read more...
+            - listitem [ref=f1e83] [cursor=pointer]:
+              - img [ref=f1e84]
+              - generic [ref=f1e85]:
+                - heading "Tirupati" [level=4]
+                - paragraph [ref=f1e86]: Tirupati is a city in the Indian state of Andhra Pradesh. It is the administrative headquarters of the Tirupati district. The city is home to the important Hindu shrine of Tirumala Venkateshwara Temple.
+          - generic [ref=f1e87] [cursor=pointer]: <
+          - generic [ref=f1e88] [cursor=pointer]: ">"
+    - generic [ref=e98]:
+      - heading "Our Growing Numbers" [level=2] [ref=e99]
+      - generic [ref=e101]:
+        - generic [ref=e103]:
+          - img "TNSTC" [ref=e105]
+          - heading "Downloaded" [level=4] [ref=e106]
+          - paragraph [ref=e107]: 29,09,647+
+        - generic [ref=e109]:
+          - img "TNSTC" [ref=e111]
+          - heading "Downloaded" [level=4] [ref=e112]
+          - paragraph [ref=e113]: 2,24,812+
+        - generic [ref=e115]:
+          - img "TNSTC" [ref=e117]
+          - heading "Visitors" [level=4] [ref=e118]
+          - paragraph [ref=e119]: "256280812"
+    - generic [ref=e122]:
+      - heading "Latest Events" [level=2] [ref=e123]
+      - generic [ref=e124]:
+        - generic [ref=e126]:
+          - generic [ref=e128]:
+            - link "banner" [ref=e131] [cursor=pointer]:
+              - /url: "#"
+              - img "banner" [ref=e132]
+            - link "banner" [ref=e135] [cursor=pointer]:
+              - /url: "#"
+              - img "banner" [ref=e136]
+            - link "banner" [ref=e139] [cursor=pointer]:
+              - /url: "#"
+              - img "banner" [ref=e140]
+            - link "banner" [ref=e143] [cursor=pointer]:
+              - /url: "#"
+              - img "banner" [ref=e144]
+            - link "banner" [ref=e147] [cursor=pointer]:
+              - /url: "#"
+              - img "banner" [ref=e148]
+            - link "banner" [ref=e151] [cursor=pointer]:
+              - /url: "#"
+              - img "banner" [ref=e152]
+            - link "banner" [ref=e155] [cursor=pointer]:
+              - /url: "#"
+              - img "banner" [ref=e156]
+            - link "banner" [ref=e159] [cursor=pointer]:
+              - /url: "#"
+              - img "banner" [ref=e160]
+          - generic:
+            - button "" [ref=e161] [cursor=pointer]:
+              - generic [ref=e162]: 
+            - button "" [ref=e163] [cursor=pointer]:
+              - generic [ref=e164]: 
+          - generic [ref=e165]:
+            - button [ref=e166] [cursor=pointer]
+            - button [ref=e168] [cursor=pointer]
+            - button [ref=e170] [cursor=pointer]
+            - button [ref=e172] [cursor=pointer]
+        - generic [ref=e174]:
+          - img "TNSTC" [ref=e175]
+          - generic:
+            - link:
+              - /url: https://apps.apple.com/in/app/tnstc/id1533377493
+            - link:
+              - /url: https://play.google.com/store/apps/details?id=com.tnstc
+    - contentinfo [ref=e176]:
+      - generic [ref=e179]:
+        - generic [ref=e181]:
+          - heading "About Us" [level=5] [ref=e182]
+          - list [ref=e184]:
+            - listitem [ref=e185]:
+              - link "About Us" [ref=e186] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/aboutus.html
+            - listitem [ref=e187]:
+              - link "Information" [ref=e188] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/information.html
+            - listitem [ref=e189]:
+              - link "Rules & Regulations" [ref=e190] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/rules_and_regulations.html
+            - listitem [ref=e191]:
+              - link "Reservation Center" [ref=e192] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/reservation_center.html
+            - listitem [ref=e193]:
+              - link "Special Services" [ref=e194] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/specialservices.html
+        - generic [ref=e196]:
+          - heading "Quick Links" [level=5] [ref=e197]
+          - list [ref=e199]:
+            - listitem [ref=e200]:
+              - link "Counter Address" [ref=e201] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/counter_address.html
+            - listitem [ref=e202]:
+              - link "Suggestions" [ref=e203] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/suggestions.html
+            - listitem [ref=e204]:
+              - link "Compatible Browsers" [ref=e205] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/compatible_browsers.html
+            - listitem [ref=e206]:
+              - link "Browser Settings" [ref=e207] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/browser_settings.html
+            - listitem [ref=e208]:
+              - link "Terms And Conditions" [ref=e209] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/terms_and_conditions.html
+        - generic [ref=e211]:
+          - heading "General Info" [level=5] [ref=e212]
+          - list [ref=e214]:
+            - listitem [ref=e215]:
+              - link "FAQs" [ref=e216] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/faq.html
+            - listitem [ref=e217]:
+              - link "Privacy Policy" [ref=e218] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/privacy_policy.html
+            - listitem [ref=e219]:
+              - link "Site Map" [ref=e220] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/site_map.html
+            - listitem [ref=e221]:
+              - link "Contact Us" [ref=e222] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/contactus.html
+            - listitem [ref=e223]:
+              - link "Feed Back" [ref=e224] [cursor=pointer]:
+                - /url: https://www.tnstc.in/SETCWeb/FB.do
+            - listitem [ref=e225]:
+              - link "Services" [ref=e226] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/typesofservices.html
+            - listitem [ref=e227]:
+              - link "User Manual - Online Ticket Booking & Cancellation" [ref=e228] [cursor=pointer]:
+                - /url: https://www.tnstc.in/inner_pages_2024/pdf/Online%20ticket%20Booking%20&%20Cancellation%20flow.pdf
+      - generic [ref=e229]:
+        - heading "Contact Us:" [level=5] [ref=e230]
+        - table [ref=e233]:
+          - rowgroup [ref=e234]:
+            - row " Online Reservation Toll Free Number Radiant Info Systems  080 66006572 / 9513948001 commercial@tnstc.org" [ref=e235]:
+              - cell " Online Reservation Toll Free Number" [ref=e236]:
+                - generic [ref=e237]: 
+                - text: Online Reservation Toll Free Number
+              - cell "Radiant Info Systems" [ref=e238]
+              - cell " 080 66006572 / 9513948001" [ref=e239]:
+                - generic [ref=e240]: 
+                - text: 080 66006572 / 9513948001
+              - cell "commercial@tnstc.org" [ref=e241]:
+                - link "commercial@tnstc.org" [ref=e242] [cursor=pointer]:
+                  - /url: mailto:commercial@tnstc.org
+            - row " Bank Queries & Amount Refund Enquiries Billdesk (Payment gateway)  044-49076316 / 044-49076326 / 044-49076305 tnmlcsupport@billdesk.com" [ref=e243]:
+              - cell " Bank Queries & Amount Refund Enquiries" [ref=e244]:
+                - generic [ref=e245]: 
+                - text: Bank Queries & Amount Refund Enquiries
+              - cell "Billdesk (Payment gateway)" [ref=e246]
+              - cell " 044-49076316 / 044-49076326 / 044-49076305" [ref=e247]:
+                - generic [ref=e248]: 
+                - text: 044-49076316 / 044-49076326 / 044-49076305
+              - cell "tnmlcsupport@billdesk.com" [ref=e249]:
+                - link "tnmlcsupport@billdesk.com" [ref=e250] [cursor=pointer]:
+                  - /url: mailto:tnmlcsupport@billdesk.com
+            - row
+            - 'row " Complaints & Suggestions SETC / TNMLC  Whatsapp Number: 9445014448 setccomml@yahoo.com ptcsotrs@gmail.com" [ref=e251]':
+              - cell " Complaints & Suggestions" [ref=e252]:
+                - generic [ref=e253]: 
+                - text: Complaints & Suggestions
+              - cell "SETC / TNMLC" [ref=e254]
+              - 'cell " Whatsapp Number: 9445014448" [ref=e255]':
+                - generic [ref=e256]: 
+                - text: "Whatsapp Number: 9445014448"
+              - cell "setccomml@yahoo.com ptcsotrs@gmail.com" [ref=e257]:
+                - link "setccomml@yahoo.com" [ref=e258] [cursor=pointer]:
+                  - /url: mailto:setccomml@yahoo.com
+                - link "ptcsotrs@gmail.com" [ref=e259] [cursor=pointer]:
+                  - /url: mailto:ptcsotrs@gmail.com
+      - generic [ref=e261]:
+        - generic [ref=e264]:
+          - img "Logo" [ref=e265]
+          - text: "Powered by:"
+          - link "www.radiantinfo.com" [ref=e266] [cursor=pointer]:
+            - /url: "#"
+        - paragraph [ref=e268]:
+          - text: © TNSTC. All Rights Reserved.
+          - text: Ver:23062026-2200
+  - text: 
+  - status [ref=e269]
+  - status [ref=e270]
+```

@@ -1,0 +1,359 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - text: "| | |"
+    - generic:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - generic [ref=e7]:
+          - link "Men" [ref=e10] [cursor=pointer]:
+            - /url: /shop/men
+          - link "Women" [ref=e13] [cursor=pointer]:
+            - /url: /shop/women
+          - link "Kids" [ref=e16] [cursor=pointer]:
+            - /url: /shop/kids
+          - link "Home" [ref=e19] [cursor=pointer]:
+            - /url: /shop/home-living
+          - link "Beauty" [ref=e22] [cursor=pointer]:
+            - /url: /personal-care
+          - link "Genz" [ref=e25] [cursor=pointer]:
+            - /url: /shop/fwd-women
+          - generic [ref=e27]:
+            - link "Studio" [ref=e28] [cursor=pointer]:
+              - /url: /studio/home
+            - superscript [ref=e30]: new
+      - generic [ref=e31]:
+        - generic [ref=e35]: Profile
+        - link "Wishlist":
+          - /url: /wishlist
+          - generic [ref=e37] [cursor=pointer]: Wishlist
+        - link "Bag":
+          - /url: /checkout/cart
+          - generic [ref=e39] [cursor=pointer]: Bag
+      - textbox "Search for products, brands and more" [ref=e41]
+  - contentinfo [ref=e48]:
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - paragraph [ref=e52]:
+            - link "ONLINE SHOPPING" [ref=e53] [cursor=pointer]:
+              - /url: /?src=onlineShopping
+          - link "Men" [ref=e54] [cursor=pointer]:
+            - /url: /shop/men
+          - link "Women" [ref=e55] [cursor=pointer]:
+            - /url: /shop/women
+          - link "Kids" [ref=e56] [cursor=pointer]:
+            - /url: /shop/kids
+          - link "Home" [ref=e57] [cursor=pointer]:
+            - /url: /shop/home-living
+          - link "Beauty" [ref=e58] [cursor=pointer]:
+            - /url: /personal-care
+          - link "Genz" [ref=e59] [cursor=pointer]:
+            - /url: /shop/fwd-women
+          - link "Gift Cards" [ref=e60] [cursor=pointer]:
+            - /url: /giftcard
+          - link "Myntra Insider" [ref=e61] [cursor=pointer]:
+            - /url: /myntrainsider?cache=false
+          - paragraph [ref=e62]: USEFUL LINKS
+          - link "Blog" [ref=e63] [cursor=pointer]:
+            - /url: http://blog.myntra.com/
+          - link "Careers" [ref=e64] [cursor=pointer]:
+            - /url: https://careers.myntra.com
+          - link "Site Map" [ref=e65] [cursor=pointer]:
+            - /url: /sitemap
+          - link "Corporate Information" [ref=e66] [cursor=pointer]:
+            - /url: /corp-info
+          - link "Whitehat" [ref=e67] [cursor=pointer]:
+            - /url: /security/whitehat
+          - link "Cleartrip" [ref=e68] [cursor=pointer]:
+            - /url: https://www.cleartrip.com/
+          - link "Myntra Global" [ref=e69] [cursor=pointer]:
+            - /url: https://www.myntraglobal.com/
+        - generic [ref=e70]:
+          - paragraph [ref=e71]: CUSTOMER POLICIES
+          - link "Contact Us" [ref=e72] [cursor=pointer]:
+            - /url: /contactus
+          - link "FAQ" [ref=e73] [cursor=pointer]:
+            - /url: /faqs
+          - link "T&C" [ref=e74] [cursor=pointer]:
+            - /url: /tac
+          - link "Terms Of Use" [ref=e75] [cursor=pointer]:
+            - /url: /termsofuse
+          - link "Track Orders" [ref=e76] [cursor=pointer]:
+            - /url: /my/orders
+          - link "Shipping" [ref=e77] [cursor=pointer]:
+            - /url: /faqs#shipping
+          - link "Cancellation" [ref=e78] [cursor=pointer]:
+            - /url: /faqs#cancel
+          - link "Privacy policy" [ref=e79] [cursor=pointer]:
+            - /url: /privacypolicy
+          - link "Grievance Redressal" [ref=e80] [cursor=pointer]:
+            - /url: /grievanceredressal
+          - link "FSSAI Food Safety Connect app" [ref=e81] [cursor=pointer]:
+            - /url: https://fssai.gov.in/cms/food-safety-connect.php
+        - generic [ref=e82]:
+          - paragraph [ref=e83]: EXPERIENCE MYNTRA APP ON MOBILE
+          - generic:
+            - link:
+              - /url: https://play.google.com/store/apps/details?id=com.myntra.android
+            - link:
+              - /url: https://itunes.apple.com/in/app/myntra-indias-fashion-store/id907394059
+          - generic [ref=e84]: KEEP IN TOUCH
+          - link [ref=e85] [cursor=pointer]:
+            - /url: https://www.facebook.com/myntra
+          - link:
+            - /url: https://twitter.com/myntra
+          - link:
+            - /url: https://www.youtube.com/user/myntradotcom
+          - link:
+            - /url: https://www.instagram.com/myntra
+        - generic [ref=e87]:
+          - generic [ref=e91]:
+            - strong [ref=e92]: 100% ORIGINAL
+            - text: guarantee for all products at myntra.com
+          - generic [ref=e96]:
+            - strong [ref=e97]: Return within 14days
+            - text: of receiving your order
+      - generic [ref=e99]:
+        - separator [ref=e100]
+        - generic [ref=e101]: POPULAR SEARCHES
+        - generic [ref=e102]:
+          - link "Makeup |" [ref=e103] [cursor=pointer]:
+            - /url: /makeup
+          - link "Dresses For Girls |" [ref=e104] [cursor=pointer]:
+            - /url: /girls-dresses
+          - link "T-Shirts |" [ref=e105] [cursor=pointer]:
+            - /url: /tshirts
+          - link "Sandals |" [ref=e106] [cursor=pointer]:
+            - /url: /sandals
+          - link "Headphones |" [ref=e107] [cursor=pointer]:
+            - /url: /headphones
+          - link "Babydolls |" [ref=e108] [cursor=pointer]:
+            - /url: /babydolls
+          - link "Blazers For Men |" [ref=e109] [cursor=pointer]:
+            - /url: /men-blazers
+          - link "Handbags |" [ref=e110] [cursor=pointer]:
+            - /url: /handbags
+          - link "Ladies Watches |" [ref=e111] [cursor=pointer]:
+            - /url: /women-watches
+          - link "Bags |" [ref=e112] [cursor=pointer]:
+            - /url: /bags
+          - link "Sport Shoes |" [ref=e113] [cursor=pointer]:
+            - /url: /sports-shoes
+          - link "Reebok Shoes |" [ref=e114] [cursor=pointer]:
+            - /url: /reebok-shoes
+          - link "Puma Shoes |" [ref=e115] [cursor=pointer]:
+            - /url: /puma-shoes
+          - link "Boxers |" [ref=e116] [cursor=pointer]:
+            - /url: /men-boxers
+          - link "Wallets |" [ref=e117] [cursor=pointer]:
+            - /url: /wallets
+          - link "Tops |" [ref=e118] [cursor=pointer]:
+            - /url: /women-shirts-tops-tees
+          - link "Earrings |" [ref=e119] [cursor=pointer]:
+            - /url: /earrings
+          - link "Fastrack Watches |" [ref=e120] [cursor=pointer]:
+            - /url: /fastrack-watches
+          - link "Kurtis |" [ref=e121] [cursor=pointer]:
+            - /url: /women-kurtas-kurtis-suits
+          - link "Nike |" [ref=e122] [cursor=pointer]:
+            - /url: /nike
+          - link "Smart Watches |" [ref=e123] [cursor=pointer]:
+            - /url: /smart-watches
+          - link "Titan Watches |" [ref=e124] [cursor=pointer]:
+            - /url: /titan-watches
+          - link "Designer Blouse |" [ref=e125] [cursor=pointer]:
+            - /url: /saree-blouse
+          - link "Gowns |" [ref=e126] [cursor=pointer]:
+            - /url: /gown
+          - link "Rings |" [ref=e127] [cursor=pointer]:
+            - /url: /rings
+          - link "Cricket Shoes |" [ref=e128] [cursor=pointer]:
+            - /url: /cricket-shoes
+          - link "Forever 21 |" [ref=e129] [cursor=pointer]:
+            - /url: /forever-21
+          - link "Eye Makeup |" [ref=e130] [cursor=pointer]:
+            - /url: /eye-makeup
+          - link "Photo Frames |" [ref=e131] [cursor=pointer]:
+            - /url: /photo-frames
+          - link "Punjabi Suits |" [ref=e132] [cursor=pointer]:
+            - /url: /punjabi-suits
+          - link "Bikini |" [ref=e133] [cursor=pointer]:
+            - /url: /bikini
+          - link "Myntra Fashion Show |" [ref=e134] [cursor=pointer]:
+            - /url: /shop/myntra-fashion-superstar
+          - link "Lipstick |" [ref=e135] [cursor=pointer]:
+            - /url: /lipstick
+          - link "Saree |" [ref=e136] [cursor=pointer]:
+            - /url: /saree
+          - link "Watches |" [ref=e137] [cursor=pointer]:
+            - /url: /watches
+          - link "Dresses |" [ref=e138] [cursor=pointer]:
+            - /url: /dresses
+          - link "Lehenga |" [ref=e139] [cursor=pointer]:
+            - /url: /lehengas
+          - link "Nike Shoes |" [ref=e140] [cursor=pointer]:
+            - /url: /nike-shoes
+          - link "Goggles |" [ref=e141] [cursor=pointer]:
+            - /url: /goggles
+          - link "Bras |" [ref=e142] [cursor=pointer]:
+            - /url: /bra
+          - link "Suit |" [ref=e143] [cursor=pointer]:
+            - /url: /men-suits
+          - link "Chinos |" [ref=e144] [cursor=pointer]:
+            - /url: /chinos
+          - link "Shoes |" [ref=e145] [cursor=pointer]:
+            - /url: /shoes
+          - link "Adidas Shoes |" [ref=e146] [cursor=pointer]:
+            - /url: /adidas-shoes
+          - link "Woodland Shoes |" [ref=e147] [cursor=pointer]:
+            - /url: /woodland-shoes
+          - link "Jewellery |" [ref=e148] [cursor=pointer]:
+            - /url: /jewellery
+          - link "Designers Sarees" [ref=e149] [cursor=pointer]:
+            - /url: /designer-saree
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - text: In case of any concern,
+          - link "Contact Us" [ref=e152] [cursor=pointer]:
+            - /url: /contactus
+        - generic [ref=e153]: © 2026 www.myntra.com. All rights reserved.
+        - link "A Flipkart company" [ref=e155] [cursor=pointer]:
+          - /url: https://www.flipkart.com/
+      - generic [ref=e156]:
+        - paragraph [ref=e157]: Registered Office Address
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - text: Buildings Alyssa,
+            - text: Begonia and Clover situated in Embassy Tech Village,
+            - text: Outer Ring Road,
+            - text: Devarabeesanahalli Village,
+            - text: Varthur Hobli,
+            - text: Bengaluru – 560103, India
+          - generic [ref=e160]:
+            - paragraph [ref=e161]: "CIN: U72300KA2007PTC041799"
+            - paragraph [ref=e162]:
+              - text: "Telephone:"
+              - link "080‑40011450" [ref=e163] [cursor=pointer]:
+                - /url: tel:080‑40011450
+      - generic [ref=e164]:
+        - heading "ONLINE SHOPPING MADE EASY AT MYNTRA" [level=1] [ref=e165]:
+          - strong [ref=e166]: ONLINE SHOPPING MADE EASY AT MYNTRA
+        - paragraph [ref=e167]:
+          - text: If you would like to experience the best of online shopping for men, women and kids in India, you are at the right place. Myntra is the ultimate destination for fashion and lifestyle, being host to a wide array of merchandise including
+          - link "clothing" [ref=e168] [cursor=pointer]:
+            - /url: /clothing
+          - text: ", footwear, accessories, jewellery, personal care products and more. It is time to redefine your style statement with our treasure-trove of trendy items. Our online store brings you the latest in designer products straight out of fashion houses. You can shop online at Myntra from the comfort of your home and get your favourites delivered right to your doorstep."
+        - heading "BEST ONLINE SHOPPING SITE IN INDIA FOR FASHION" [level=3] [ref=e169]:
+          - strong [ref=e170]: BEST ONLINE SHOPPING SITE IN INDIA FOR FASHION
+        - paragraph [ref=e171]: Be it clothing, footwear or accessories, Myntra offers you the ideal combination of fashion and functionality for men, women and kids. You will realise that the sky is the limit when it comes to the types of outfits that you can purchase for different occasions.
+        - list [ref=e172]:
+          - listitem [ref=e173]:
+            - strong [ref=e174]: Smart men’s clothing
+            - text: "- At Myntra you will find myriad options in smart formal shirts and trousers, cool T-shirts and jeans, or kurta and pyjama combinations for men. Wear your attitude with printed T-shirts. Create the back-to-campus vibe with varsity T-shirts and distressed jeans. Be it gingham, buffalo, or window-pane style, checked shirts are unbeatably smart. Team them up with chinos, cuffed jeans or cropped trousers for a smart casual look. Opt for a stylish layered look with biker jackets. Head out in cloudy weather with courage in water-resistant jackets. Browse through our innerwear section to find supportive garments which would keep you confident in any outfit."
+          - listitem [ref=e175]:
+            - strong [ref=e176]: Trendy women’s clothing
+            - text: "-"
+            - link "Online shopping for women" [ref=e177] [cursor=pointer]:
+              - /url: /shop/women
+            - text: at Myntra is a mood-elevating experience. Look hip and stay comfortable with chinos and printed shorts this summer. Look hot on your date dressed in a little black dress, or opt for red dresses for a sassy vibe. Striped dresses and T-shirts represent the classic spirit of nautical fashion. Choose your favourites from among Bardot, off-shoulder, shirt-style, blouson, embroidered and peplum tops, to name a few. Team them up with skinny-fit jeans, skirts or palazzos. Kurtis and jeans make the perfect fusion-wear combination for the cool urbanite. Our grand
+            - link "sarees" [ref=e178] [cursor=pointer]:
+              - /url: /saree
+            - text: and lehenga-choli selections are perfect to make an impression at big social events such as weddings. Our salwar-kameez sets, kurtas and Patiala suits make comfortable options for regular wear.
+          - listitem [ref=e179]:
+            - strong [ref=e180]: Fashionable footwear
+            - text: "- While clothes maketh the man, the type of footwear you wear reflects your personality. We bring you an exhaustive lineup of options in casual shoes for men, such as sneakers and loafers. Make a power statement at work dressed in brogues and oxfords. Practice for your marathon with running shoes for men and women. Choose shoes for individual games such as tennis, football, basketball, and the like. Or step into the casual style and comfort offered by sandals, sliders, and flip-flops. Explore our lineup of fashionable footwear for ladies, including pumps, heeled boots, wedge-heels, and pencil-heels. Or enjoy the best of comfort and style with embellished and metallic flats."
+          - listitem [ref=e181]:
+            - strong [ref=e182]: Stylish accessories
+            - text: "- Myntra is one of the best online shopping sites for classy accessories that perfectly complement your outfits. You can select smart analogue or digital watches and match them up with belts and ties. Pick up spacious bags, backpacks, and wallets to store your essentials in style. Whether you prefer minimal jewellery or grand and sparkling pieces, our online jewellery collection offers you many impressive options."
+          - listitem [ref=e183]:
+            - strong [ref=e184]: Fun and frolic
+            - text: "- Online shopping for kids at Myntra is a complete joy. Your little princess is going to love the wide variety of pretty dresses, ballerina shoes, headbands and clips. Delight your son by picking up sports shoes, superhero T-shirts, football jerseys and much more from our online store. Check out our lineup of toys with which you can create memories to cherish."
+          - listitem [ref=e185]:
+            - strong [ref=e186]: Beauty begins here
+            - text: "- You can also refresh, rejuvenate and reveal beautiful skin with personal care, beauty and grooming products from Myntra. Our soaps, shower gels, skin care creams, lotions and other ayurvedic products are specially formulated to reduce the effect of aging and offer the ideal cleansing experience. Keep your scalp clean and your hair uber-stylish with shampoos and hair care products. Choose makeup to enhance your natural beauty."
+        - paragraph [ref=e187]:
+          - text: Myntra is one of the best online shopping sites in India which could help transform your living spaces completely. Add colour and personality to your bedrooms with bed linen and curtains. Use smart tableware to impress your guest. Wall decor, clocks,
+          - link "photo frames" [ref=e188] [cursor=pointer]:
+            - /url: /photo-frames
+          - text: and artificial plants are sure to breathe life into any corner of your home.
+        - heading "AFFORDABLE FASHION AT YOUR FINGERTIPS" [level=3] [ref=e189]:
+          - strong [ref=e190]: AFFORDABLE FASHION AT YOUR FINGERTIPS
+        - paragraph [ref=e191]: Myntra is one of the unique online shopping sites in India where fashion is accessible to all. Check out our new arrivals to view the latest designer clothing, footwear and accessories in the market. You can get your hands on the trendiest style every season in western wear. You can also avail the best of ethnic fashion during all Indian festive occasions. You are sure to be impressed with our seasonal discounts on footwear, trousers, shirts, backpacks and more. The end-of-season sale is the ultimate experience when fashion gets unbelievably affordable.
+        - heading "MYNTRA INSIDER" [level=3] [ref=e192]:
+          - strong [ref=e193]: MYNTRA INSIDER
+        - paragraph [ref=e194]:
+          - text: Every online shopping experience is precious. Hence, a cashless reward-based customer loyalty program called
+          - link "Myntra Insider" [ref=e195] [cursor=pointer]:
+            - /url: /myntrainsider
+          - text: was introduced to enhance your online experience. The program is applicable to every registered customer and measures rewards in the form of Insider Points.
+        - paragraph [ref=e196]: There are four levels to achieve in the program, as the Insider Points accumulate. They are - Insider, Select, Elite or Icon. Apart from offering discounts on Myntra and partner platform coupons, each tier comes with its own special perks.
+        - paragraph [ref=e197]:
+          - strong [ref=e198]: Insider
+        - list [ref=e199]:
+          - listitem [ref=e200]: Opportunity to master any domain in fashion with tips from celebrity stylists at Myntra Masterclass sessions.
+          - listitem [ref=e201]: Curated collections from celeb stylists.
+        - paragraph [ref=e202]:
+          - strong [ref=e203]: Elite
+        - list [ref=e204]:
+          - listitem [ref=e205]: VIP access to special sale events such as the End of Reason Sale (EORS) and product launches.
+          - listitem [ref=e206]: Exclusive early access to Limited Edition products
+        - paragraph [ref=e207]:
+          - strong [ref=e208]: Icon
+        - list [ref=e209]:
+          - listitem [ref=e210]: Chance to get on guest lists for special events.
+        - heading "Myntra Studio - The Personalised Fashion Feed You Wouldn’t Want To Miss Out On" [level=3] [ref=e211]:
+          - strong [ref=e212]: Myntra Studio - The Personalised Fashion Feed You Wouldn’t Want To Miss Out On
+        - paragraph [ref=e213]: The world wide web is evolving at a relentless pace, and with an accelerated growth each passing year, there is bound to be an overwhelming surge of online content. It was for this very reason that personalisation of search feeds was proposed as a solution to combat the overload of irrelevant information.
+        - paragraph [ref=e214]: Several social media platforms such as Facebook and Instagram along with various online shopping websites have chosen to help filter content, increasing user engagement, retention and customer loyalty.
+        - paragraph [ref=e215]:
+          - text: Myntra is one such online shopping website that joins the list of platforms that help curate a personalised fashion feed. Named the
+          - link "Myntra Studio" [ref=e216] [cursor=pointer]:
+            - /url: /studio/home
+          - text: ", this personalised search feed brings you the latest men and women’s fashion trends, celebrity styles, branded content and daily updates from your favourite fashion labels."
+        - paragraph [ref=e217]: If you are wondering how impactful Myntra Studio can be, we are listing out five perks of having a rich, meaningful, and personalised fashion feed in your life.
+        - list [ref=e218]:
+          - listitem [ref=e219]:
+            - strong [ref=e220]: Keep Up With What Your Favourite Fashion Icons Are Upto
+          - paragraph [ref=e221]: "The #OOTD, AKA outfit of the day hashtag trend has been a rage among fashion bloggers and stylists. The whole concept of building an outfit from scratch and showcasing it to a huge community of enthusiasts using the hashtag has helped individuals with understanding trends and making suitable for daily wear."
+          - paragraph [ref=e222]: Imagine if you could keep up with every piece of clothing and accessory worn by the fashion icons you look upto. From Sonam Kapoor to Hailey Baldwin Bieber, Myntra Studio has a ‘Stories’ feature to help track celebrity fashion trends, exploring details such as their outfit of the day. This way, you would not ever miss out on the latest celebrity fashion trends, from all around the world.
+          - listitem [ref=e223]:
+            - strong [ref=e224]: Quick Fashion Tip And Tricks
+          - paragraph [ref=e225]: Whether it is draping a saree into a dhoti style, wearing the right lingerie under certain dresses or discovering multiple uses out of heavy ethnic wear, Myntra Studio will help you acquire some unique and useful fashion hacks. Each hack is designed with the intention to help you get the best wear out of everything in your wardrobe.
+          - listitem [ref=e226]:
+            - strong [ref=e227]: Updates on What Is Trending and New Product Launches
+          - paragraph [ref=e228]: Since fast fashion seems to be extremely hard to keep up with these days, a quick update on what is trending in accessories, clothing and footwear would certainly be of great help. Myntra Studio helps you stay connected to the most beloved and sought after brands such as Puma, Coverstory, The Label Life and so many more.
+          - paragraph [ref=e229]: Your feed keeps you updated with stories of what the brands are creating including clothing, footwear and jewellery, along with their new seasonal collections.
+          - listitem [ref=e230]:
+            - strong [ref=e231]: Explicit Step-By-Step Beauty Routines From Experts
+          - paragraph [ref=e232]: Just like fashion, the beauty community keeps on growing, and with brands such as Huda Beauty, MAC and the latest Kay Beauty by Katrina Kaif, are constantly coming up with mind-blowing products. Whether it is creating a no-makeup look, different winged eyeliners, do-it-yourself facial masks and other personal care beauty routines, Myntra Studio is here for you.
+          - listitem [ref=e233]:
+            - strong [ref=e234]: Celebrity Confessions And A Look Into Their Lives
+          - paragraph [ref=e235]: A bonus feature that Myntra Studio has in store for you is celebrity confessions and a peek into their lives. So, Myntra helps you stay connected to your most beloved celebrities in a matter of clicks.
+          - paragraph [ref=e236]: If you are very particular when it comes to the content you wish to view and engage with on social media, the ability to intricately filter content helps achieve that. Applying the same formula for hardcore fashion lovers and shoppers, Myntra Studio brings you a daily fashion fix incorporating everything that you love, all at one place. Sign up on Myntra today and start organising your fashion feed, just the way you want to.
+        - heading "MYNTRA APP" [level=3] [ref=e237]:
+          - strong [ref=e238]: MYNTRA APP
+        - paragraph [ref=e239]:
+          - text: Myntra, India’s no. 1 online fashion destination justifies its fashion relevance by bringing something new and chic to the table on the daily. Fashion trends seem to change at lightning speed, yet the Myntra shopping app has managed to keep up without any hiccups. In addition, Myntra has vowed to serve customers to the best of its ability by introducing its first-ever loyalty program, The Myntra Insider. Gain access to priority delivery, early sales, lucrative deals and other special perks on all your shopping with the Myntra app. Download the Myntra app on your
+          - link "Android" [ref=e240] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.myntra.android
+          - text: or
+          - link "IOS" [ref=e241] [cursor=pointer]:
+            - /url: https://itunes.apple.com/in/app/myntra-indias-fashion-store/id907394059
+          - text: device today and experience shopping like never before!
+        - heading "HISTORY OF MYNTRA" [level=3] [ref=e242]:
+          - strong [ref=e243]: HISTORY OF MYNTRA
+        - paragraph [ref=e244]:
+          - text: Becoming India’s no. 1 fashion destination is not an easy feat. Sincere efforts, digital enhancements and a team of dedicated personnel with an equally loyal customer base have made Myntra the online platform that it is today. The original B2B venture for personalized
+          - link "gifts" [ref=e245] [cursor=pointer]:
+            - /url: /gifts
+          - text: was conceived in 2007 but transitioned into a full-fledged ecommerce giant within a span of just a few years. By 2012, Myntra had introduced 350 Indian and international brands to its platform, and this has only grown in number each passing year. Today Myntra sits on top of the online fashion game with an astounding social media following, a loyalty program dedicated to its customers, and tempting, hard-to-say-no-to deals.
+        - paragraph [ref=e246]: The Myntra shopping app came into existence in the year 2015 to further encourage customers’ shopping sprees. Download the app on your Android or IOS device this very minute to experience fashion like never before
+        - heading "SHOP ONLINE AT MYNTRA WITH COMPLETE CONVENIENCE" [level=3] [ref=e247]:
+          - strong [ref=e248]: SHOP ONLINE AT MYNTRA WITH COMPLETE CONVENIENCE
+        - paragraph [ref=e249]: Another reason why Myntra is the best of all online stores is the complete convenience that it offers. You can view your favourite brands with price options for different products in one place. A user-friendly interface will guide you through your selection process. Comprehensive size charts, product information and high-resolution images help you make the best buying decisions. You also have the freedom to choose your payment options, be it card or cash-on-delivery. The 14-day returns policy gives you more power as a buyer. Additionally, the try-and-buy option for select products takes customer-friendliness to the next level.
+        - paragraph [ref=e250]: Enjoy the hassle-free experience as you shop comfortably from your home or your workplace. You can also shop for your friends, family and loved-ones and avail our gift services for special occasions.
+```

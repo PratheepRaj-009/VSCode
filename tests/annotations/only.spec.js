@@ -4,7 +4,7 @@ test("test1 aha",async()=>
     console.log("test1")
 })
 
-test.only("test2",async()=>
+test("test2",async()=>
 {
     console.log("test2")
 })

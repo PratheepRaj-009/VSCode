@@ -1,7 +1,7 @@
 import{test} from "@playwright/test"
 import path from "path"
 
-test.only("single fileupload",async({page})=>
+test("single fileupload",async({page})=>
 {
     await page.goto("https://testautomationpractice.blogspot.com/")
     //await page.locator('#singleFileInput').setInputFiles('C:/Users/PRATHEEP RAJ S/OneDrive/Desktop/Playwrite/file/textFile.txt')

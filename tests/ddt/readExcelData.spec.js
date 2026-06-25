@@ -30,7 +30,7 @@ test("fetch multiple data", async ({ page }) => {
    console.log(data);
 
 })
-test.only("pass data to app", async ({ page }) => {
+test("pass data to app", async ({ page }) => {
    let book = new excel.Workbook()
    await book.xlsx.readFile(path.join(__dirname, '../../Testdata/ExcelData.xlsx'))
    let sheet = book.getWorksheet('Credentials')

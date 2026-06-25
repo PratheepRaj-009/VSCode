@@ -10,7 +10,7 @@ test("single select",async({browser})=>
    await page.waitForTimeout(3000)
 })
 
-test.only("multiple select",async({page})=>
+test("multiple select",async({page})=>
 {
     await page.goto("https://testautomationpractice.blogspot.com/")
     let dd=page.locator("#colors")

@@ -14,13 +14,14 @@ test("myntra",async({page})=>
     await page.mouse.down()
     await page.mouse.move(lbBox.x+90,lbBox.y)
     await page.mouse.up()
+    await page.waitForLoadState('load')
     let rightslid=await page.locator("#rootRailThumbRight")
     await rightslid.hover()
     let rbBox=await rightslid.boundingBox()
     await page.mouse.down()
     await page.mouse.move(rbBox.x,rbBox.x+160)
     await page.mouse.up()
-    
+     await page.waitForLoadState('load')
     await page.locator("//input[@type='checkbox' and @value='Black']/following-sibling::div").click()
     //adding product for the first time 
     let items=await page.locator("//ul[@class='results-base']//div[@class='product-ratingsContainer']/span[number(text())>4]/ancestor::li[@class='product-base']")
@@ -50,12 +51,12 @@ test("myntra",async({page})=>
     await  page3.waitForLoadState("load")
     await page3.screenshot({path:"C:/Users/PRATHEEP RAJ S/OneDrive/Desktop/Playwrite/screenshot/afterremoveingtheproduct.png"})
     let totalprice=await page3.locator("(//span[.='Total Amount']/..//span)[4]").textContent()
-    console.log(totalprice);
+    console.log(`totalprice :${totalprice}`);
     await page3.locator("//div[.='ENTER PIN CODE']").click()
     await page3.locator("#pincode").fill("560010")
     await page3.locator("//div[contains(@class,'base-valid') and .='CHECK']").click()
     let deliverydate=await page3.locator("//div[contains(@class,'deliveryDateContainer')]//span[@class='itemComponents-base-highlightedMessage  ']").textContent()
-    console.log(deliverydate);
+    console.log(`deliverydate :${deliverydate}`);
     
 
 

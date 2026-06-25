@@ -37,7 +37,7 @@ test("wright data",async({page})=>
     await page.waitForTimeout(5000)
 })
 
-test.only("new data entring",async({page})=>
+test("new data entring",async({page})=>
 {
     let book=new excel.Workbook()
     await book.xlsx.readFile(path.join(__dirname,"../../Testdata/ExcelData.xlsx"))

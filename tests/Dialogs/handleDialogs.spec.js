@@ -40,7 +40,7 @@ test("handlling dialogs",async({page})=>
 
     await page.waitForTimeout(5000)
 })
-test.only("page once",async({page})=>
+test("page once",async({page})=>
     {
         await page.goto('https://testautomationpractice.blogspot.com/')
         await page.getByRole('button',{name:'Prompt Alert'}).click()

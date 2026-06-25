@@ -1,6 +1,6 @@
 import{test} from"@playwright/test"
 
-test.only("iframes",async({page})=>
+test("iframes",async({page})=>
 {
     await page.goto("https://demoapps.qspiders.com/ui/frames/nested?sublist=1")
    // let frame1=await page.frame({url:'about:srcdoc'})

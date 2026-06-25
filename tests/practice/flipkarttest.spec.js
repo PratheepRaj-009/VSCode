@@ -14,7 +14,7 @@ test("flipkart",async({page})=>
         await page.waitForLoadState('load')
         //await page.getByRole("checkbox").first().click()
     })
-    test.only("flipkart1",async({page})=>
+    test("flipkart1",async({page})=>
     {
         await page.goto("https://www.flipkart.com")
         await page.locator("//span[text()='✕']").click({timeout:5000})

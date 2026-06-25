@@ -2,7 +2,7 @@ import{test} from"@playwright/test"
 import path from "node:path"
 import fs from"fs"
 
-test.only("downloadfiles",async({browser})=>
+test("downloadfiles",async({browser})=>
 {
     let context=await browser.newContext()
     let page=await context.newPage()
