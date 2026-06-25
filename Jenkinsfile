@@ -7,21 +7,17 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
                 bat 'npm install'
             }
         }
 
-        stage('Install Playwright Browsers') {
+        stage('Check Node & Playwright') {
             steps {
-                bat 'npx playwright install'
+                bat 'node -v'
+                bat 'npm -v'
+                bat 'npx playwright --version'
             }
         }
 
