@@ -12,7 +12,9 @@ test("read json file",async({page})=>
     //await page.getByRole('link',{name:'Log out'}).waitFor({state:'attached'})
     let title= await page.title()
     await expect(title).toContain("Logged In Successfully | Practice Test Automation");
-    console.log("valid credential");
+    console.log("valid credentialaq");
+    console.log("github changes ");
+    
     
 
 })
