@@ -12,6 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
 /**
  * @see https://playwright.dev/docs/test-configuration
  */
+const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
 export default defineConfig({
   testDir: './tests',
   /* Run tests in files in parallel */
@@ -23,9 +24,8 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [
-    ['html'],
-    ['allure-playwright']
+  reporter: [['html',{outputFolder: `reports/report-${timestamp}`}],
+    ['allure-playwright',{ outputFolder: `allure-results/${timestamp}` }]
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {

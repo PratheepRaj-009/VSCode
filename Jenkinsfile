@@ -8,6 +8,12 @@ pipeline {
             defaultValue: 'tests/login.spec.js',
             description: 'Enter Playwright spec file'
         )
+
+    choice(
+        name: 'BROWSER',
+        choices: ['chromium', 'firefox', 'webkit'],
+        description: 'Select browser'
+    )
     }
 
     tools {
