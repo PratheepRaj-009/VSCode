@@ -5,7 +5,7 @@ pipeline {
     parameters {
         string(
             name: 'SPEC_FILE',
-            defaultValue: 'tests/login.spec.js',
+            defaultValue: 'pratheep',
             description: 'Enter Playwright spec file'
         )
 

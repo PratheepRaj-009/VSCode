@@ -1,6 +1,6 @@
 import{test} from"@playwright/test"
 
-test("testing broken links ", async({page,request})=>
+test("testing broken links @smoke", async({page,request})=>
 {
     await page.goto("https://www.ediblearrangements.com/")
     let links=await page.locator("//a").evaluateAll((elements)=>{ return elements.map((e)=>{return e.href})})
@@ -13,15 +13,7 @@ test("testing broken links ", async({page,request})=>
     
 let no=1
     for(let link of links)
-    {
-        // if(link)
-        // {
-        //     continue;
-
-        // }
-        //console.log(typeof link);
-        
-        
+    {      
         if(link )
         {
             
