@@ -32,7 +32,7 @@ pipeline {
 
         stage('Install Playwright') {
             steps {
-                bat 'npx playwright install chromium'
+                bat 'npx playwright install'
             }
         }
 
