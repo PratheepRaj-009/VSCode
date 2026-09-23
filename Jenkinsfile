@@ -3,41 +3,58 @@ pipeline {
     agent any
 
     parameters {
-        string(
-            name: 'SPEC_FILE',
-            defaultValue: 'tests/login.spec.js',
-            description: 'Enter Playwright spec file'
+        choice(
+            name: 'TEST_TYPE',
+            choices: ['regression', 'smoke', 'specific'],
+            description: 'Select test execution type'
         )
 
-    choice(
-        name: 'BROWSER',
-        choices: ['chromium', 'firefox', 'webkit'],
-        description: 'Select browser'
-    )
-    }
-
-    tools {
-        nodejs 'NodeJS-22'
+        string(
+            name: 'TEST_FILE',
+            defaultValue: '',
+            description: 'Enter test file only when TEST_TYPE is specific'
+        )
     }
 
     stages {
 
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
         stage('Install Dependencies') {
             steps {
-                bat 'npm install'
+                bat 'npm ci'
             }
         }
 
-        stage('Run Playwright Test') {
+        stage('Install Playwright') {
             steps {
-                bat "npx playwright test ${params.SPEC_FILE}"
+                bat 'npx playwright install chromium'
             }
         }
-    }
 
-    post {
-        always {
-            archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
+        stage('Execute Tests') {
+            steps {
+                script {
+
+                    if (params.TEST_TYPE == 'regression') {
+
+                        bat 'npm run regression'
+
+                    } else if (params.TEST_TYPE == 'smoke') {
+
+                        bat 'npm run smoke'
+
+                    } else {
+
+                        bat "npx playwright test ${params.TEST_FILE}"
+
+                    }
+                }
+            }
         }
     }
 }

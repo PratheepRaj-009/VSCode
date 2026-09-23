@@ -5,5 +5,6 @@ test("storing the session",async({page})=>
         await page.locator("//input[@name='user_name']").fill("admin")
         await page.locator("//input[@name='user_password']").fill("admin")
         await page.getByRole("button",{name:"Login"}).click()
+        //await page.getByRole("button",{name:"Login"}).press("Enter")
         await page.context().storageState({path:"auth.json"})
 })

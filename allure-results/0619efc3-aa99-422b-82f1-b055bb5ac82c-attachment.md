@@ -1,0 +1,2236 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to Main Content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - group "Get 10% Discount Use code APP10 on app" [ref=e7]:
+        - generic [ref=e8]: Get 10% Discount
+        - generic [ref=e9]: Use code APP10 on app
+      - button "Close App Install Banner" [ref=e12] [cursor=pointer]:
+        - generic [ref=e13]: 
+      - button "Install redBus App" [ref=e16] [cursor=pointer]:
+        - generic [ref=e17]: Install redBus App
+    - banner [ref=e19]:
+      - generic [ref=e20]:
+        - link "redBus logo" [ref=e21] [cursor=pointer]:
+          - /url: /
+          - img "redBus logo" [ref=e22]
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "Bus tickets" [ref=e26] [cursor=pointer]:
+              - /url: https://www.redbus.in/bus-tickets
+              - img "Online Bus Tickets Booking" [ref=e27]
+              - generic [ref=e28]: Bus tickets
+          - listitem [ref=e29]:
+            - link "Train tickets" [ref=e30] [cursor=pointer]:
+              - /url: https://www.redbus.in/railways
+              - img "Online Train Tickets Booking" [ref=e31]
+              - generic [ref=e32]: Train tickets
+          - listitem [ref=e33]:
+            - link "Hotels" [ref=e34] [cursor=pointer]:
+              - /url: /hotels
+              - img "Online Hotel Booking" [ref=e35]
+              - generic [ref=e36]: Hotels
+        - navigation "Primary" [ref=e37]:
+          - list [ref=e38]:
+            - listitem [ref=e39]:
+              - link "Bookings" [ref=e40] [cursor=pointer]:
+                - /url: https://www.redbus.in/myaccount#MyTrips
+                - generic [ref=e41]: 
+                - text: Bookings
+            - listitem [ref=e42]:
+              - link "Help" [ref=e43] [cursor=pointer]:
+                - /url: https://www.redbus.in/info/redcare
+                - generic [ref=e44]: 
+                - text: Help
+            - listitem [ref=e45]:
+              - button "Account" [ref=e46] [cursor=pointer]:
+                - generic [ref=e47]: 
+                - text: Account
+    - main [ref=e48]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - img [ref=e52]
+          - heading "India's No. 1 online bus ticket booking site" [level=1] [ref=e54]
+        - search "Bus ticket" [ref=e56]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - status [ref=e60]
+              - generic [ref=e61]:
+                - generic [ref=e64] [cursor=pointer]:
+                  - generic [ref=e65]:
+                    - generic [ref=e66]: 
+                    - generic [ref=e67]:
+                      - combobox "From" [expanded] [active] [ref=e68]: banglure
+                      - generic [ref=e69]: From
+                  - button "Clear input" [ref=e70]: 
+                - generic [ref=e73] [cursor=pointer]:
+                  - generic [ref=e74]: 
+                  - generic [ref=e75]:
+                    - combobox "To" [ref=e76]
+                    - generic [ref=e77]: To
+                - dialog "Select date of journey" [ref=e79] [cursor=pointer]:
+                  - generic [ref=e80]: 
+                  - generic [ref=e81]:
+                    - generic [ref=e82]: Date of Journey
+                    - generic [ref=e83]:
+                      - text: 19 Sep, 2026
+                      - generic [ref=e84]: (Today)
+              - generic [ref=e86]:
+                - button "Booking for women, Know more" [ref=e87] [cursor=pointer]:
+                  - generic [ref=e88]:
+                    - generic [ref=e89]: Booking for women
+                    - generic [ref=e90]: Know more
+                - switch "Booking for women" [ref=e91]:
+                  - generic:
+                    - generic:
+                      - checkbox
+            - dialog "Search suggestions" [ref=e93]:
+              - generic [ref=e94]: Use arrow keys to navigate suggestions, Enter to select, Escape to close
+              - group "Search suggestions list" [ref=e96]:
+                - generic [ref=e97]:
+                  - button "Bengaluru, ," [ref=e98] [cursor=pointer]:
+                    - heading [ref=e101]: Bengaluru
+                  - button "Devanahalli Toll Plaza, Bengaluru, Bengaluru, Bengaluru, Board at" [ref=e103] [cursor=pointer]:
+                    - generic [ref=e105]:
+                      - heading [ref=e106]: Devanahalli Toll Plaza, Bengaluru, Bengaluru
+                      - generic [ref=e107]: Bengaluru
+                    - generic [ref=e110]: Board at
+                  - button "Bengaluru Airport Intl, ," [ref=e112] [cursor=pointer]:
+                    - heading [ref=e115]: Bengaluru Airport Intl
+                  - button "Bengaluru Sight Seeing, ," [ref=e117] [cursor=pointer]:
+                    - heading [ref=e120]: Bengaluru Sight Seeing
+                  - button "Hanglur, Kundapur, Kundapur, Board at" [ref=e122] [cursor=pointer]:
+                    - generic [ref=e124]:
+                      - heading [ref=e125]: Hanglur, Kundapur
+                      - generic [ref=e126]: Kundapur
+                    - generic [ref=e129]: Board at
+                  - button "Bangrera (Rajasthan), ," [ref=e131] [cursor=pointer]:
+                    - heading [ref=e134]: Bangrera (Rajasthan)
+                - region "Popular Boarding Points near you" [ref=e136]:
+                  - heading "Popular Boarding Points near you" [level=2] [ref=e139]
+                  - button "Anand Rao Circle, Bengaluru, Board at" [ref=e140] [cursor=pointer]:
+                    - generic [ref=e142]:
+                      - heading [ref=e143]: Anand Rao Circle
+                      - generic [ref=e144]: Bengaluru
+                    - generic [ref=e147]: Board at
+                  - button "Madiwala, Bengaluru, Board at" [ref=e149] [cursor=pointer]:
+                    - generic [ref=e151]:
+                      - heading [ref=e152]: Madiwala
+                      - generic [ref=e153]: Bengaluru
+                    - generic [ref=e156]: Board at
+                  - button "Majestic, Bengaluru, Board at" [ref=e158] [cursor=pointer]:
+                    - generic [ref=e160]:
+                      - heading [ref=e161]: Majestic
+                      - generic [ref=e162]: Bengaluru
+                    - generic [ref=e165]: Board at
+                  - button "Yeshwantpur, Bengaluru, Board at" [ref=e167] [cursor=pointer]:
+                    - generic [ref=e169]:
+                      - heading [ref=e170]: Yeshwantpur
+                      - generic [ref=e171]: Bengaluru
+                    - generic [ref=e174]: Board at
+                - region "Popular Cities near you" [ref=e176]:
+                  - heading "Popular Cities near you" [level=2] [ref=e179]
+                  - button "Bengaluru, ," [ref=e180] [cursor=pointer]:
+                    - heading [ref=e183]: Bengaluru
+                  - button "Coimbatore, ," [ref=e185] [cursor=pointer]:
+                    - heading [ref=e188]: Coimbatore
+                  - button "Tirupati, ," [ref=e190] [cursor=pointer]:
+                    - heading [ref=e193]: Tirupati
+                  - button "Salem, ," [ref=e195] [cursor=pointer]:
+                    - heading [ref=e198]: Salem
+                  - button "Hosur, ," [ref=e200] [cursor=pointer]:
+                    - heading [ref=e203]: Hosur
+                  - button "Anantapur (andhra pradesh), ," [ref=e205] [cursor=pointer]:
+                    - heading [ref=e208]: Anantapur (andhra pradesh)
+            - button "Search buses" [ref=e210] [cursor=pointer]:
+              - generic [ref=e211]: 
+              - text: Search buses
+        - generic [ref=e212]:
+          - article [ref=e213]:
+            - generic [ref=e215]:
+              - heading "Book trains for festivals" [level=3] [ref=e216]
+              - generic [ref=e217]: Book now to get confirmed ticket
+            - generic [ref=e218]:
+              - generic [ref=e219]:
+                - generic [ref=e220]:
+                  - text: Get
+                  - strong [ref=e221]: ₹60
+                  - text: off using code
+                  - strong [ref=e222]: SUPERB60
+                - list [ref=e223]:
+                  - listitem [ref=e224]:
+                    - generic "October" [ref=e225]: Oct
+                    - generic [ref=e227]: Dussehra
+                  - listitem [ref=e228]:
+                    - generic "November" [ref=e229]: Nov
+                    - generic [ref=e230]:
+                      - generic [ref=e231]: Diwali
+                      - generic [ref=e232]: Chhath Puja
+              - generic [ref=e233]:
+                - generic "Get ₹60 off using code SUPERB60" [ref=e234]:
+                  - link "Book trains now" [ref=e236] [cursor=pointer]: Book trains now
+                - generic [ref=e238]: Authorised IRCTC partner
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - heading "Offers for you" [level=4] [ref=e242]
+              - link "View more" [ref=e244] [cursor=pointer]:
+                - generic [ref=e245]: View more
+            - tablist "Filter offers by category" [ref=e246]:
+              - tab "All" [selected] [ref=e247] [cursor=pointer]:
+                - generic [ref=e249]: All
+              - tab "Bus" [ref=e250] [cursor=pointer]:
+                - generic [ref=e252]: Bus
+              - tab "Train" [ref=e253] [cursor=pointer]:
+                - generic [ref=e255]: Train
+              - tab "Hotel" [ref=e256] [cursor=pointer]:
+                - generic [ref=e258]: Hotel
+            - tabpanel "All" [ref=e259]:
+              - list "103 offers available" [ref=e262]:
+                - group "1 of 103" [ref=e263]:
+                  - 'link "Bus, Save up to Rs 300 on bus tickets, Valid till 23 Sep, Offer Code: FESTIVE300" [ref=e264] [cursor=pointer]':
+                    - listitem [ref=e266]:
+                      - generic [ref=e267]: Bus
+                    - generic [ref=e268]: Save up to Rs 300 on bus tickets
+                    - generic [ref=e269]: Valid till 23 Sep
+                    - button " FESTIVE300" [ref=e273]:
+                      - generic [ref=e274]: 
+                      - generic [ref=e275]: FESTIVE300
+                - group "2 of 103" [ref=e276]:
+                  - 'link "Bus, Save up to Rs 250 on bus tickets, Valid till 30 Sep, Offer Code: FIRST" [ref=e277] [cursor=pointer]':
+                    - listitem [ref=e279]:
+                      - generic [ref=e280]: Bus
+                    - generic [ref=e281]: Save up to Rs 250 on bus tickets
+                    - generic [ref=e282]: Valid till 30 Sep
+                    - button " FIRST" [ref=e286]:
+                      - generic [ref=e287]: 
+                      - generic [ref=e288]: FIRST
+                - group "3 of 103" [ref=e289]:
+                  - 'link "Bus, Save up to Rs. 300 in AP, Telangana routes, Valid till 30 Sep, Offer Code: SUPERHIT" [ref=e290] [cursor=pointer]':
+                    - listitem [ref=e292]:
+                      - generic [ref=e293]: Bus
+                    - generic [ref=e294]: Save up to Rs. 300 in AP, Telangana routes
+                    - generic [ref=e295]: Valid till 30 Sep
+                    - button " SUPERHIT" [ref=e299]:
+                      - generic [ref=e300]: 
+                      - generic [ref=e301]: SUPERHIT
+                - group "4 of 103" [ref=e302]:
+                  - 'link "Bus, Save up to Rs 300 on Karnataka,Tamil Nadu, Kerala routes, Valid till 30 Sep, Offer Code: CASH300" [ref=e303] [cursor=pointer]':
+                    - listitem [ref=e305]:
+                      - generic [ref=e306]: Bus
+                    - generic [ref=e307]: Save up to Rs 300 on Karnataka,Tamil Nadu, Kerala routes
+                    - generic [ref=e308]: Valid till 30 Sep
+                    - button " CASH300" [ref=e312]:
+                      - generic [ref=e313]: 
+                      - generic [ref=e314]: CASH300
+                - group "5 of 103" [ref=e315]:
+                  - 'link "Bus, Save up to Rs 200 on Primo operators., Valid till 30 Sep, Offer Code: PRIMODAY" [ref=e316] [cursor=pointer]':
+                    - listitem [ref=e318]:
+                      - generic [ref=e319]: Bus
+                    - generic [ref=e320]: Save up to Rs 200 on Primo operators.
+                    - generic [ref=e321]: Valid till 30 Sep
+                    - button " PRIMODAY" [ref=e325]:
+                      - generic [ref=e326]: 
+                      - generic [ref=e327]: PRIMODAY
+                - group "6 of 103" [ref=e328]:
+                  - 'link "Bus, Save up to Rs 500 on IDFC FIRST Bank Credit cards, Valid till 30 Sep, Offer Code: IDFC500" [ref=e329] [cursor=pointer]':
+                    - listitem [ref=e331]:
+                      - generic [ref=e332]: Bus
+                    - generic [ref=e333]: Save up to Rs 500 on IDFC FIRST Bank Credit cards
+                    - generic [ref=e334]: Valid till 30 Sep
+                    - button " IDFC500" [ref=e338]:
+                      - generic [ref=e339]: 
+                      - generic [ref=e340]: IDFC500
+                - group "7 of 103" [ref=e341]:
+                  - 'link "Bus, Save upto Rs 500 on RBL Bank Credit card, Valid till 30 Sep, Offer Code: RBLCC500" [ref=e342] [cursor=pointer]':
+                    - listitem [ref=e344]:
+                      - generic [ref=e345]: Bus
+                    - generic [ref=e346]: Save upto Rs 500 on RBL Bank Credit card
+                    - generic [ref=e347]: Valid till 30 Sep
+                    - button " RBLCC500" [ref=e351]:
+                      - generic [ref=e352]: 
+                      - generic [ref=e353]: RBLCC500
+                - group "8 of 103" [ref=e354]:
+                  - 'link "Bus, Save upto Rs 500 with Axis Bank Credit Cards, Valid till 31 Mar, Offer Code: AXIS500" [ref=e355] [cursor=pointer]':
+                    - listitem [ref=e357]:
+                      - generic [ref=e358]: Bus
+                    - generic [ref=e359]: Save upto Rs 500 with Axis Bank Credit Cards
+                    - generic [ref=e360]: Valid till 31 Mar
+                    - button " AXIS500" [ref=e364]:
+                      - generic [ref=e365]: 
+                      - generic [ref=e366]: AXIS500
+                - group "9 of 103" [ref=e367]:
+                  - 'link "Train, Get Rs 501 off on train tickets, Valid till 15 Nov, Offer Code: DIWALIRAIL" [ref=e368] [cursor=pointer]':
+                    - listitem [ref=e370]:
+                      - generic [ref=e371]: Train
+                    - generic [ref=e372]: Get Rs 501 off on train tickets
+                    - generic [ref=e373]: Valid till 15 Nov
+                    - button " DIWALIRAIL" [ref=e377]:
+                      - generic [ref=e378]: 
+                      - generic [ref=e379]: DIWALIRAIL
+                - group "10 of 103" [ref=e380]:
+                  - 'link "Train, Get Rs 350 off on train tickets, Valid till 25 Oct, Offer Code: DUSSEHRA" [ref=e381] [cursor=pointer]':
+                    - listitem [ref=e383]:
+                      - generic [ref=e384]: Train
+                    - generic [ref=e385]: Get Rs 350 off on train tickets
+                    - generic [ref=e386]: Valid till 25 Oct
+                    - button " DUSSEHRA" [ref=e390]:
+                      - generic [ref=e391]: 
+                      - generic [ref=e392]: DUSSEHRA
+                - group "11 of 103" [ref=e393]:
+                  - 'link "Train, Get Rs 350 off on train tickets, Valid till 22 Nov, Offer Code: CHHATH" [ref=e394] [cursor=pointer]':
+                    - listitem [ref=e396]:
+                      - generic [ref=e397]: Train
+                    - generic [ref=e398]: Get Rs 350 off on train tickets
+                    - generic [ref=e399]: Valid till 22 Nov
+                    - button " CHHATH" [ref=e403]:
+                      - generic [ref=e404]: 
+                      - generic [ref=e405]: CHHATH
+                - group "12 of 103" [ref=e406]:
+                  - 'link "Train, Get Rs 350 off on train tickets, Valid till 19 Oct, Offer Code: SHAKTI" [ref=e407] [cursor=pointer]':
+                    - listitem [ref=e409]:
+                      - generic [ref=e410]: Train
+                    - generic [ref=e411]: Get Rs 350 off on train tickets
+                    - generic [ref=e412]: Valid till 19 Oct
+                    - button " SHAKTI" [ref=e416]:
+                      - generic [ref=e417]: 
+                      - generic [ref=e418]: SHAKTI
+                - group "13 of 103" [ref=e419]:
+                  - 'link "Train, Get Rs 350 off on train tickets, Valid till 27 Sep, Offer Code: GANPATI" [ref=e420] [cursor=pointer]':
+                    - listitem [ref=e422]:
+                      - generic [ref=e423]: Train
+                    - generic [ref=e424]: Get Rs 350 off on train tickets
+                    - generic [ref=e425]: Valid till 27 Sep
+                    - button " GANPATI" [ref=e429]:
+                      - generic [ref=e430]: 
+                      - generic [ref=e431]: GANPATI
+                - group "14 of 103" [ref=e432]:
+                  - 'link "Train, Get flat Rs.300 off on AC ticket bookings, Valid till 31 Mar, Offer Code: ACRAIL" [ref=e433] [cursor=pointer]':
+                    - listitem [ref=e435]:
+                      - generic [ref=e436]: Train
+                    - generic [ref=e437]: Get flat Rs.300 off on AC ticket bookings
+                    - generic [ref=e438]: Valid till 31 Mar
+                    - button " ACRAIL" [ref=e442]:
+                      - generic [ref=e443]: 
+                      - generic [ref=e444]: ACRAIL
+                - group "15 of 103" [ref=e445]:
+                  - 'link "Train, Get upto Rs.350 off on train tickets, Valid till 04 Oct, Offer Code: LONGWEEKEND" [ref=e446] [cursor=pointer]':
+                    - listitem [ref=e448]:
+                      - generic [ref=e449]: Train
+                    - generic [ref=e450]: Get upto Rs.350 off on train tickets
+                    - generic [ref=e451]: Valid till 04 Oct
+                    - button " LONGWEEKEND" [ref=e455]:
+                      - generic [ref=e456]: 
+                      - generic [ref=e457]: LONGWEEKEND
+                - group "16 of 103" [ref=e458]:
+                  - 'link "Train, Get Rs 100 off on train tickets, Valid till 30 Jun, Offer Code: FESTIVE" [ref=e459] [cursor=pointer]':
+                    - listitem [ref=e461]:
+                      - generic [ref=e462]: Train
+                    - generic [ref=e463]: Get Rs 100 off on train tickets
+                    - generic [ref=e464]: Valid till 30 Jun
+                    - button " FESTIVE" [ref=e468]:
+                      - generic [ref=e469]: 
+                      - generic [ref=e470]: FESTIVE
+                - group "17 of 103" [ref=e471]:
+                  - 'link "Train, Get 50% off upto Rs.300 on Alternate Trip Premium, Valid till 30 Sep, Offer Code: HALFPRICE" [ref=e472] [cursor=pointer]':
+                    - listitem [ref=e474]:
+                      - generic [ref=e475]: Train
+                    - generic [ref=e476]: Get 50% off upto Rs.300 on Alternate Trip Premium
+                    - generic [ref=e477]: Valid till 30 Sep
+                    - button " HALFPRICE" [ref=e481]:
+                      - generic [ref=e482]: 
+                      - generic [ref=e483]: HALFPRICE
+                - group "18 of 103" [ref=e484]:
+                  - 'link "Train, Get Rs 150 off on train tickets, Valid till 30 Sep, Offer Code: CHARDHAM" [ref=e485] [cursor=pointer]':
+                    - listitem [ref=e487]:
+                      - generic [ref=e488]: Train
+                    - generic [ref=e489]: Get Rs 150 off on train tickets
+                    - generic [ref=e490]: Valid till 30 Sep
+                    - button " CHARDHAM" [ref=e494]:
+                      - generic [ref=e495]: 
+                      - generic [ref=e496]: CHARDHAM
+                - group "19 of 103" [ref=e497]:
+                  - 'link "Train, Get upto Rs.100 off on train tickets, Valid till 30 Sep, Offer Code: STARTRAIL" [ref=e498] [cursor=pointer]':
+                    - listitem [ref=e500]:
+                      - generic [ref=e501]: Train
+                    - generic [ref=e502]: Get upto Rs.100 off on train tickets
+                    - generic [ref=e503]: Valid till 30 Sep
+                    - button " STARTRAIL" [ref=e507]:
+                      - generic [ref=e508]: 
+                      - generic [ref=e509]: STARTRAIL
+                - group "20 of 103" [ref=e510]:
+                  - 'link "Train, Get flat 300 off on trains, Valid till 30 Sep, Offer Code: REDRAILNEW" [ref=e511] [cursor=pointer]':
+                    - listitem [ref=e513]:
+                      - generic [ref=e514]: Train
+                    - generic [ref=e515]: Get flat 300 off on trains
+                    - generic [ref=e516]: Valid till 30 Sep
+                    - button " REDRAILNEW" [ref=e520]:
+                      - generic [ref=e521]: 
+                      - generic [ref=e522]: REDRAILNEW
+                - group "21 of 103" [ref=e523]:
+                  - 'link "Train, Flat 50 off on Free Cancellation premium , Valid till 30 Sep, Offer Code: FCFLAT50" [ref=e524] [cursor=pointer]':
+                    - listitem [ref=e526]:
+                      - generic [ref=e527]: Train
+                    - generic [ref=e528]: Flat 50 off on Free Cancellation premium
+                    - generic [ref=e529]: Valid till 30 Sep
+                    - button " FCFLAT50" [ref=e533]:
+                      - generic [ref=e534]: 
+                      - generic [ref=e535]: FCFLAT50
+                - group "22 of 103" [ref=e536]:
+                  - 'link "Train, ZERO Convenience FEE, Valid till 30 Sep, Offer Code: NOFEE" [ref=e537] [cursor=pointer]':
+                    - listitem [ref=e539]:
+                      - generic [ref=e540]: Train
+                    - generic [ref=e541]: ZERO Convenience FEE
+                    - generic [ref=e542]: Valid till 30 Sep
+                    - button " NOFEE" [ref=e546]:
+                      - generic [ref=e547]: 
+                      - generic [ref=e548]: NOFEE
+                - group "23 of 103" [ref=e549]:
+                  - 'link "Train, Get Rs 60 off on train tickets, Valid till 31 Mar, Offer Code: SUPERB60" [ref=e550] [cursor=pointer]':
+                    - listitem [ref=e552]:
+                      - generic [ref=e553]: Train
+                    - generic [ref=e554]: Get Rs 60 off on train tickets
+                    - generic [ref=e555]: Valid till 31 Mar
+                    - button " SUPERB60" [ref=e559]:
+                      - generic [ref=e560]: 
+                      - generic [ref=e561]: SUPERB60
+                - group "24 of 103" [ref=e562]:
+                  - 'link "Bus, Save up to Rs 300 on KSRTC bus tickets, Valid till 30 Sep, Offer Code: KSRTC" [ref=e563] [cursor=pointer]':
+                    - listitem [ref=e565]:
+                      - generic [ref=e566]: Bus
+                    - generic [ref=e567]: Save up to Rs 300 on KSRTC bus tickets
+                    - generic [ref=e568]: Valid till 30 Sep
+                    - button " KSRTC" [ref=e572]:
+                      - generic [ref=e573]: 
+                      - generic [ref=e574]: KSRTC
+                - group "25 of 103" [ref=e575]:
+                  - 'link "Bus, Save up to Rs 50 on GSRTC buses, Valid till 30 Sep, Offer Code: GSRTC50" [ref=e576] [cursor=pointer]':
+                    - listitem [ref=e578]:
+                      - generic [ref=e579]: Bus
+                    - generic [ref=e580]: Save up to Rs 50 on GSRTC buses
+                    - generic [ref=e581]: Valid till 30 Sep
+                    - button " GSRTC50" [ref=e585]:
+                      - generic [ref=e586]: 
+                      - generic [ref=e587]: GSRTC50
+                - group "26 of 103" [ref=e588]:
+                  - 'link "Bus, Save up to Rs 300 on TGSRTC bus tickets, Valid till 31 Dec, Offer Code: TGSRTC" [ref=e589] [cursor=pointer]':
+                    - listitem [ref=e591]:
+                      - generic [ref=e592]: Bus
+                    - generic [ref=e593]: Save up to Rs 300 on TGSRTC bus tickets
+                    - generic [ref=e594]: Valid till 31 Dec
+                    - button " TGSRTC" [ref=e598]:
+                      - generic [ref=e599]: 
+                      - generic [ref=e600]: TGSRTC
+                - group "27 of 103" [ref=e601]:
+                  - 'link "Bus, Save up to Rs 150 on bus tickets, Valid till 30 Sep, Offer Code: TGSRTC10" [ref=e602] [cursor=pointer]':
+                    - listitem [ref=e604]:
+                      - generic [ref=e605]: Bus
+                    - generic [ref=e606]: Save up to Rs 150 on bus tickets
+                    - generic [ref=e607]: Valid till 30 Sep
+                    - button " TGSRTC10" [ref=e611]:
+                      - generic [ref=e612]: 
+                      - generic [ref=e613]: TGSRTC10
+                - group "28 of 103" [ref=e614]:
+                  - 'link "Bus, Save upto Rs 100 on Nuego, Valid till 30 Sep, Offer Code: NUEGO5" [ref=e615] [cursor=pointer]':
+                    - listitem [ref=e617]:
+                      - generic [ref=e618]: Bus
+                    - generic [ref=e619]: Save upto Rs 100 on Nuego
+                    - generic [ref=e620]: Valid till 30 Sep
+                    - button " NUEGO5" [ref=e624]:
+                      - generic [ref=e625]: 
+                      - generic [ref=e626]: NUEGO5
+                - group "29 of 103" [ref=e627]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e628] [cursor=pointer]':
+                    - listitem [ref=e630]:
+                      - generic [ref=e631]: Hotel
+                    - generic [ref=e632]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e633]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e637]:
+                      - generic [ref=e638]: 
+                      - generic [ref=e639]: HDFCRH500
+                - group "30 of 103" [ref=e640]:
+                  - 'link "Bus, Save up to ₹225 on bookings with Gopinath Travels., Valid till 30 Sep, Offer Code: GOPINATH15" [ref=e641] [cursor=pointer]':
+                    - listitem [ref=e643]:
+                      - generic [ref=e644]: Bus
+                    - generic [ref=e645]: Save up to ₹225 on bookings with Gopinath Travels.
+                    - generic [ref=e646]: Valid till 30 Sep
+                    - button " GOPINATH15" [ref=e650]:
+                      - generic [ref=e651]: 
+                      - generic [ref=e652]: GOPINATH15
+                - group "31 of 103" [ref=e653]:
+                  - 'link "Bus, Save up to ₹225 on bookings with Sri KVR Travels., Valid till 30 Sep, Offer Code: SRIKVR15" [ref=e654] [cursor=pointer]':
+                    - listitem [ref=e656]:
+                      - generic [ref=e657]: Bus
+                    - generic [ref=e658]: Save up to ₹225 on bookings with Sri KVR Travels.
+                    - generic [ref=e659]: Valid till 30 Sep
+                    - button " SRIKVR15" [ref=e663]:
+                      - generic [ref=e664]: 
+                      - generic [ref=e665]: SRIKVR15
+                - group "32 of 103" [ref=e666]:
+                  - 'link "Bus, Save up to ₹225 on bookings with Vikram Travels., Valid till 30 Sep, Offer Code: VIKRAM15" [ref=e667] [cursor=pointer]':
+                    - listitem [ref=e669]:
+                      - generic [ref=e670]: Bus
+                    - generic [ref=e671]: Save up to ₹225 on bookings with Vikram Travels.
+                    - generic [ref=e672]: Valid till 30 Sep
+                    - button " VIKRAM15" [ref=e676]:
+                      - generic [ref=e677]: 
+                      - generic [ref=e678]: VIKRAM15
+                - group "33 of 103" [ref=e679]:
+                  - 'link "Bus, Save up to ₹225 on bookings with Lion travels., Valid till 20 Sep, Offer Code: LION15" [ref=e680] [cursor=pointer]':
+                    - listitem [ref=e682]:
+                      - generic [ref=e683]: Bus
+                    - generic [ref=e684]: Save up to ₹225 on bookings with Lion travels.
+                    - generic [ref=e685]: Valid till 20 Sep
+                    - button " LION15" [ref=e689]:
+                      - generic [ref=e690]: 
+                      - generic [ref=e691]: LION15
+                - group "34 of 103" [ref=e692]:
+                  - 'link "Bus, Save up to ₹225 on bookings with Prasanna Purple., Valid till 30 Sep, Offer Code: PURPLE15" [ref=e693] [cursor=pointer]':
+                    - listitem [ref=e695]:
+                      - generic [ref=e696]: Bus
+                    - generic [ref=e697]: Save up to ₹225 on bookings with Prasanna Purple.
+                    - generic [ref=e698]: Valid till 30 Sep
+                    - button " PURPLE15" [ref=e702]:
+                      - generic [ref=e703]: 
+                      - generic [ref=e704]: PURPLE15
+                - group "35 of 103" [ref=e705]:
+                  - 'link "Bus, Save up to ₹225 on bookings with Greenline, Valid till 30 Sep, Offer Code: GREENLINE15" [ref=e706] [cursor=pointer]':
+                    - listitem [ref=e708]:
+                      - generic [ref=e709]: Bus
+                    - generic [ref=e710]: Save up to ₹225 on bookings with Greenline
+                    - generic [ref=e711]: Valid till 30 Sep
+                    - button " GREENLINE15" [ref=e715]:
+                      - generic [ref=e716]: 
+                      - generic [ref=e717]: GREENLINE15
+                - group "36 of 103" [ref=e718]:
+                  - 'link "Bus, Save up to ₹225 on bookings with PUNCHIRY15, Valid till 30 Sep, Offer Code: PUNCHIRY15" [ref=e719] [cursor=pointer]':
+                    - listitem [ref=e721]:
+                      - generic [ref=e722]: Bus
+                    - generic [ref=e723]: Save up to ₹225 on bookings with PUNCHIRY15
+                    - generic [ref=e724]: Valid till 30 Sep
+                    - button " PUNCHIRY15" [ref=e728]:
+                      - generic [ref=e729]: 
+                      - generic [ref=e730]: PUNCHIRY15
+                - group "37 of 103" [ref=e731]:
+                  - 'link "Bus, Save up to ₹225 on bookings with Shyamoli Paribahan Pvt Ltd., Valid till 30 Sep, Offer Code: SHYAMOLI15" [ref=e732] [cursor=pointer]':
+                    - listitem [ref=e734]:
+                      - generic [ref=e735]: Bus
+                    - generic [ref=e736]: Save up to ₹225 on bookings with Shyamoli Paribahan Pvt Ltd.
+                    - generic [ref=e737]: Valid till 30 Sep
+                    - button " SHYAMOLI15" [ref=e741]:
+                      - generic [ref=e742]: 
+                      - generic [ref=e743]: SHYAMOLI15
+                - group "38 of 103" [ref=e744]:
+                  - 'link "Bus, undefined, Valid till 30 Sep, Offer Code: YBM15" [ref=e745] [cursor=pointer]':
+                    - listitem [ref=e747]:
+                      - generic [ref=e748]: Bus
+                    - generic [ref=e749]: Valid till 30 Sep
+                    - button " YBM15" [ref=e753]:
+                      - generic [ref=e754]: 
+                      - generic [ref=e755]: YBM15
+                - group "39 of 103" [ref=e756]:
+                  - 'link "Bus, undefined, Valid till 30 Sep, Offer Code: RMD15" [ref=e757] [cursor=pointer]':
+                    - listitem [ref=e759]:
+                      - generic [ref=e760]: Bus
+                    - generic [ref=e761]: Valid till 30 Sep
+                    - button " RMD15" [ref=e765]:
+                      - generic [ref=e766]: 
+                      - generic [ref=e767]: RMD15
+                - group "40 of 103" [ref=e768]:
+                  - 'link "Bus, undefined, Valid till 30 Sep, Offer Code: GREEN15" [ref=e769] [cursor=pointer]':
+                    - listitem [ref=e771]:
+                      - generic [ref=e772]: Bus
+                    - generic [ref=e773]: Valid till 30 Sep
+                    - button " GREEN15" [ref=e777]:
+                      - generic [ref=e778]: 
+                      - generic [ref=e779]: GREEN15
+                - group "41 of 103" [ref=e780]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e781] [cursor=pointer]':
+                    - listitem [ref=e783]:
+                      - generic [ref=e784]: Hotel
+                    - generic [ref=e785]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e786]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e790]:
+                      - generic [ref=e791]: 
+                      - generic [ref=e792]: HDFCRH500
+                - group "42 of 103" [ref=e793]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e794] [cursor=pointer]':
+                    - listitem [ref=e796]:
+                      - generic [ref=e797]: Hotel
+                    - generic [ref=e798]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e799]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e803]:
+                      - generic [ref=e804]: 
+                      - generic [ref=e805]: HDFCRH500
+                - group "43 of 103" [ref=e806]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e807] [cursor=pointer]':
+                    - listitem [ref=e809]:
+                      - generic [ref=e810]: Hotel
+                    - generic [ref=e811]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e812]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e816]:
+                      - generic [ref=e817]: 
+                      - generic [ref=e818]: HDFCRH500
+                - group "44 of 103" [ref=e819]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e820] [cursor=pointer]':
+                    - listitem [ref=e822]:
+                      - generic [ref=e823]: Hotel
+                    - generic [ref=e824]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e825]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e829]:
+                      - generic [ref=e830]: 
+                      - generic [ref=e831]: HDFCRH500
+                - group "45 of 103" [ref=e832]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e833] [cursor=pointer]':
+                    - listitem [ref=e835]:
+                      - generic [ref=e836]: Hotel
+                    - generic [ref=e837]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e838]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e842]:
+                      - generic [ref=e843]: 
+                      - generic [ref=e844]: HDFCRH500
+                - group "46 of 103" [ref=e845]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e846] [cursor=pointer]':
+                    - listitem [ref=e848]:
+                      - generic [ref=e849]: Hotel
+                    - generic [ref=e850]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e851]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e855]:
+                      - generic [ref=e856]: 
+                      - generic [ref=e857]: HDFCRH500
+                - group "47 of 103" [ref=e858]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e859] [cursor=pointer]':
+                    - listitem [ref=e861]:
+                      - generic [ref=e862]: Hotel
+                    - generic [ref=e863]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e864]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e868]:
+                      - generic [ref=e869]: 
+                      - generic [ref=e870]: HDFCRH500
+                - group "48 of 103" [ref=e871]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e872] [cursor=pointer]':
+                    - listitem [ref=e874]:
+                      - generic [ref=e875]: Hotel
+                    - generic [ref=e876]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e877]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e881]:
+                      - generic [ref=e882]: 
+                      - generic [ref=e883]: HDFCRH500
+                - group "49 of 103" [ref=e884]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e885] [cursor=pointer]':
+                    - listitem [ref=e887]:
+                      - generic [ref=e888]: Hotel
+                    - generic [ref=e889]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e890]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e894]:
+                      - generic [ref=e895]: 
+                      - generic [ref=e896]: HDFCRH500
+                - group "50 of 103" [ref=e897]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e898] [cursor=pointer]':
+                    - listitem [ref=e900]:
+                      - generic [ref=e901]: Hotel
+                    - generic [ref=e902]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e903]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e907]:
+                      - generic [ref=e908]: 
+                      - generic [ref=e909]: HDFCRH500
+                - group "51 of 103" [ref=e910]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e911] [cursor=pointer]':
+                    - listitem [ref=e913]:
+                      - generic [ref=e914]: Hotel
+                    - generic [ref=e915]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e916]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e920]:
+                      - generic [ref=e921]: 
+                      - generic [ref=e922]: HDFCRH500
+                - group "52 of 103" [ref=e923]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e924] [cursor=pointer]':
+                    - listitem [ref=e926]:
+                      - generic [ref=e927]: Hotel
+                    - generic [ref=e928]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e929]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e933]:
+                      - generic [ref=e934]: 
+                      - generic [ref=e935]: HDFCRH500
+                - group "53 of 103" [ref=e936]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e937] [cursor=pointer]':
+                    - listitem [ref=e939]:
+                      - generic [ref=e940]: Hotel
+                    - generic [ref=e941]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e942]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e946]:
+                      - generic [ref=e947]: 
+                      - generic [ref=e948]: HDFCRH500
+                - group "54 of 103" [ref=e949]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e950] [cursor=pointer]':
+                    - listitem [ref=e952]:
+                      - generic [ref=e953]: Hotel
+                    - generic [ref=e954]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e955]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e959]:
+                      - generic [ref=e960]: 
+                      - generic [ref=e961]: HDFCRH500
+                - group "55 of 103" [ref=e962]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e963] [cursor=pointer]':
+                    - listitem [ref=e965]:
+                      - generic [ref=e966]: Hotel
+                    - generic [ref=e967]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e968]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e972]:
+                      - generic [ref=e973]: 
+                      - generic [ref=e974]: HDFCRH500
+                - group "56 of 103" [ref=e975]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e976] [cursor=pointer]':
+                    - listitem [ref=e978]:
+                      - generic [ref=e979]: Hotel
+                    - generic [ref=e980]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e981]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e985]:
+                      - generic [ref=e986]: 
+                      - generic [ref=e987]: HDFCRH500
+                - group "57 of 103" [ref=e988]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e989] [cursor=pointer]':
+                    - listitem [ref=e991]:
+                      - generic [ref=e992]: Hotel
+                    - generic [ref=e993]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e994]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e998]:
+                      - generic [ref=e999]: 
+                      - generic [ref=e1000]: HDFCRH500
+                - group "58 of 103" [ref=e1001]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1002] [cursor=pointer]':
+                    - listitem [ref=e1004]:
+                      - generic [ref=e1005]: Hotel
+                    - generic [ref=e1006]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1007]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1011]:
+                      - generic [ref=e1012]: 
+                      - generic [ref=e1013]: HDFCRH500
+                - group "59 of 103" [ref=e1014]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1015] [cursor=pointer]':
+                    - listitem [ref=e1017]:
+                      - generic [ref=e1018]: Hotel
+                    - generic [ref=e1019]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1020]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1024]:
+                      - generic [ref=e1025]: 
+                      - generic [ref=e1026]: HDFCRH500
+                - group "60 of 103" [ref=e1027]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1028] [cursor=pointer]':
+                    - listitem [ref=e1030]:
+                      - generic [ref=e1031]: Hotel
+                    - generic [ref=e1032]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1033]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1037]:
+                      - generic [ref=e1038]: 
+                      - generic [ref=e1039]: HDFCRH500
+                - group "61 of 103" [ref=e1040]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1041] [cursor=pointer]':
+                    - listitem [ref=e1043]:
+                      - generic [ref=e1044]: Hotel
+                    - generic [ref=e1045]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1046]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1050]:
+                      - generic [ref=e1051]: 
+                      - generic [ref=e1052]: HDFCRH500
+                - group "62 of 103" [ref=e1053]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1054] [cursor=pointer]':
+                    - listitem [ref=e1056]:
+                      - generic [ref=e1057]: Hotel
+                    - generic [ref=e1058]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1059]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1063]:
+                      - generic [ref=e1064]: 
+                      - generic [ref=e1065]: HDFCRH500
+                - group "63 of 103" [ref=e1066]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1067] [cursor=pointer]':
+                    - listitem [ref=e1069]:
+                      - generic [ref=e1070]: Hotel
+                    - generic [ref=e1071]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1072]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1076]:
+                      - generic [ref=e1077]: 
+                      - generic [ref=e1078]: HDFCRH500
+                - group "64 of 103" [ref=e1079]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1080] [cursor=pointer]':
+                    - listitem [ref=e1082]:
+                      - generic [ref=e1083]: Hotel
+                    - generic [ref=e1084]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1085]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1089]:
+                      - generic [ref=e1090]: 
+                      - generic [ref=e1091]: HDFCRH500
+                - group "65 of 103" [ref=e1092]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1093] [cursor=pointer]':
+                    - listitem [ref=e1095]:
+                      - generic [ref=e1096]: Hotel
+                    - generic [ref=e1097]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1098]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1102]:
+                      - generic [ref=e1103]: 
+                      - generic [ref=e1104]: HDFCRH500
+                - group "66 of 103" [ref=e1105]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1106] [cursor=pointer]':
+                    - listitem [ref=e1108]:
+                      - generic [ref=e1109]: Hotel
+                    - generic [ref=e1110]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1111]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1115]:
+                      - generic [ref=e1116]: 
+                      - generic [ref=e1117]: HDFCRH500
+                - group "67 of 103" [ref=e1118]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1119] [cursor=pointer]':
+                    - listitem [ref=e1121]:
+                      - generic [ref=e1122]: Hotel
+                    - generic [ref=e1123]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1124]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1128]:
+                      - generic [ref=e1129]: 
+                      - generic [ref=e1130]: HDFCRH500
+                - group "68 of 103" [ref=e1131]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1132] [cursor=pointer]':
+                    - listitem [ref=e1134]:
+                      - generic [ref=e1135]: Hotel
+                    - generic [ref=e1136]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1137]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1141]:
+                      - generic [ref=e1142]: 
+                      - generic [ref=e1143]: HDFCRH500
+                - group "69 of 103" [ref=e1144]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1145] [cursor=pointer]':
+                    - listitem [ref=e1147]:
+                      - generic [ref=e1148]: Hotel
+                    - generic [ref=e1149]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1150]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1154]:
+                      - generic [ref=e1155]: 
+                      - generic [ref=e1156]: HDFCRH500
+                - group "70 of 103" [ref=e1157]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1158] [cursor=pointer]':
+                    - listitem [ref=e1160]:
+                      - generic [ref=e1161]: Hotel
+                    - generic [ref=e1162]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1163]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1167]:
+                      - generic [ref=e1168]: 
+                      - generic [ref=e1169]: HDFCRH500
+                - group "71 of 103" [ref=e1170]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1171] [cursor=pointer]':
+                    - listitem [ref=e1173]:
+                      - generic [ref=e1174]: Hotel
+                    - generic [ref=e1175]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1176]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1180]:
+                      - generic [ref=e1181]: 
+                      - generic [ref=e1182]: HDFCRH500
+                - group "72 of 103" [ref=e1183]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1184] [cursor=pointer]':
+                    - listitem [ref=e1186]:
+                      - generic [ref=e1187]: Hotel
+                    - generic [ref=e1188]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1189]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1193]:
+                      - generic [ref=e1194]: 
+                      - generic [ref=e1195]: HDFCRH500
+                - group "73 of 103" [ref=e1196]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1197] [cursor=pointer]':
+                    - listitem [ref=e1199]:
+                      - generic [ref=e1200]: Hotel
+                    - generic [ref=e1201]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1202]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1206]:
+                      - generic [ref=e1207]: 
+                      - generic [ref=e1208]: HDFCRH500
+                - group "74 of 103" [ref=e1209]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1210] [cursor=pointer]':
+                    - listitem [ref=e1212]:
+                      - generic [ref=e1213]: Hotel
+                    - generic [ref=e1214]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1215]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1219]:
+                      - generic [ref=e1220]: 
+                      - generic [ref=e1221]: HDFCRH500
+                - group "75 of 103" [ref=e1222]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1223] [cursor=pointer]':
+                    - listitem [ref=e1225]:
+                      - generic [ref=e1226]: Hotel
+                    - generic [ref=e1227]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1228]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1232]:
+                      - generic [ref=e1233]: 
+                      - generic [ref=e1234]: HDFCRH500
+                - group "76 of 103" [ref=e1235]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1236] [cursor=pointer]':
+                    - listitem [ref=e1238]:
+                      - generic [ref=e1239]: Hotel
+                    - generic [ref=e1240]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1241]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1245]:
+                      - generic [ref=e1246]: 
+                      - generic [ref=e1247]: HDFCRH500
+                - group "77 of 103" [ref=e1248]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1249] [cursor=pointer]':
+                    - listitem [ref=e1251]:
+                      - generic [ref=e1252]: Hotel
+                    - generic [ref=e1253]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1254]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1258]:
+                      - generic [ref=e1259]: 
+                      - generic [ref=e1260]: HDFCRH500
+                - group "78 of 103" [ref=e1261]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1262] [cursor=pointer]':
+                    - listitem [ref=e1264]:
+                      - generic [ref=e1265]: Hotel
+                    - generic [ref=e1266]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1267]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1271]:
+                      - generic [ref=e1272]: 
+                      - generic [ref=e1273]: HDFCRH500
+                - group "79 of 103" [ref=e1274]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1275] [cursor=pointer]':
+                    - listitem [ref=e1277]:
+                      - generic [ref=e1278]: Hotel
+                    - generic [ref=e1279]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1280]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1284]:
+                      - generic [ref=e1285]: 
+                      - generic [ref=e1286]: HDFCRH500
+                - group "80 of 103" [ref=e1287]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1288] [cursor=pointer]':
+                    - listitem [ref=e1290]:
+                      - generic [ref=e1291]: Hotel
+                    - generic [ref=e1292]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1293]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1297]:
+                      - generic [ref=e1298]: 
+                      - generic [ref=e1299]: HDFCRH500
+                - group "81 of 103" [ref=e1300]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1301] [cursor=pointer]':
+                    - listitem [ref=e1303]:
+                      - generic [ref=e1304]: Hotel
+                    - generic [ref=e1305]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1306]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1310]:
+                      - generic [ref=e1311]: 
+                      - generic [ref=e1312]: HDFCRH500
+                - group "82 of 103" [ref=e1313]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1314] [cursor=pointer]':
+                    - listitem [ref=e1316]:
+                      - generic [ref=e1317]: Hotel
+                    - generic [ref=e1318]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1319]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1323]:
+                      - generic [ref=e1324]: 
+                      - generic [ref=e1325]: HDFCRH500
+                - group "83 of 103" [ref=e1326]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1327] [cursor=pointer]':
+                    - listitem [ref=e1329]:
+                      - generic [ref=e1330]: Hotel
+                    - generic [ref=e1331]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1332]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1336]:
+                      - generic [ref=e1337]: 
+                      - generic [ref=e1338]: HDFCRH500
+                - group "84 of 103" [ref=e1339]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1340] [cursor=pointer]':
+                    - listitem [ref=e1342]:
+                      - generic [ref=e1343]: Hotel
+                    - generic [ref=e1344]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1345]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1349]:
+                      - generic [ref=e1350]: 
+                      - generic [ref=e1351]: HDFCRH500
+                - group "85 of 103" [ref=e1352]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1353] [cursor=pointer]':
+                    - listitem [ref=e1355]:
+                      - generic [ref=e1356]: Hotel
+                    - generic [ref=e1357]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1358]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1362]:
+                      - generic [ref=e1363]: 
+                      - generic [ref=e1364]: HDFCRH500
+                - group "86 of 103" [ref=e1365]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1366] [cursor=pointer]':
+                    - listitem [ref=e1368]:
+                      - generic [ref=e1369]: Hotel
+                    - generic [ref=e1370]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1371]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1375]:
+                      - generic [ref=e1376]: 
+                      - generic [ref=e1377]: HDFCRH500
+                - group "87 of 103" [ref=e1378]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1379] [cursor=pointer]':
+                    - listitem [ref=e1381]:
+                      - generic [ref=e1382]: Hotel
+                    - generic [ref=e1383]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1384]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1388]:
+                      - generic [ref=e1389]: 
+                      - generic [ref=e1390]: HDFCRH500
+                - group "88 of 103" [ref=e1391]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1392] [cursor=pointer]':
+                    - listitem [ref=e1394]:
+                      - generic [ref=e1395]: Hotel
+                    - generic [ref=e1396]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1397]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1401]:
+                      - generic [ref=e1402]: 
+                      - generic [ref=e1403]: HDFCRH500
+                - group "89 of 103" [ref=e1404]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1405] [cursor=pointer]':
+                    - listitem [ref=e1407]:
+                      - generic [ref=e1408]: Hotel
+                    - generic [ref=e1409]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1410]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1414]:
+                      - generic [ref=e1415]: 
+                      - generic [ref=e1416]: HDFCRH500
+                - group "90 of 103" [ref=e1417]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1418] [cursor=pointer]':
+                    - listitem [ref=e1420]:
+                      - generic [ref=e1421]: Hotel
+                    - generic [ref=e1422]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1423]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1427]:
+                      - generic [ref=e1428]: 
+                      - generic [ref=e1429]: HDFCRH500
+                - group "91 of 103" [ref=e1430]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1431] [cursor=pointer]':
+                    - listitem [ref=e1433]:
+                      - generic [ref=e1434]: Hotel
+                    - generic [ref=e1435]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1436]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1440]:
+                      - generic [ref=e1441]: 
+                      - generic [ref=e1442]: HDFCRH500
+                - group "92 of 103" [ref=e1443]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1444] [cursor=pointer]':
+                    - listitem [ref=e1446]:
+                      - generic [ref=e1447]: Hotel
+                    - generic [ref=e1448]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1449]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1453]:
+                      - generic [ref=e1454]: 
+                      - generic [ref=e1455]: HDFCRH500
+                - group "93 of 103" [ref=e1456]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1457] [cursor=pointer]':
+                    - listitem [ref=e1459]:
+                      - generic [ref=e1460]: Hotel
+                    - generic [ref=e1461]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1462]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1466]:
+                      - generic [ref=e1467]: 
+                      - generic [ref=e1468]: HDFCRH500
+                - group "94 of 103" [ref=e1469]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1470] [cursor=pointer]':
+                    - listitem [ref=e1472]:
+                      - generic [ref=e1473]: Hotel
+                    - generic [ref=e1474]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1475]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1479]:
+                      - generic [ref=e1480]: 
+                      - generic [ref=e1481]: HDFCRH500
+                - group "95 of 103" [ref=e1482]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1483] [cursor=pointer]':
+                    - listitem [ref=e1485]:
+                      - generic [ref=e1486]: Hotel
+                    - generic [ref=e1487]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1488]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1492]:
+                      - generic [ref=e1493]: 
+                      - generic [ref=e1494]: HDFCRH500
+                - group "96 of 103" [ref=e1495]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1496] [cursor=pointer]':
+                    - listitem [ref=e1498]:
+                      - generic [ref=e1499]: Hotel
+                    - generic [ref=e1500]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1501]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1505]:
+                      - generic [ref=e1506]: 
+                      - generic [ref=e1507]: HDFCRH500
+                - group "97 of 103" [ref=e1508]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1509] [cursor=pointer]':
+                    - listitem [ref=e1511]:
+                      - generic [ref=e1512]: Hotel
+                    - generic [ref=e1513]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1514]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1518]:
+                      - generic [ref=e1519]: 
+                      - generic [ref=e1520]: HDFCRH500
+                - group "98 of 103" [ref=e1521]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1522] [cursor=pointer]':
+                    - listitem [ref=e1524]:
+                      - generic [ref=e1525]: Hotel
+                    - generic [ref=e1526]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1527]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1531]:
+                      - generic [ref=e1532]: 
+                      - generic [ref=e1533]: HDFCRH500
+                - group "99 of 103" [ref=e1534]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1535] [cursor=pointer]':
+                    - listitem [ref=e1537]:
+                      - generic [ref=e1538]: Hotel
+                    - generic [ref=e1539]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1540]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1544]:
+                      - generic [ref=e1545]: 
+                      - generic [ref=e1546]: HDFCRH500
+                - group "100 of 103" [ref=e1547]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1548] [cursor=pointer]':
+                    - listitem [ref=e1550]:
+                      - generic [ref=e1551]: Hotel
+                    - generic [ref=e1552]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1553]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1557]:
+                      - generic [ref=e1558]: 
+                      - generic [ref=e1559]: HDFCRH500
+                - group "101 of 103" [ref=e1560]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1561] [cursor=pointer]':
+                    - listitem [ref=e1563]:
+                      - generic [ref=e1564]: Hotel
+                    - generic [ref=e1565]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1566]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1570]:
+                      - generic [ref=e1571]: 
+                      - generic [ref=e1572]: HDFCRH500
+                - group "102 of 103" [ref=e1573]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1574] [cursor=pointer]':
+                    - listitem [ref=e1576]:
+                      - generic [ref=e1577]: Hotel
+                    - generic [ref=e1578]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1579]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1583]:
+                      - generic [ref=e1584]: 
+                      - generic [ref=e1585]: HDFCRH500
+                - group "103 of 103" [ref=e1586]:
+                  - 'link "Hotel, Get 10% off upto Rs 500 on hotel bookings, Valid till 30 Sep, Offer Code: HDFCRH500" [ref=e1587] [cursor=pointer]':
+                    - listitem [ref=e1589]:
+                      - generic [ref=e1590]: Hotel
+                    - generic [ref=e1591]: Get 10% off upto Rs 500 on hotel bookings
+                    - generic [ref=e1592]: Valid till 30 Sep
+                    - button " HDFCRH500" [ref=e1596]:
+                      - generic [ref=e1597]: 
+                      - generic [ref=e1598]: HDFCRH500
+              - status [ref=e1599]: Slide 1 of 103, selected.
+          - generic [ref=e1601] [cursor=pointer]:
+            - generic [ref=e1602]:
+              - paragraph [ref=e1603]: Introducing Getaways
+              - generic [ref=e1604]: Hey, ready for a weekend getaway?
+              - paragraph [ref=e1605]: Handpicked destinations for you
+            - generic [ref=e1606]:
+              - generic [ref=e1608]: Ooty
+              - generic [ref=e1610]: Mysuru
+              - generic [ref=e1612]: Kodaikanal
+              - generic [ref=e1614]: Tirupati
+            - button "Hey, ready for a weekend getaway?. Handpicked destinations for you. Explore all" [ref=e1617]:
+              - generic [ref=e1618]: Explore all
+          - region "What's new" [ref=e1619]:
+            - generic [ref=e1620]:
+              - heading "What's new" [level=2] [ref=e1622]
+              - region "What's new" [ref=e1623]:
+                - region [ref=e1625]:
+                  - group "1 of 9" [ref=e1626]:
+                    - link "Acko" [ref=e1628] [cursor=pointer]
+                  - group "2 of 9" [ref=e1629]:
+                    - link "Free cancellation. Get 100% refund on cancellation" [ref=e1631] [cursor=pointer]
+                  - group "3 of 9" [ref=e1632]:
+                    - link "Introducing Bus timetable Get local bus timings between cities in your state" [ref=e1634] [cursor=pointer]
+                  - group "4 of 9" [ref=e1635]:
+                    - link "FlexiTicket Get amazing benefits on Date Change & Cancellation." [ref=e1637] [cursor=pointer]
+                  - group "5 of 9" [ref=e1638]:
+                    - link "Assurance Program - Insure your trip against cancellations and accidents!" [ref=e1640] [cursor=pointer]
+                  - group "6 of 9" [ref=e1641]:
+                    - link "Refer & Earn! Exciting rewards are only a tap away!" [ref=e1643] [cursor=pointer]
+                  - group "7 of 9" [ref=e1644]:
+                    - link "Primo Get on-time trips with unmatched comfort, always!" [ref=e1646] [cursor=pointer]
+                  - group "8 of 9" [ref=e1647]:
+                    - link "Lightning Fast Refund Get instant refund for your payments" [ref=e1649] [cursor=pointer]
+                  - group "9 of 9" [ref=e1650]:
+                    - link "Pilgrimage Packages Assured Darshan | Travel & Stay | All Inclusive Packages" [ref=e1652] [cursor=pointer]
+                - status [ref=e1653]
+          - region "Government Buses" [ref=e1654]:
+            - generic [ref=e1655]:
+              - heading "Government Buses" [level=2] [ref=e1656]:
+                - heading "Government Buses" [level=2] [ref=e1659]
+              - region "Government Buses" [ref=e1660]:
+                - region [ref=e1662]:
+                  - 'group "1 of 20: KSRTC(KN)" [ref=e1663]':
+                    - link "KSRTC(KN) logo KSRTC(KN) ಕರ್ನಾಟಕ ರಾಜ್ಯ ರಸ್ತೆ ಸಾರಿಗೆ ಸಂಸ್ಥೆ 2100 services including Volvo Bus, AC & Non AC Bus and more Official booking partner of KSRTC 24*7 customer service (Call or chat)" [ref=e1664] [cursor=pointer]:
+                      - generic [ref=e1665]:
+                        - img "KSRTC(KN) logo" [ref=e1667]
+                        - generic [ref=e1668]:
+                          - heading "KSRTC(KN)" [level=3] [ref=e1670]
+                          - generic [ref=e1671]: ಕರ್ನಾಟಕ ರಾಜ್ಯ ರಸ್ತೆ ಸಾರಿಗೆ ಸಂಸ್ಥೆ
+                      - generic [ref=e1672]:
+                        - generic [ref=e1673]: 2100 services including Volvo Bus, AC & Non AC Bus and more
+                        - generic [ref=e1675]: Official booking partner of KSRTC
+                      - region [ref=e1677]:
+                        - generic [ref=e1679]: 24*7 customer service (Call or chat)
+                        - generic [ref=e1681]: Get instant refund with UPI payments
+                        - generic [ref=e1683]: redBus is the most trusted place to book KSRTC(KN) Transport tickets online
+                  - 'group "2 of 20: APSRTC" [ref=e1684]':
+                    - link "APSRTC logo APSRTC 3.85 star rating ఆంధ్రప్రదేశ్ రాష్ట్ర రోడ్డు రవాణా సంస్థ 1539 services including Garuda, Garuda Plus and more Official booking partner of APSRTC Use code APSRTCNEW to save upto ₹250 (only for first time users)" [ref=e1685] [cursor=pointer]:
+                      - generic [ref=e1686]:
+                        - img "APSRTC logo" [ref=e1688]
+                        - generic [ref=e1689]:
+                          - generic [ref=e1690]:
+                            - heading "APSRTC" [level=3] [ref=e1691]
+                            - generic "3.85 star rating" [ref=e1693]:
+                              - generic [ref=e1694]: 
+                              - generic [ref=e1695]: "3.85"
+                          - generic [ref=e1696]: ఆంధ్రప్రదేశ్ రాష్ట్ర రోడ్డు రవాణా సంస్థ
+                      - generic [ref=e1697]:
+                        - generic [ref=e1698]: 1539 services including Garuda, Garuda Plus and more
+                        - generic [ref=e1700]: Official booking partner of APSRTC
+                      - region [ref=e1702]:
+                        - generic [ref=e1704]: Use code APSRTCNEW to save upto ₹250 (only for first time users)
+                        - generic [ref=e1706]: Get 25% concession for senior citizen passengers
+                        - generic [ref=e1708]: 24*7 customer service (Call or chat)
+                        - generic [ref=e1710]: Get instant refund with UPI payments
+                        - generic [ref=e1712]: redBus is the most trusted place to book APSRTC tickets online
+                  - 'group "3 of 20: TGSRTC" [ref=e1713]':
+                    - link "TGSRTC logo TGSRTC 3.71 star rating తెలంగాణ రాష్ట్ర రోడ్డు రవాణా సంస్థ 1450 services including Garuda Plus, Rajdhani and more Official booking partner of TGSRTC Use code FIRST to save upto ₹250 (only for first-time users)" [ref=e1714] [cursor=pointer]:
+                      - generic [ref=e1715]:
+                        - img "TGSRTC logo" [ref=e1717]
+                        - generic [ref=e1718]:
+                          - generic [ref=e1719]:
+                            - heading "TGSRTC" [level=3] [ref=e1720]
+                            - generic "3.71 star rating" [ref=e1722]:
+                              - generic [ref=e1723]: 
+                              - generic [ref=e1724]: "3.71"
+                          - generic [ref=e1725]: తెలంగాణ రాష్ట్ర రోడ్డు రవాణా సంస్థ
+                      - generic [ref=e1726]:
+                        - generic [ref=e1727]: 1450 services including Garuda Plus, Rajdhani and more
+                        - generic [ref=e1729]: Official booking partner of TGSRTC
+                      - region [ref=e1731]:
+                        - generic [ref=e1733]: Use code FIRST to save upto ₹250 (only for first-time users)
+                        - generic [ref=e1735]: 24*7 customer service (Call or chat)
+                        - generic [ref=e1737]: Get instant refund with UPI payments
+                        - generic [ref=e1739]: redBus is the most trusted place to book TGSRTC tickets online
+                  - 'group "4 of 20: KERALA RTC" [ref=e1740]':
+                    - link "KERALA RTC logo KERALA RTC 3.85 star rating കേരള സ്റ്റേറ്റ് റോഡ് ട്രാൻസ്പോർട്ട് കോർപ്പറേഷൻ 940 services including Swift, AC Multiaxle and more Official booking partner of KSRTC Use code FIRST to save upto ₹250 (only for first time users)" [ref=e1741] [cursor=pointer]:
+                      - generic [ref=e1742]:
+                        - img "KERALA RTC logo" [ref=e1744]
+                        - generic [ref=e1745]:
+                          - generic [ref=e1746]:
+                            - heading "KERALA RTC" [level=3] [ref=e1747]
+                            - generic "3.85 star rating" [ref=e1749]:
+                              - generic [ref=e1750]: 
+                              - generic [ref=e1751]: "3.85"
+                          - generic [ref=e1752]: കേരള സ്റ്റേറ്റ് റോഡ് ട്രാൻസ്പോർട്ട് കോർപ്പറേഷൻ
+                      - generic [ref=e1753]:
+                        - generic [ref=e1754]: 940 services including Swift, AC Multiaxle and more
+                        - generic [ref=e1756]: Official booking partner of KSRTC
+                      - region [ref=e1758]:
+                        - generic [ref=e1760]: Use code FIRST to save upto ₹250 (only for first time users)
+                        - generic [ref=e1762]: Rs. 30 discount on group booking of 4 seats
+                        - generic [ref=e1764]: 24*7 customer service (Call or chat)
+                        - generic [ref=e1766]: Get instant refund with UPI payments
+                        - generic [ref=e1768]: redBus is the most trusted place to book KSRTC KERALA tickets online
+                  - 'group "5 of 20: KTCL" [ref=e1769]':
+                    - link "KTCL logo KTCL 3.83 star rating कदंब येरादारी म्हामंडळ 60 services including Volvo Bus, AC & Non AC Bus and more Official booking partner of KTCL Use code FIRST to save upto ₹250 (only for first time users)" [ref=e1770] [cursor=pointer]:
+                      - generic [ref=e1771]:
+                        - img "KTCL logo" [ref=e1773]
+                        - generic [ref=e1774]:
+                          - generic [ref=e1775]:
+                            - heading "KTCL" [level=3] [ref=e1776]
+                            - generic "3.83 star rating" [ref=e1778]:
+                              - generic [ref=e1779]: 
+                              - generic [ref=e1780]: "3.83"
+                          - generic [ref=e1781]: कदंब येरादारी म्हामंडळ
+                      - generic [ref=e1782]:
+                        - generic [ref=e1783]: 60 services including Volvo Bus, AC & Non AC Bus and more
+                        - generic [ref=e1785]: Official booking partner of KTCL
+                      - region [ref=e1787]:
+                        - generic [ref=e1789]: Use code FIRST to save upto ₹250 (only for first time users)
+                        - generic [ref=e1791]: 24*7 customer service (Call or chat)
+                        - generic [ref=e1793]: Get instant refund with UPI payments
+                        - generic [ref=e1795]: redBus is the most trusted place to book KTCL tickets online
+                  - 'group "6 of 20: RSRTC" [ref=e1796]':
+                    - link "RSRTC logo RSRTC 3.71 star rating राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन 6000 services including Deluxe, Ordinary and more Official booking partner of RSRTC Use code FIRST to save upto ₹250 (only for first time users)" [ref=e1797] [cursor=pointer]:
+                      - generic [ref=e1798]:
+                        - img "RSRTC logo" [ref=e1800]
+                        - generic [ref=e1801]:
+                          - generic [ref=e1802]:
+                            - heading "RSRTC" [level=3] [ref=e1803]
+                            - generic "3.71 star rating" [ref=e1805]:
+                              - generic [ref=e1806]: 
+                              - generic [ref=e1807]: "3.71"
+                          - generic [ref=e1808]: राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन
+                      - generic [ref=e1809]:
+                        - generic [ref=e1810]: 6000 services including Deluxe, Ordinary and more
+                        - generic [ref=e1812]: Official booking partner of RSRTC
+                      - region [ref=e1814]:
+                        - generic [ref=e1816]: Use code FIRST to save upto ₹250 (only for first time users)
+                        - generic [ref=e1818]: 30% concession for female passengers
+                        - generic [ref=e1820]: 24*7 customer service (Call or chat)
+                        - generic [ref=e1822]: Get instant refund with UPI payments
+                        - generic [ref=e1824]: redBus is the most trusted place to book RSRTC tickets online
+                  - 'group "7 of 20: SBSTC" [ref=e1825]':
+                    - link "SBSTC logo SBSTC 3.95 star rating দক্ষিণবঙ্গ রাষ্ট্রীয় পরিবহণ সংস্থা 480 services including Volvo Bus, AC & Non AC Bus and more Official booking partner of SBSTC Use code FIRST to save upto ₹250 (only for first time users)" [ref=e1826] [cursor=pointer]:
+                      - generic [ref=e1827]:
+                        - img "SBSTC logo" [ref=e1829]
+                        - generic [ref=e1830]:
+                          - generic [ref=e1831]:
+                            - heading "SBSTC" [level=3] [ref=e1832]
+                            - generic "3.95 star rating" [ref=e1834]:
+                              - generic [ref=e1835]: 
+                              - generic [ref=e1836]: "3.95"
+                          - generic [ref=e1837]: দক্ষিণবঙ্গ রাষ্ট্রীয় পরিবহণ সংস্থা
+                      - generic [ref=e1838]:
+                        - generic [ref=e1839]: 480 services including Volvo Bus, AC & Non AC Bus and more
+                        - generic [ref=e1841]: Official booking partner of SBSTC
+                      - region [ref=e1843]:
+                        - generic [ref=e1845]: Use code FIRST to save upto ₹250 (only for first time users)
+                        - generic [ref=e1847]: 24*7 customer service (Call or chat)
+                        - generic [ref=e1849]: Get instant refund with UPI payments
+                        - generic [ref=e1851]: redBus is the most trusted place to book SBSTC tickets online
+                  - 'group "8 of 20: HRTC" [ref=e1852]':
+                    - link "HRTC logo HRTC 3.98 star rating हिमाचल रोड ट्रान्सपोर्ट कॉर्पोरेशन 480 services including Himgaurav, Himmani and more Official booking partner of HRTC Use code FIRST to save upto ₹250 (only for first time users)" [ref=e1853] [cursor=pointer]:
+                      - generic [ref=e1854]:
+                        - img "HRTC logo" [ref=e1856]
+                        - generic [ref=e1857]:
+                          - generic [ref=e1858]:
+                            - heading "HRTC" [level=3] [ref=e1859]
+                            - generic "3.98 star rating" [ref=e1861]:
+                              - generic [ref=e1862]: 
+                              - generic [ref=e1863]: "3.98"
+                          - generic [ref=e1864]: हिमाचल रोड ट्रान्सपोर्ट कॉर्पोरेशन
+                      - generic [ref=e1865]:
+                        - generic [ref=e1866]: 480 services including Himgaurav, Himmani and more
+                        - generic [ref=e1868]: Official booking partner of HRTC
+                      - region [ref=e1870]:
+                        - generic [ref=e1872]: Use code FIRST to save upto ₹250 (only for first time users)
+                        - generic [ref=e1874]: 24*7 customer service (Call or chat)
+                        - generic [ref=e1876]: Get instant refund with UPI payments
+                        - generic [ref=e1878]: redBus is the most trusted place to book HRTC tickets online
+                  - 'group "9 of 20: ASTC" [ref=e1879]':
+                    - link "ASTC logo ASTC 4.02 star rating অসম ৰাজ্যিক পৰিবহন নিগম் 200 services including Volvo Bus, AC & Non AC Bus and more Official booking partner of ASTC Use code FIRST to save upto ₹250 (only for first time users)" [ref=e1880] [cursor=pointer]:
+                      - generic [ref=e1881]:
+                        - img "ASTC logo" [ref=e1883]
+                        - generic [ref=e1884]:
+                          - generic [ref=e1885]:
+                            - heading "ASTC" [level=3] [ref=e1886]
+                            - generic "4.02 star rating" [ref=e1888]:
+                              - generic [ref=e1889]: 
+                              - generic [ref=e1890]: "4.02"
+                          - generic [ref=e1891]: অসম ৰাজ্যিক পৰিবহন নিগম்
+                      - generic [ref=e1892]:
+                        - generic [ref=e1893]: 200 services including Volvo Bus, AC & Non AC Bus and more
+                        - generic [ref=e1895]: Official booking partner of ASTC
+                      - region [ref=e1897]:
+                        - generic [ref=e1899]: Use code FIRST to save upto ₹250 (only for first time users)
+                        - generic [ref=e1901]: 24*7 customer service (Call or chat)
+                        - generic [ref=e1903]: Get instant refund with UPI payments
+                        - generic [ref=e1905]: redBus is the most trusted place to book ASTC tickets online
+                  - 'group "10 of 20: UPSRTC" [ref=e1906]':
+                    - link "UPSRTC logo UPSRTC 3.94 star rating उत्तर प्रदेश राज्य सड़क परिवहन निगम 1738 services including Janrath,Shatabdi and more Official booking partner of UPSRTC 24*7 customer service (Call or chat)" [ref=e1907] [cursor=pointer]:
+                      - generic [ref=e1908]:
+                        - img "UPSRTC logo" [ref=e1910]
+                        - generic [ref=e1911]:
+                          - generic [ref=e1912]:
+                            - heading "UPSRTC" [level=3] [ref=e1913]
+                            - generic "3.94 star rating" [ref=e1915]:
+                              - generic [ref=e1916]: 
+                              - generic [ref=e1917]: "3.94"
+                          - generic [ref=e1918]: उत्तर प्रदेश राज्य सड़क परिवहन निगम
+                      - generic [ref=e1919]:
+                        - generic [ref=e1920]: 1738 services including Janrath,Shatabdi and more
+                        - generic [ref=e1922]: Official booking partner of UPSRTC
+                      - region [ref=e1924]:
+                        - generic [ref=e1926]: 24*7 customer service (Call or chat)
+                        - generic [ref=e1928]: Get instant refund with UPI payments
+                        - generic [ref=e1930]: redBus is the most trusted place to book UPSRTC tickets online
+                  - 'group "11 of 20: CTURTC" [ref=e1931]':
+                    - link "CTURTC logo CTURTC 3.85 star rating चंडीगढ़ परिवहन उपक्रम 143 services including AC & Non AC Bus and more Official booking partner of CTU Use code FIRST to save upto ₹250 (only for first time users)" [ref=e1932] [cursor=pointer]:
+                      - generic [ref=e1933]:
+                        - img "CTURTC logo" [ref=e1935]
+                        - generic [ref=e1936]:
+                          - generic [ref=e1937]:
+                            - heading "CTURTC" [level=3] [ref=e1938]
+                            - generic "3.85 star rating" [ref=e1940]:
+                              - generic [ref=e1941]: 
+                              - generic [ref=e1942]: "3.85"
+                          - generic [ref=e1943]: चंडीगढ़ परिवहन उपक्रम
+                      - generic [ref=e1944]:
+                        - generic [ref=e1945]: 143 services including AC & Non AC Bus and more
+                        - generic [ref=e1947]: Official booking partner of CTU
+                      - region [ref=e1949]:
+                        - generic [ref=e1951]: Use code FIRST to save upto ₹250 (only for first time users)
+                        - generic [ref=e1953]: 24*7 customer service (Call or chat)
+                        - generic [ref=e1955]: Get instant refund with UPI payments
+                        - generic [ref=e1957]: redBus is the most trusted place to book CTURTC tickets online
+                  - 'group "12 of 20: PEPSU" [ref=e1958]':
+                    - link "PEPSU logo PEPSU 3.83 star rating ਪੈਪਸੂ ਰੋਡ ਟਰਾਂਸਪੋਰਟ ਕਾਰਪੋਰੇਸ਼ਨ 100 services including Volvo Bus, AC & Non AC Bus and more Official booking partner of PEPSU Use code FIRST to save upto ₹250 (only for first time users)" [ref=e1959] [cursor=pointer]:
+                      - generic [ref=e1960]:
+                        - img "PEPSU logo" [ref=e1962]
+                        - generic [ref=e1963]:
+                          - generic [ref=e1964]:
+                            - heading "PEPSU" [level=3] [ref=e1965]
+                            - generic "3.83 star rating" [ref=e1967]:
+                              - generic [ref=e1968]: 
+                              - generic [ref=e1969]: "3.83"
+                          - generic [ref=e1970]: ਪੈਪਸੂ ਰੋਡ ਟਰਾਂਸਪੋਰਟ ਕਾਰਪੋਰੇਸ਼ਨ
+                      - generic [ref=e1971]:
+                        - generic [ref=e1972]: 100 services including Volvo Bus, AC & Non AC Bus and more
+                        - generic [ref=e1974]: Official booking partner of PEPSU
+                      - region [ref=e1976]:
+                        - generic [ref=e1978]: Use code FIRST to save upto ₹250 (only for first time users)
+                        - generic [ref=e1980]: 24*7 customer service (Call or chat)
+                        - generic [ref=e1982]: Get instant refund with UPI payments
+                        - generic [ref=e1984]: redBus is the most trusted place to book PEPSU tickets online
+                  - 'group "13 of 20: NBSTC" [ref=e1985]':
+                    - link "NBSTC logo NBSTC 3.93 star rating উত্তরবঙ্গ রাজ্য পরিবহন কর্পোরেশন 30 services including Volvo Bus, AC & Non AC Bus and more Official booking partner of NBSTC Use code FIRST to save upto ₹250 (only for first time users)" [ref=e1986] [cursor=pointer]:
+                      - generic [ref=e1987]:
+                        - img "NBSTC logo" [ref=e1989]
+                        - generic [ref=e1990]:
+                          - generic [ref=e1991]:
+                            - heading "NBSTC" [level=3] [ref=e1992]
+                            - generic "3.93 star rating" [ref=e1994]:
+                              - generic [ref=e1995]: 
+                              - generic [ref=e1996]: "3.93"
+                          - generic [ref=e1997]: উত্তরবঙ্গ রাজ্য পরিবহন কর্পোরেশন
+                      - generic [ref=e1998]:
+                        - generic [ref=e1999]: 30 services including Volvo Bus, AC & Non AC Bus and more
+                        - generic [ref=e2001]: Official booking partner of NBSTC
+                      - region [ref=e2003]:
+                        - generic [ref=e2005]: Use code FIRST to save upto ₹250 (only for first time users)
+                        - generic [ref=e2007]: 24*7 customer service (Call or chat)
+                        - generic [ref=e2009]: Get instant refund with UPI payments
+                        - generic [ref=e2011]: redBus is the most trusted place to book NBSTC tickets online
+                  - 'group "14 of 20: BSRTC" [ref=e2012]':
+                    - link "BSRTC logo BSRTC 3.91 star rating बिहार राज्य रोड ट्रान्सपोर्ट कॉर्पोरेशन 220 services including Volvo Bus, AC & Non AC Bus and more Official booking partner of BSRTC Use code FIRST to save upto ₹250 (only for first time users)" [ref=e2013] [cursor=pointer]:
+                      - generic [ref=e2014]:
+                        - img "BSRTC logo" [ref=e2016]
+                        - generic [ref=e2017]:
+                          - generic [ref=e2018]:
+                            - heading "BSRTC" [level=3] [ref=e2019]
+                            - generic "3.91 star rating" [ref=e2021]:
+                              - generic [ref=e2022]: 
+                              - generic [ref=e2023]: "3.91"
+                          - generic [ref=e2024]: बिहार राज्य रोड ट्रान्सपोर्ट कॉर्पोरेशन
+                      - generic [ref=e2025]:
+                        - generic [ref=e2026]: 220 services including Volvo Bus, AC & Non AC Bus and more
+                        - generic [ref=e2028]: Official booking partner of BSRTC
+                      - region [ref=e2030]:
+                        - generic [ref=e2032]: Use code FIRST to save upto ₹250 (only for first time users)
+                        - generic [ref=e2034]: 24*7 customer service (Call or chat)
+                        - generic [ref=e2036]: Get instant refund with UPI payments
+                        - generic [ref=e2038]: redBus is the most trusted place to book BSRTC tickets online
+                  - 'group "15 of 20: KAAC Transport" [ref=e2039]':
+                    - link "KAAC Transport logo KAAC Transport 3.71 star rating কাৰ্বি আংলং স্বায়ত্ত শাসিত পৰিষদ পৰিবহণ 10 services including AC & Non AC Bus and more Official booking partner of KAAC Use code FIRST to save upto ₹250 (only for first time users)" [ref=e2040] [cursor=pointer]:
+                      - generic [ref=e2041]:
+                        - img "KAAC Transport logo" [ref=e2043]
+                        - generic [ref=e2044]:
+                          - generic [ref=e2045]:
+                            - heading "KAAC Transport" [level=3] [ref=e2046]
+                            - generic "3.71 star rating" [ref=e2048]:
+                              - generic [ref=e2049]: 
+                              - generic [ref=e2050]: "3.71"
+                          - generic [ref=e2051]: কাৰ্বি আংলং স্বায়ত্ত শাসিত পৰিষদ পৰিবহণ
+                      - generic [ref=e2052]:
+                        - generic [ref=e2053]: 10 services including AC & Non AC Bus and more
+                        - generic [ref=e2055]: Official booking partner of KAAC
+                      - region [ref=e2057]:
+                        - generic [ref=e2059]: Use code FIRST to save upto ₹250 (only for first time users)
+                        - generic [ref=e2061]: 24*7 customer service (Call or chat)
+                        - generic [ref=e2063]: Get instant refund with UPI payments
+                        - generic [ref=e2065]: redBus is the most trusted place to book KAAC tickets online
+                  - 'group "16 of 20: WBSTC" [ref=e2066]':
+                    - link "WBSTC logo WBSTC 3.98 star rating পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম 20 services including Volvo Bus, AC & Non AC Bus and more Official booking partner of WBSTC Use code FIRST to save upto ₹250 (only for first time users)" [ref=e2067] [cursor=pointer]:
+                      - generic [ref=e2068]:
+                        - img "WBSTC logo" [ref=e2070]
+                        - generic [ref=e2071]:
+                          - generic [ref=e2072]:
+                            - heading "WBSTC" [level=3] [ref=e2073]
+                            - generic "3.98 star rating" [ref=e2075]:
+                              - generic [ref=e2076]: 
+                              - generic [ref=e2077]: "3.98"
+                          - generic [ref=e2078]: পশ্চিমবঙ্গ রাষ্ট্রীয় পরিবহণ নিগম
+                      - generic [ref=e2079]:
+                        - generic [ref=e2080]: 20 services including Volvo Bus, AC & Non AC Bus and more
+                        - generic [ref=e2082]: Official booking partner of WBSTC
+                      - region [ref=e2084]:
+                        - generic [ref=e2086]: Use code FIRST to save upto ₹250 (only for first time users)
+                        - generic [ref=e2088]: 24*7 customer service (Call or chat)
+                        - generic [ref=e2090]: Get instant refund with UPI payments
+                        - generic [ref=e2092]: redBus is the most trusted place to book WBSTC tickets online
+                  - 'group "17 of 20: JKSRTC" [ref=e2093]':
+                    - link "JKSRTC logo JKSRTC 3.85 star rating जम्मू और कश्मीर सड़क परिवहन निगम। 16 services including Volvo Bus, AC & Non AC Bus and more Official booking partner of JKSRTC Use code FIRST to save upto ₹250 (only for first time users)" [ref=e2094] [cursor=pointer]:
+                      - generic [ref=e2095]:
+                        - img "JKSRTC logo" [ref=e2097]
+                        - generic [ref=e2098]:
+                          - generic [ref=e2099]:
+                            - heading "JKSRTC" [level=3] [ref=e2100]
+                            - generic "3.85 star rating" [ref=e2102]:
+                              - generic [ref=e2103]: 
+                              - generic [ref=e2104]: "3.85"
+                          - generic [ref=e2105]: जम्मू और कश्मीर सड़क परिवहन निगम।
+                      - generic [ref=e2106]:
+                        - generic [ref=e2107]: 16 services including Volvo Bus, AC & Non AC Bus and more
+                        - generic [ref=e2109]: Official booking partner of JKSRTC
+                      - region [ref=e2111]:
+                        - generic [ref=e2113]: Use code FIRST to save upto ₹250 (only for first time users)
+                        - generic [ref=e2115]: 24*7 customer service (Call or chat)
+                        - generic [ref=e2117]: Get instant refund with UPI payments
+                        - generic [ref=e2119]: redBus is the most trusted place to book JKSRTC tickets online
+                  - 'group "18 of 20: GSRTC" [ref=e2120]':
+                    - link "GSRTC logo GSRTC 3.74 star rating ગુજરાત રાજ્ય માર્ગ વાહન વ્યવહાર નિગમ 5119 services including Gurjarnagri, Express and more Official GSRTC Partner Use code FIRST to save upto ₹ 250 (only for first time users))" [ref=e2121] [cursor=pointer]:
+                      - generic [ref=e2122]:
+                        - img "GSRTC logo" [ref=e2124]
+                        - generic [ref=e2125]:
+                          - generic [ref=e2126]:
+                            - heading "GSRTC" [level=3] [ref=e2127]
+                            - generic "3.74 star rating" [ref=e2129]:
+                              - generic [ref=e2130]: 
+                              - generic [ref=e2131]: "3.74"
+                          - generic [ref=e2132]: ગુજરાત રાજ્ય માર્ગ વાહન વ્યવહાર નિગમ
+                      - generic [ref=e2133]:
+                        - generic [ref=e2134]: 5119 services including Gurjarnagri, Express and more
+                        - generic [ref=e2136]: Official GSRTC Partner
+                      - region [ref=e2138]:
+                        - generic [ref=e2140]: Use code FIRST to save upto ₹ 250 (only for first time users))
+                        - generic [ref=e2142]: 24*7 customer service (Call or chat)
+                        - generic [ref=e2144]: Get instant refund with UPI payments
+                        - generic [ref=e2146]: redBus is the most trusted place to book GSRTC tickets online
+                  - 'group "19 of 20: OSRTC" [ref=e2147]':
+                    - link "OSRTC logo OSRTC 3.82 star rating ଓଡିଶା ରାଜ୍ୟ ସଡକ ପରିବହନ ନିଗମ 440 services including High End Luxury Bus, AC Deluxe and more Official OSRTC Partner Use code FIRST to save upto ₹ 250 (only for first time users)" [ref=e2148] [cursor=pointer]:
+                      - generic [ref=e2149]:
+                        - img "OSRTC logo" [ref=e2151]
+                        - generic [ref=e2152]:
+                          - generic [ref=e2153]:
+                            - heading "OSRTC" [level=3] [ref=e2154]
+                            - generic "3.82 star rating" [ref=e2156]:
+                              - generic [ref=e2157]: 
+                              - generic [ref=e2158]: "3.82"
+                          - generic [ref=e2159]: ଓଡିଶା ରାଜ୍ୟ ସଡକ ପରିବହନ ନିଗମ
+                      - generic [ref=e2160]:
+                        - generic [ref=e2161]: 440 services including High End Luxury Bus, AC Deluxe and more
+                        - generic [ref=e2163]: Official OSRTC Partner
+                      - region [ref=e2165]:
+                        - generic [ref=e2167]: Use code FIRST to save upto ₹ 250 (only for first time users)
+                        - generic [ref=e2169]: 24*7 customer service (Call or chat)
+                        - generic [ref=e2171]: Get instant refund with UPI payments
+                        - generic [ref=e2173]: redBus is the most trusted place to book OSRTC tickets online
+                  - 'group "20 of 20: APSTS" [ref=e2174]':
+                    - link "APSTS logo APSTS Arunachal Pradesh State Road Transport 50 services which are all Volvo Buses, AC & Non AC Bus and more Official booking partner of APSTS Use code RTCNEW to save upto ₹ 300 (only for first time users)" [ref=e2175] [cursor=pointer]:
+                      - generic [ref=e2176]:
+                        - img "APSTS logo" [ref=e2178]
+                        - generic [ref=e2179]:
+                          - heading "APSTS" [level=3] [ref=e2181]
+                          - generic [ref=e2182]: Arunachal Pradesh State Road Transport
+                      - generic [ref=e2183]:
+                        - generic [ref=e2184]: 50 services which are all Volvo Buses, AC & Non AC Bus and more
+                        - generic [ref=e2186]: Official booking partner of APSTS
+                      - region [ref=e2188]:
+                        - generic [ref=e2190]: Use code RTCNEW to save upto ₹ 300 (only for first time users)
+                        - generic [ref=e2192]: 24*7 customer service (Call or chat)
+                        - generic [ref=e2194]: Get instant refund with UPI payments
+                        - generic [ref=e2196]: redBus is the most trusted place to book APSTS tickets online
+                - status [ref=e2197]
+          - generic [ref=e2199]:
+            - generic [ref=e2201]:
+              - heading "Testimonials" [level=2] [ref=e2202]
+              - generic [ref=e2203]: Hear from our satisfied customers in their own words
+            - region "Testimonials" [ref=e2205]:
+              - group "1 of 3" [ref=e2206]:
+                - generic [ref=e2207]: Clean Buses. Great Experience.
+                - generic [ref=e2208]:
+                  - generic [ref=e2209]: Karthik Moorty
+                  - generic [ref=e2210]: redBus customer since 2016
+              - group "2 of 3" [ref=e2211]:
+                - generic [ref=e2212]: Safe and fast travel experience
+                - generic [ref=e2213]:
+                  - generic [ref=e2214]: Aswitha
+                  - generic [ref=e2215]: redBus customer since 2015
+              - group "3 of 3" [ref=e2216]:
+                - generic [ref=e2217]: Clean Buses. Courteous Staff.
+                - generic [ref=e2218]:
+                  - generic [ref=e2219]: Sriharan
+                  - generic [ref=e2220]: redBus customer since 2018
+            - status [ref=e2221]
+          - link "Download Redbus App" [ref=e2222] [cursor=pointer]:
+            - /url: https://www.redbus.in/download-app
+            - generic [ref=e2223]:
+              - generic [ref=e2224]:
+                - generic [ref=e2225]: Grab 10% off now
+                - generic [ref=e2226]: Download App to unlock offer!
+              - generic [ref=e2229]:
+                - generic [ref=e2230]:
+                  - generic [ref=e2231]:
+                    - generic [ref=e2232]:
+                      - generic [ref=e2233]: 
+                      - generic [ref=e2234]: "4.6"
+                    - generic [ref=e2235]: 10 crore+ Downloads
+                  - img "Download Redbus App" [ref=e2236]
+                - generic [ref=e2237]:
+                  - generic [ref=e2238]:
+                    - generic [ref=e2239]:
+                      - generic [ref=e2240]: 
+                      - generic [ref=e2241]: "4.7"
+                    - generic [ref=e2242]: 1.5 crore+ Downloads
+                  - img "Download Redbus App" [ref=e2243]
+    - button "Open chat support" [ref=e2245] [cursor=pointer]:
+      - generic [ref=e2246]:
+        - img
+      - generic [ref=e2247]: Ask RAY
+  - generic [ref=e2248]:
+    - article [ref=e2249]:
+      - 'heading "redBus: India’s Leading Online Bus Booking and Train Ticket Booking Platform" [level=2] [ref=e2250]'
+      - generic [ref=e2251]:
+        - paragraph [ref=e2252]: redBus is India’s leading bus and train ticket booking platform for over 18 years and 56+ million satisfied users. It offers a seamless online ticket booking experience for millions of people.
+        - paragraph [ref=e2253]: With 5200+ bus operators and 730000+ routes on redBus, you can easily find buses to your destination. You can check the best price with exclusive discounts and offers when booking train or bus tickets.
+        - heading "Why Choose redBus for Bus Booking?" [level=2] [ref=e2254]
+        - paragraph [ref=e2255]: Below are some reasons to choose redBus for booking bus tickets.
+        - list [ref=e2256]:
+          - listitem [level=1] [ref=e2257]:
+            - strong [ref=e2258]: Free Cancellation
+            - text: "- Cancel bus tickets without paying cancellation charges."
+          - listitem [level=1] [ref=e2259]:
+            - strong [ref=e2260]: Flexi Ticket
+            - text: "- Select a Flexi ticket to modify your travel date at least 8 hours before departure."
+          - listitem [level=1] [ref=e2261]:
+            - strong [ref=e2262]: Earn Rewards
+            - text: "- Refer your friend and get INR 100 in your redBus wallet after they complete their first trip."
+          - listitem [level=1] [ref=e2263]:
+            - strong [ref=e2264]: Booking for Women
+            - text: "- Access exclusive deals for women travellers, view the number of women on your bus, enjoy priority helplines, and find buses preferred by women."
+          - listitem [level=1] [ref=e2265]:
+            - strong [ref=e2266]: Primo Services
+            - text: "- Select top-rated bus operators that offer timely and customer-friendly Primo services."
+          - listitem [level=1] [ref=e2267]:
+            - strong [ref=e2268]: 24/7 Customer Support
+            - text: "-Receive 24/7 customer service for any assistance related to bookings."
+          - listitem [level=1] [ref=e2269]:
+            - strong [ref=e2270]: Instant Refund
+            - text: "- Get an instant refund for cancellation or booking-related issues."
+        - list [ref=e2271]:
+          - listitem [ref=e2272]:
+            - strong [ref=e2273]: Live Bus Tracking
+            - text: "- Track your bus in real-time and plan your journey more efficiently."
+        - heading "Why Choose redRail for Train Ticket Booking?" [level=2] [ref=e2274]:
+          - text: Why Choose redRail for Train Ticket Booking?
+          - strong [ref=e2275]
+        - paragraph [ref=e2276]:
+          - text: redRail is one of the most trusted apps for
+          - link "train ticket booking" [ref=e2277] [cursor=pointer]:
+            - /url: https://www.redbus.in/railways
+          - text: ". Here's why:"
+        - list [ref=e2278]:
+          - listitem [ref=e2279]:
+            - strong [ref=e2280]: IRCTC Authorised partner -
+            - text: redRail is an authorised IRCTC partner, providing authentic information.
+          - listitem [ref=e2281]:
+            - strong [ref=e2282]: Free cancellation -
+            - text: Change of plans? Cancel train tickets without paying cancellation charges.
+          - listitem [ref=e2283]:
+            - strong [ref=e2284]: Alternate Trip -
+            - text: Get confirmed tickets or receive a 3X refund on your waitlisted tickets to book an alternate train or bus.
+          - listitem [ref=e2285]:
+            - strong [ref=e2286]: PNR Status -
+            - text: Know the current
+            - link "PNR status" [ref=e2287] [cursor=pointer]:
+              - /url: https://www.redbus.in/railways/pnr-status
+            - text: of your train ticket with instant updates
+          - listitem [ref=e2288]:
+            - strong [ref=e2289]: Live Train Status -
+            - text: redRail lets you check the live
+            - link "train running status" [ref=e2290] [cursor=pointer]:
+              - /url: https://www.redbus.in/railways/train-running-status
+            - text: ", delays, platform number, and boarding station directions."
+        - heading "How to Book Bus Tickets and Train Tickets Online on redBus?" [level=2] [ref=e2291]
+        - paragraph [ref=e2292]: Below are some simple steps you can follow to book train or bus tickets online on redBus.
+        - list [ref=e2293]:
+          - listitem [level=1] [ref=e2294]:
+            - strong [ref=e2295]: "Step 1:"
+            - text: Visit the redBus website or app.
+          - listitem [level=1] [ref=e2296]:
+            - strong [ref=e2297]: "Step 2:"
+            - text: Select your preferred mode of transport, either bus or train.
+          - listitem [level=1] [ref=e2298]:
+            - strong [ref=e2299]: "Step 3:"
+            - text: Select your travel date and journey details.
+          - listitem [level=1] [ref=e2300]:
+            - strong [ref=e2301]: Step 4
+            - text: ": Search for your preferred bus or train available on your chosen travel date and route."
+          - listitem [level=1] [ref=e2302]:
+            - strong [ref=e2303]: "Step 5:"
+            - text: Select your preferred boarding or dropping points and enter your contact details.
+          - listitem [level=1] [ref=e2304]:
+            - strong [ref=e2305]: "Step 7:"
+            - text: Choose from multiple payment options to proceed with the payment process.
+          - listitem [level=1] [ref=e2306]:
+            - strong [ref=e2307]: Step 8
+            - text: ": After the successful payment, you will receive a confirmation of your train or bus bookings on your registered email ID or mobile number."
+        - heading "Exclusive Offers on redBus" [level=2] [ref=e2308]
+        - paragraph [ref=e2309]: redBus provides exclusive offers and deals on bus and train ticket booking for travellers. Additionally, you can also get festive offers on apps or specific to bus operators. All you need to do is check train and bus booking offers on redBus and apply the coupon code mentioned on the website or app to avail the discount. redBus keeps adding new discounts and offers depending on the seasonality, festivals, and other events.
+    - generic [ref=e2310]:
+      - heading "Bus Booking redDeals on redBus" [level=2] [ref=e2311]
+      - paragraph [ref=e2313]: Don't miss out on these incredible offers, book your bus tickets now and travel with convenience and affordability. Hurry, grab the best bus booking deals before they're gone!
+      - generic [ref=e2314]:
+        - img "redBus Logo" [ref=e2315]
+        - generic [ref=e2316]:
+          - generic [ref=e2317]: Unlock Unbeatable Exclusive redDeals! 20% OFF
+          - generic [ref=e2318]: 8144 Deals . 3050 Bus Operators . 1246387 Routes
+        - link "Book now" [ref=e2319]
+    - generic [ref=e2320]:
+      - heading "FAQs related to Bus Tickets Booking" [level=2] [ref=e2321]
+      - tablist "FAQ Categories" [ref=e2322]:
+        - tab "General" [selected] [ref=e2324] [cursor=pointer]
+        - tab "Ticket-related" [ref=e2325] [cursor=pointer]
+        - tab "Payment" [ref=e2326] [cursor=pointer]
+        - tab "Cancellation & Refund" [ref=e2327] [cursor=pointer]
+      - tabpanel "General" [ref=e2328]:
+        - button "Can I track the location of my booked bus online?" [ref=e2330] [cursor=pointer]:
+          - heading "Can I track the location of my booked bus online?" [level=3] [ref=e2331]
+          - generic [ref=e2332]: 
+        - button "What are the advantages of bus ticket booking with redBus?" [ref=e2335] [cursor=pointer]:
+          - heading "What are the advantages of bus ticket booking with redBus?" [level=3] [ref=e2336]
+          - generic [ref=e2337]: 
+        - button "Why book bus tickets online on redBus?" [ref=e2340] [cursor=pointer]:
+          - heading "Why book bus tickets online on redBus?" [level=3] [ref=e2341]
+          - generic [ref=e2342]: 
+        - button "Do I need to create an account on the redBus site to book bus ticket?" [ref=e2345] [cursor=pointer]:
+          - heading "Do I need to create an account on the redBus site to book bus ticket?" [level=3] [ref=e2346]
+          - generic [ref=e2347]: 
+        - button "Does bus booking online cost me more?" [ref=e2350] [cursor=pointer]:
+          - heading "Does bus booking online cost me more?" [level=3] [ref=e2351]
+          - generic [ref=e2352]: 
+        - button "How can I get the discounts on the bus booking?" [ref=e2355] [cursor=pointer]:
+          - heading "How can I get the discounts on the bus booking?" [level=3] [ref=e2356]
+          - generic [ref=e2357]: 
+        - button "What's New in Bus Booking on redBus?" [ref=e2360] [cursor=pointer]:
+          - heading "What's New in Bus Booking on redBus?" [level=3] [ref=e2361]
+          - generic [ref=e2362]: 
+        - button "Can I book a Government bus ticket on redBus?" [ref=e2365] [cursor=pointer]:
+          - heading "Can I book a Government bus ticket on redBus?" [level=3] [ref=e2366]
+          - generic [ref=e2367]: 
+      - text:                
+  - generic [ref=e2370]:
+    - generic [ref=e2371]:
+      - button "Popular Bus Routes" [ref=e2372] [cursor=pointer]:
+        - text: Popular Bus Routes
+        - generic [ref=e2373]: 
+      - list [ref=e2374]:
+        - listitem [ref=e2375]:
+          - link "Delhi To Manali Bus" [ref=e2376] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/delhi-to-manali
+        - listitem [ref=e2377]:
+          - link "Delhi To Rishikesh Bus" [ref=e2378] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/delhi-to-rishikesh
+        - listitem [ref=e2379]:
+          - link "Delhi To Shimla Bus" [ref=e2380] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/delhi-to-shimla
+        - listitem [ref=e2381]:
+          - link "Delhi To Nainital Bus" [ref=e2382] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/delhi-to-nainital
+        - listitem [ref=e2383]:
+          - link "Delhi To Katra Bus" [ref=e2384] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/delhi-to-katra
+        - listitem [ref=e2385]:
+          - link "Bangalore To Goa Bus" [ref=e2386] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/bangalore-to-goa
+        - listitem [ref=e2387]:
+          - link "Bangalore To Hyderabad Bus" [ref=e2388] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/bangalore-to-hyderabad
+        - listitem [ref=e2389]:
+          - link "Bangalore To Tirupathi Bus" [ref=e2390] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/bangalore-to-tirupathi
+        - listitem [ref=e2391]:
+          - link "Bangalore To Chennai Bus" [ref=e2392] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/bangalore-to-chennai
+        - listitem [ref=e2393]:
+          - link "Bangalore To Pondicherry Bus" [ref=e2394] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/bangalore-to-pondicherry
+        - listitem [ref=e2395]:
+          - link "Hyderabad To Bangalore Bus" [ref=e2396] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/hyderabad-to-bangalore
+        - listitem [ref=e2397]:
+          - link "Hyderabad To Goa Bus" [ref=e2398] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/hyderabad-to-goa
+        - listitem [ref=e2399]:
+          - link "Hyderabad To Srisailam Bus" [ref=e2400] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/hyderabad-to-srisailam
+        - listitem [ref=e2401]:
+          - link "Hyderabad To Vijayawada Bus" [ref=e2402] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/hyderabad-to-vijayawada
+        - listitem [ref=e2403]:
+          - link "Hyderabad To Tirupathi Bus" [ref=e2404] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/hyderabad-to-tirupathi
+        - listitem [ref=e2405]:
+          - link "Pune To Goa Bus" [ref=e2406] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/pune-to-goa
+        - listitem [ref=e2407]:
+          - link "Pune To Mumbai Bus" [ref=e2408] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/pune-to-mumbai
+        - listitem [ref=e2409]:
+          - link "Pune To Nagpur Bus" [ref=e2410] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/pune-to-nagpur
+        - listitem [ref=e2411]:
+          - link "Pune To Kolhapur Bus" [ref=e2412] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/pune-to-kolhapur-maharashtra
+        - listitem [ref=e2413]:
+          - link "Pune To Nashik Bus" [ref=e2414] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/pune-to-nashik
+        - listitem [ref=e2415]:
+          - link "Mumbai To Goa Bus" [ref=e2416] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/mumbai-to-goa
+        - listitem [ref=e2417]:
+          - link "Mumbai To Pune Bus" [ref=e2418] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/mumbai-to-pune
+        - listitem [ref=e2419]:
+          - link "Mumbai To Shirdi Bus" [ref=e2420] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/mumbai-to-shirdi
+        - listitem [ref=e2421]:
+          - link "Mumbai To Mahabaleshwar Bus" [ref=e2422] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/mumbai-to-mahabaleshwar
+        - listitem [ref=e2423]:
+          - link "Mumbai To Kolhapur Bus" [ref=e2424] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/mumbai-to-kolhapur-maharashtra
+        - listitem [ref=e2425]:
+          - link "Kolkata To Digha Bus" [ref=e2426] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/kolkata-to-digha
+        - listitem [ref=e2427]:
+          - link "Kolkata To Siliguri Bus" [ref=e2428] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/kolkata-to-siliguri
+        - listitem [ref=e2429]:
+          - link "Kolkata To Puri Bus" [ref=e2430] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/kolkata-to-puri
+        - listitem [ref=e2431]:
+          - link "Kolkata To Bakkhali Bus" [ref=e2432] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/kolkata-to-bakkhali
+        - listitem [ref=e2433]:
+          - link "Kolkata To Mandarmani Bus" [ref=e2434] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/kolkata-to-mandarmani
+        - listitem [ref=e2435]:
+          - link "Chennai To Bangalore Bus" [ref=e2436] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/chennai-to-bangalore
+        - listitem [ref=e2437]:
+          - link "Chennai To Pondicherry Bus" [ref=e2438] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/chennai-to-pondicherry
+        - listitem [ref=e2439]:
+          - link "Chennai To Coimbatore Bus" [ref=e2440] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/chennai-to-coimbatore
+        - listitem [ref=e2441]:
+          - link "Chennai To Madurai Bus" [ref=e2442] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/chennai-to-madurai
+        - listitem [ref=e2443]:
+          - link "Chennai To Tirupathi Bus" [ref=e2444] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/chennai-to-tirupathi
+        - listitem [ref=e2445]:
+          - link "Chandigarh To Manali Bus" [ref=e2446] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/chandigarh-to-manali
+        - listitem [ref=e2447]:
+          - link "Chandigarh To Shimla Bus" [ref=e2448] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/chandigarh-to-shimla
+        - listitem [ref=e2449]:
+          - link "Chandigarh To Delhi Bus" [ref=e2450] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/chandigarh-to-delhi
+        - listitem [ref=e2451]:
+          - link "Chandigarh To Dehradun Bus" [ref=e2452] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/chandigarh-to-dehradun
+        - listitem [ref=e2453]:
+          - link "Chandigarh To Amritsar Bus" [ref=e2454] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/chandigarh-to-amritsar
+        - listitem [ref=e2455]:
+          - link "Coimbatore To Chennai Bus" [ref=e2456] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/coimbatore-to-chennai
+        - listitem [ref=e2457]:
+          - link "Coimbatore To Bangalore Bus" [ref=e2458] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/coimbatore-to-bangalore
+        - listitem [ref=e2459]:
+          - link "Coimbatore To Ooty Bus" [ref=e2460] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/coimbatore-to-ooty
+        - listitem [ref=e2461]:
+          - link "Coimbatore To Tiruchendur Bus" [ref=e2462] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/coimbatore-to-tiruchendur
+        - listitem [ref=e2463]:
+          - link "Coimbatore To Madurai Bus" [ref=e2464] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/coimbatore-to-madurai
+        - listitem [ref=e2465]:
+          - link "Agra to Bareilly Bus" [ref=e2466] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/agra-to-bareilly
+        - listitem [ref=e2467]:
+          - link "Hisar to Chandigarh Bus" [ref=e2468] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/hisar-to-chandigarh
+        - listitem [ref=e2469]:
+          - link "Ayodhya to Varanasi" [ref=e2470] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/ayodhya-to-varanasi
+        - listitem [ref=e2471]:
+          - link "Lucknow to Ballia Bus" [ref=e2472] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/lucknow-to-ballia
+        - listitem [ref=e2473]:
+          - link "Lucknow to Moradabad Bus" [ref=e2474] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/lucknow-to-moradabad
+        - listitem [ref=e2475]:
+          - link "Rajkot to Dwarka Bus" [ref=e2476] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/rajkot-to-dwarka
+        - listitem [ref=e2477]:
+          - link "Siliguri to Gangtok Bus" [ref=e2478] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/siliguri-to-gangtok
+        - listitem [ref=e2479]:
+          - link "Ahmedabad to Goa Bus" [ref=e2480] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/ahmedabad-to-goa
+        - listitem [ref=e2481]:
+          - link "Ahmedabad to Kanpur Bus" [ref=e2482] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/ahmedabad-to-kanpur
+        - listitem [ref=e2483]:
+          - link "Akola to Pune Bus" [ref=e2484] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/akola-to-pune
+        - listitem [ref=e2485]:
+          - link "Delhi to Dehradun Bus" [ref=e2486] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/delhi-to-dehradun
+        - listitem [ref=e2487]:
+          - link "Delhi to Haridwar Bus" [ref=e2488] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/delhi-to-haridwar
+        - listitem [ref=e2489]:
+          - link "Dehradun to Delhi Bus" [ref=e2490] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/dehradun-to-delhi
+        - listitem [ref=e2491]:
+          - link "Delhi to Agra Bus" [ref=e2492] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/delhi-to-agra
+        - listitem [ref=e2493]:
+          - link "Delhi to Varanasi Bus" [ref=e2494] [cursor=pointer]:
+            - /url: https://www.redbus.in/bus-tickets/delhi-to-varanasi
+    - generic [ref=e2495]:
+      - button "Popular Cities" [ref=e2496] [cursor=pointer]:
+        - text: Popular Cities
+        - generic [ref=e2497]: 
+      - list [ref=e2498]:
+        - listitem [ref=e2499]:
+          - link "Hyderabad Bus Booking" [ref=e2500] [cursor=pointer]:
+            - /url: buses/hyderabad-bus-tickets
+        - listitem [ref=e2501]:
+          - link "Bangalore Bus Booking" [ref=e2502] [cursor=pointer]:
+            - /url: buses/bangalore-bus-tickets
+        - listitem [ref=e2503]:
+          - link "Chennai Bus Booking" [ref=e2504] [cursor=pointer]:
+            - /url: buses/chennai-bus-tickets
+        - listitem [ref=e2505]:
+          - link "Pune Bus Booking" [ref=e2506] [cursor=pointer]:
+            - /url: buses/pune-bus-tickets
+        - listitem [ref=e2507]:
+          - link "Delhi Bus Booking" [ref=e2508] [cursor=pointer]:
+            - /url: buses/delhi-bus-tickets
+        - listitem [ref=e2509]:
+          - link "Mumbai Bus Booking" [ref=e2510] [cursor=pointer]:
+            - /url: buses/mumbai-bus-tickets
+        - listitem [ref=e2511]:
+          - link "Kolkata Bus Booking" [ref=e2512] [cursor=pointer]:
+            - /url: buses/kolkata-bus-tickets
+        - listitem [ref=e2513]:
+          - link "Ernakulam Bus Booking" [ref=e2514] [cursor=pointer]:
+            - /url: buses/ernakulam-bus-tickets
+        - listitem [ref=e2515]:
+          - link "Ahmedabad Bus Booking" [ref=e2516] [cursor=pointer]:
+            - /url: buses/ahmedabad-bus-tickets
+        - listitem [ref=e2517]:
+          - link "Vijayawada Bus Booking" [ref=e2518] [cursor=pointer]:
+            - /url: buses/vijayawada-bus-tickets
+        - listitem [ref=e2519]:
+          - link "Jaipur Bus Booking" [ref=e2520] [cursor=pointer]:
+            - /url: buses/jaipur-bus-tickets
+        - listitem [ref=e2521]:
+          - link "Indore Bus Booking" [ref=e2522] [cursor=pointer]:
+            - /url: buses/indore-bus-tickets
+        - listitem [ref=e2523]:
+          - link "Lucknow Bus Booking" [ref=e2524] [cursor=pointer]:
+            - /url: buses/lucknow-bus-tickets
+        - listitem [ref=e2525]:
+          - link "Bhopal Bus Booking" [ref=e2526] [cursor=pointer]:
+            - /url: buses/bhopal-bus-tickets
+        - listitem [ref=e2527]:
+          - link "Goa Bus Booking" [ref=e2528] [cursor=pointer]:
+            - /url: buses/goa-bus-tickets
+        - listitem [ref=e2529]:
+          - link "Ayodhya Bus Booking" [ref=e2530] [cursor=pointer]:
+            - /url: buses/ayodhya-bus-tickets
+        - listitem [ref=e2531]:
+          - link "Prayagraj Bus Booking" [ref=e2532] [cursor=pointer]:
+            - /url: buses/allahabad-bus-tickets
+        - listitem [ref=e2533]:
+          - link "Varanasi Bus Booking" [ref=e2534] [cursor=pointer]:
+            - /url: buses/varanasi-bus-tickets
+    - generic [ref=e2535]:
+      - button "Popular Bus Operators" [ref=e2536] [cursor=pointer]:
+        - text: Popular Bus Operators
+        - generic [ref=e2537]: 
+      - list [ref=e2538]:
+        - listitem [ref=e2539]:
+          - link "No 1 Air Travels" [ref=e2540] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/no-1-air-travels
+        - listitem [ref=e2541]:
+          - link "YBM Travels" [ref=e2542] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/ybm-travels
+        - listitem [ref=e2543]:
+          - link "Sri SMS Travels" [ref=e2544] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/sri-sms-travels
+        - listitem [ref=e2545]:
+          - link "Svkdt Travels" [ref=e2546] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/svkdt-travels
+        - listitem [ref=e2547]:
+          - link "RKT Tours and Travels" [ref=e2548] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/rkt-tours-and-travels
+        - listitem [ref=e2549]:
+          - link "Royal Cars" [ref=e2550] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/royal-cars
+        - listitem [ref=e2551]:
+          - link "Rahul Travels" [ref=e2552] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/rahul-travels
+        - listitem [ref=e2553]:
+          - link "JBT Travels" [ref=e2554] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/jbt-travels
+        - listitem [ref=e2555]:
+          - link "Raj Express" [ref=e2556] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/raj-express-1
+        - listitem [ref=e2557]:
+          - link "Vaishali Express" [ref=e2558] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/vaishali-express
+        - listitem [ref=e2559]:
+          - link "Rahul Travels Indore" [ref=e2560] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/rahul-travels-indore
+        - listitem [ref=e2561]:
+          - link "Delhi Tours And Travels" [ref=e2562] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/delhi-tours-and-travels
+        - listitem [ref=e2563]:
+          - link "Ashok Travels" [ref=e2564] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/ashok-travels-delhi
+        - listitem [ref=e2565]:
+          - link "Greenline Travels" [ref=e2566] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/greenline
+        - listitem [ref=e2567]:
+          - link "Pawan Travels" [ref=e2568] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/pawan-travels-balaghat
+        - listitem [ref=e2569]:
+          - link "Ravi Travels" [ref=e2570] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/ravi-travels
+        - listitem [ref=e2571]:
+          - link "VRL Travels" [ref=e2572] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/vrl-travels
+        - listitem [ref=e2573]:
+          - link "Dolphin Travels" [ref=e2574] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/dolphin-travel-house
+        - listitem [ref=e2575]:
+          - link "Ganesh Travels" [ref=e2576] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/ganesh-travels
+        - listitem [ref=e2577]:
+          - link "Kaveri Travels" [ref=e2578] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/kaveri-kamakshi-travels
+        - listitem [ref=e2579]:
+          - link "National Travels" [ref=e2580] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/national-travels-national
+        - listitem [ref=e2581]:
+          - link "Bharathi Travels" [ref=e2582] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/bharathi-travels-bharathi
+        - listitem [ref=e2583]:
+          - link "City Land Travels" [ref=e2584] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/city-land-travels
+        - listitem [ref=e2585]:
+          - link "KKaveri Travels" [ref=e2586] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/kkaveri-travels
+        - listitem [ref=e2587]:
+          - link "KK Travels" [ref=e2588] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/kk-travels
+        - listitem [ref=e2589]:
+          - link "Mahadev Travels" [ref=e2590] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/mahadev-travels-online
+        - listitem [ref=e2591]:
+          - link "Maharaja Travels" [ref=e2592] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/maharaja-travels-1
+        - listitem [ref=e2593]:
+          - link "M R Travels" [ref=e2594] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/m-r-travels
+        - listitem [ref=e2595]:
+          - link "New Payal Travels" [ref=e2596] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/new-payal-travels
+        - listitem [ref=e2597]:
+          - link "Paras Travels" [ref=e2598] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/paras-travels
+        - listitem [ref=e2599]:
+          - link "Shree Parshwanath Travels" [ref=e2600] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/parshwanath-travels-parshwanath-ahmedabad
+        - listitem [ref=e2601]:
+          - link "Payal Travels" [ref=e2602] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/payal-travels
+        - listitem [ref=e2603]:
+          - link "R K Travels" [ref=e2604] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/rk-travels
+        - listitem [ref=e2605]:
+          - link "Shivam Travels" [ref=e2606] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/shivam-travels
+        - listitem [ref=e2607]:
+          - link "Shree Mahaveer Travels" [ref=e2608] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/shree-mahaveer-travels-9721
+        - listitem [ref=e2609]:
+          - link "SRS Travels" [ref=e2610] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/srs-travels-srs
+        - listitem [ref=e2611]:
+          - link "Tulsi Travels" [ref=e2612] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/tulsi-travels
+        - listitem [ref=e2613]:
+          - link "Vaibhav Travels" [ref=e2614] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/vaibhav-travels-10044
+        - listitem [ref=e2615]:
+          - link "Vikas Travels" [ref=e2616] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/vikas-travels-jaipur
+        - listitem [ref=e2617]:
+          - link "Amarnath Travels" [ref=e2618] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/amarnath-travels-9984
+        - listitem [ref=e2619]:
+          - link "Anand Travels" [ref=e2620] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/anand-travel
+        - listitem [ref=e2621]:
+          - link "Ashapura Travels" [ref=e2622] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/ashapura-travels
+        - listitem [ref=e2623]:
+          - link "Ashok Bus Service" [ref=e2624] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/ashok-bus-service
+        - listitem [ref=e2625]:
+          - link "Ashoka Travels" [ref=e2626] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/ashoka-travels
+        - listitem [ref=e2627]:
+          - link "Chartered Bus" [ref=e2628] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/chartered-bus
+        - listitem [ref=e2629]:
+          - link "Neugo" [ref=e2630] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/nuego
+        - listitem [ref=e2631]:
+          - link "Intrcity Smart Bus" [ref=e2632] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/intrcity-smartbus
+        - listitem [ref=e2633]:
+          - link "Uttar Pradesh State Road Transport Corporation (UPSRTC)" [ref=e2634] [cursor=pointer]:
+            - /url: https://www.redbus.in/online-booking/uttar-pradesh-state-road-transport-corporation-upsrtc
+        - listitem [ref=e2635]:
+          - link "HRTC Bus" [ref=e2636] [cursor=pointer]:
+            - /url: https://www.redbus.in/online-booking/hrtc
+        - listitem [ref=e2637]:
+          - link "South Bengal State Road Transport Corporation ( SBSTC)" [ref=e2638] [cursor=pointer]:
+            - /url: https://www.redbus.in/online-booking/south-bengal-state-transport-corporation-sbstc
+        - listitem [ref=e2639]:
+          - link "NBSTC" [ref=e2640] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/nbstc
+        - listitem [ref=e2641]:
+          - link "A1 Travels" [ref=e2642] [cursor=pointer]:
+            - /url: https://www.redbus.in/travels/a1-travels
+    - navigation "Footer links" [ref=e2643]:
+      - generic [ref=e2644]:
+        - navigation "secondary" [ref=e2645]:
+          - generic [ref=e2647]:
+            - heading "About redBus" [level=2] [ref=e2648]
+            - list [ref=e2649]:
+              - listitem [ref=e2650]:
+                - link "Contact us" [ref=e2651] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/contactus
+              - listitem [ref=e2652]:
+                - link "Sitemap" [ref=e2653] [cursor=pointer]:
+                  - /url: https://www.redbus.in/sitemap.html
+              - listitem [ref=e2654]:
+                - link "Offers" [ref=e2655] [cursor=pointer]:
+                  - /url: https://www.redbus.in/offers
+              - listitem [ref=e2656]:
+                - link "Careers" [ref=e2657] [cursor=pointer]:
+                  - /url: https://www.redbus.in/careers
+              - listitem [ref=e2658]:
+                - link "Download redBus App" [ref=e2659] [cursor=pointer]:
+                  - /url: https://www.redbus.in/download-app
+        - navigation "secondary" [ref=e2660]:
+          - generic [ref=e2662]:
+            - heading "Info" [level=2] [ref=e2663]
+            - list [ref=e2664]:
+              - listitem [ref=e2665]:
+                - link "T&C" [ref=e2666] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/termscondition
+              - listitem [ref=e2667]:
+                - link "Privacy policy" [ref=e2668] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/privacypolicy
+              - listitem [ref=e2669]:
+                - link "Blog" [ref=e2670] [cursor=pointer]:
+                  - /url: https://blog.redbus.in
+              - listitem [ref=e2671]:
+                - link "Bus operator registration" [ref=e2672] [cursor=pointer]:
+                  - /url: https://onboardvendor.redbus.in/
+              - listitem [ref=e2673]:
+                - link "Agent registration" [ref=e2674] [cursor=pointer]:
+                  - /url: https://in3.seatseller.travel/
+              - listitem [ref=e2675]:
+                - link "Insurance partner" [ref=e2676] [cursor=pointer]:
+                  - /url: https://www.acko.com/
+              - listitem [ref=e2677]:
+                - link "User agreement" [ref=e2678] [cursor=pointer]:
+                  - /url: https://www.redbus.in/info/useragreement
+              - listitem [ref=e2679]:
+                - link "Primo Bus" [ref=e2680] [cursor=pointer]:
+                  - /url: https://www.redbus.in/primo/primo-service
+              - listitem [ref=e2681]:
+                - link "Bus Timetable" [ref=e2682] [cursor=pointer]:
+                  - /url: https://www.redbus.in/bus-timetable
+              - listitem [ref=e2683]:
+                - link "Report Security Issues" [ref=e2684] [cursor=pointer]:
+                  - /url: " https://www.redbus.in/bugbounty"
+        - navigation "secondary" [ref=e2685]:
+          - generic [ref=e2687]:
+            - heading "Global Sites" [level=2] [ref=e2688]
+            - list [ref=e2689]:
+              - listitem [ref=e2690]:
+                - link "India" [ref=e2691] [cursor=pointer]:
+                  - /url: https://www.redbus.in/
+              - listitem [ref=e2692]:
+                - link "Singapore" [ref=e2693] [cursor=pointer]:
+                  - /url: https://www.redbus.sg/
+              - listitem [ref=e2694]:
+                - link "Malaysia" [ref=e2695] [cursor=pointer]:
+                  - /url: https://www.redbus.my/
+              - listitem [ref=e2696]:
+                - link "Indonesia" [ref=e2697] [cursor=pointer]:
+                  - /url: https://www.redbus.id/
+              - listitem [ref=e2698]:
+                - link "Peru" [ref=e2699] [cursor=pointer]:
+                  - /url: https://www.redbus.pe/
+              - listitem [ref=e2700]:
+                - link "Colombia" [ref=e2701] [cursor=pointer]:
+                  - /url: https://www.redbus.co/
+              - listitem [ref=e2702]:
+                - link "Cambodia" [ref=e2703] [cursor=pointer]:
+                  - /url: https://www.redbus.com.kh/
+              - listitem [ref=e2704]:
+                - link "Vietnam" [ref=e2705] [cursor=pointer]:
+                  - /url: https://www.redbus.vn/
+        - navigation "secondary" [ref=e2706]:
+          - generic [ref=e2708]:
+            - heading "Our Partners" [level=2] [ref=e2709]
+            - list [ref=e2710]:
+              - listitem [ref=e2711]:
+                - link "Goibibo Bus" [ref=e2712] [cursor=pointer]:
+                  - /url: https://www.goibibo.com/bus/
+              - listitem [ref=e2713]:
+                - link "Goibibo Hotels" [ref=e2714] [cursor=pointer]:
+                  - /url: https://www.goibibo.com/hotels/
+              - listitem [ref=e2715]:
+                - link "Makemytrip Hotels" [ref=e2716] [cursor=pointer]:
+                  - /url: https://www.makemytrip.com/hotels/
+    - generic [ref=e2717]:
+      - img "redBus Logo" [ref=e2718]
+      - generic [ref=e2719]: redBus is the world's largest online bus ticket booking service trusted by over 56+ million happy customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes.
+    - generic [ref=e2720]:
+      - generic [ref=e2721]: Ⓒ 2026 MAKEMYTRIP (INDIA) LIMITED. All rights reserved
+      - list [ref=e2722]:
+        - listitem [ref=e2723]:
+          - link "redbus_facebook" [ref=e2724] [cursor=pointer]:
+            - /url: https://www.facebook.com/redbus.in/
+            - img "redbus_facebook" [ref=e2725]
+        - listitem [ref=e2726]:
+          - link "redbus_linkedin" [ref=e2727] [cursor=pointer]:
+            - /url: https://in.linkedin.com/company/redbus_2/
+            - img "redbus_linkedin" [ref=e2728]
+        - listitem [ref=e2729]:
+          - link "redbus_twitter" [ref=e2730] [cursor=pointer]:
+            - /url: https://twitter.com/redBus_in/
+            - img "redbus_twitter" [ref=e2731]
+        - listitem [ref=e2732]:
+          - link "redbus_instagram" [ref=e2733] [cursor=pointer]:
+            - /url: https://www.instagram.com/accounts/login/?next=/redbusindia/
+            - img "redbus_instagram" [ref=e2734]
+```

@@ -1,4 +1,4 @@
-import{test} from "@playwright/test"
+import{test,chromium} from "@playwright/test"
 test("fixturs",async({page})=>
     {
        await page.goto("https://v1.demo.horilla.com/recruitment/application-form?recruitmentId=12")

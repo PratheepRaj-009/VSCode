@@ -1,0 +1,47 @@
+Error occurred: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for getByRole('link', { name: 'Sponsored Ad - Paris Orsay' })
+
+    at C:\Users\PRATHEEP RAJ S\OneDrive\Desktop\Playwrite\tests\amazon\amazonAI.spec.js:39:23 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\PRATHEEP RAJ S\\OneDrive\\Desktop\\Playwrite\\tests\\amazon\\amazonAI.spec.js',
+      line: 39,
+      column: 23
+    },
+    category: 'pw:api',
+    title: "Click getByRole('link', { name: 'Sponsored Ad - Paris Orsay' })",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:role=link[name="Sponsored Ad - Paris Orsay"i]',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@32',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@32',
+      _title: "Click getByRole('link', { name: 'Sponsored Ad - Paris Orsay' })",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1789550949456,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('link', { name: 'Sponsored Ad - Paris Orsay' })\x1B[22m\n",
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('link', { name: 'Sponsored Ad - Paris Orsay' })\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\PRATHEEP RAJ S\\OneDrive\\Desktop\\Playwrite\\tests\\amazon\\amazonAI.spec.js:39:23',
+      cause: undefined
+    }
+  }
+}

@@ -5,7 +5,9 @@ export const test=base.extend({
     {
         let context=await browser.newContext({storageState: "auth.json"})
         let page=await context.newPage()
-        await use(page)
+        await use(page
+            
+        )
         await context.close();
         console.log("tearDown");
         

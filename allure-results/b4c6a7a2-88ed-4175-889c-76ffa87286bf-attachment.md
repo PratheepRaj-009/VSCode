@@ -1,0 +1,710 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - link:
+      - /url: ./
+      - img [ref=e6] [cursor=pointer]
+    - navigation [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Things to Do" [ref=e11] [cursor=pointer]:
+            - /url: https://www.redbus.com/things-to-do/
+    - generic [ref=e12]:
+      - generic [ref=e15] [cursor=pointer]: Login
+      - generic [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: Manage Booking
+        - generic [ref=e19]: 
+      - generic [ref=e20]:
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: INR
+          - generic [ref=e24]:  
+        - generic [ref=e26] [cursor=pointer]:
+          - img [ref=e29]
+          - generic [ref=e30]:  
+        - link "Help" [ref=e32] [cursor=pointer]:
+          - /url: /info/redcare
+  - main [ref=e34]:
+    - text: 
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - heading "Book your journey now with the world's largest bus platform" [level=1] [ref=e39]
+        - img [ref=e40]
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - text: source
+              - generic [ref=e45]:
+                - img [ref=e46]
+                - textbox "source" [active] [ref=e48]:
+                  - /placeholder: "Ex: Paris"
+                  - text: bangl
+            - img [ref=e50]
+            - generic [ref=e51]:
+              - text: destination
+              - generic [ref=e52]:
+                - img [ref=e53]
+                - textbox "destination" [ref=e55]:
+                  - /placeholder: "Ex: London Airport"
+            - generic [ref=e57]:
+              - text: date
+              - textbox "DD/MY" [ref=e59]
+            - generic [ref=e61]:
+              - text: return date
+              - textbox "return date" [ref=e63]:
+                - /placeholder: Optional
+          - button "SEARCH" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]: SEARCH
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - img [ref=e70]
+          - generic [ref=e71]: 36 Million
+          - generic [ref=e72]: happy customers globally
+        - generic [ref=e73]:
+          - img [ref=e75]
+          - generic [ref=e76]: Over 5000
+          - generic [ref=e77]: bus companies worldwide
+        - generic [ref=e78]:
+          - img [ref=e80]
+          - generic [ref=e81]: 200,000+
+          - generic [ref=e82]: tickets booked everyday
+      - generic [ref=e83]:
+        - img [ref=e84]
+        - generic [ref=e85]:
+          - generic [ref=e86]: INTRODUCING
+          - generic [ref=e87]: AIRPORT TRANSFERS
+          - generic [ref=e88]: You can travel low cost airport shuttles, trains & bus to and from your accomdation
+        - generic [ref=e90] [cursor=pointer]: BOOK NOW
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - img [ref=e95]
+          - generic [ref=e96]:
+            - generic [ref=e97]: Worldwide coverage
+            - generic [ref=e98]: Find affordable travel tickets across the world, all at one place
+        - generic [ref=e99]:
+          - img [ref=e100]
+          - generic [ref=e101]:
+            - generic [ref=e102]: Anxiety-free travel
+            - generic [ref=e103]: We ensure your information is safe and your travel is hassle free, wherever you go
+        - generic [ref=e104]:
+          - img [ref=e105]
+          - generic [ref=e106]:
+            - generic [ref=e107]: No hidden charges
+            - generic [ref=e108]: Find the best deals online and guess what, refunds are simple!
+      - generic [ref=e109]:
+        - generic [ref=e110]: Top Travelled Bus Routes
+        - generic [ref=e111]:
+          - link "Buses from Vienna to Bratislava" [ref=e112] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/vienna-to-bratislava
+            - img [ref=e114]
+            - generic [ref=e115]:
+              - generic [ref=e116]: Buses from
+              - generic [ref=e117]: Vienna to Bratislava
+          - link "Buses from London to Oxford" [ref=e118] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/london-to-oxford
+            - img [ref=e120]
+            - generic [ref=e121]:
+              - generic [ref=e122]: Buses from
+              - generic [ref=e123]: London to Oxford
+          - link "Buses from Berlin to Prague" [ref=e124] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/berlin-to-prague
+            - img [ref=e126]
+            - generic [ref=e127]:
+              - generic [ref=e128]: Buses from
+              - generic [ref=e129]: Berlin to Prague
+          - link "Buses from Lisbon to Porto" [ref=e130] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/lisbon-to-porto
+            - img [ref=e132]
+            - generic [ref=e133]:
+              - generic [ref=e134]: Buses from
+              - generic [ref=e135]: Lisbon to Porto
+          - link "Buses from Tallinn to Riga" [ref=e136] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/tallinn-to-riga
+            - img [ref=e138]
+            - generic [ref=e139]:
+              - generic [ref=e140]: Buses from
+              - generic [ref=e141]: Tallinn to Riga
+          - link "Buses from Rome to Florence" [ref=e142] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/rome-to-florence
+            - img [ref=e144]
+            - generic [ref=e145]:
+              - generic [ref=e146]: Buses from
+              - generic [ref=e147]: Rome to Florence
+      - generic [ref=e148]:
+        - generic [ref=e149]: It’s all about travel
+        - generic [ref=e150]:
+          - generic [ref=e151]: redBus is part of Makemytrip group which has been listed on NASDAQ since 2010
+          - img [ref=e152]
+        - generic [ref=e153]:
+          - generic [ref=e154]: We have two partner companies makemytrip.com and goibibo.com
+          - img [ref=e155]
+        - generic [ref=e156]:
+          - generic [ref=e157]: Helping people book travel and accommodation for more than 20 years
+          - img [ref=e158]
+      - generic [ref=e159]:
+        - generic [ref=e161]: Here’s what a few of our customers have to say about us
+        - generic [ref=e163]:
+          - generic [ref=e165] [cursor=pointer]: 
+          - generic [ref=e167]:
+            - generic [ref=e170]:
+              - generic [ref=e171]: All time favourite buses
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - generic [ref=e174]: Mohit Patil
+                  - generic [ref=e175]:
+                    - img [ref=e176]
+                    - text: "5.0"
+                - generic [ref=e177]: redbus Customer since 2018
+            - generic [ref=e180]:
+              - generic [ref=e181]: Perfect Ride. Best bus ever.
+              - generic [ref=e182]:
+                - generic [ref=e183]:
+                  - generic [ref=e184]: Bensha Bennet
+                  - generic [ref=e185]:
+                    - img [ref=e186]
+                    - text: "5.0"
+                - generic [ref=e187]: redbus Customer since 2018
+            - generic [ref=e190]:
+              - generic [ref=e191]: Punctual and clean buses
+              - generic [ref=e192]:
+                - generic [ref=e193]:
+                  - generic [ref=e194]: Ranjith Kumar
+                  - generic [ref=e195]:
+                    - img [ref=e196]
+                    - text: "5.0"
+                - generic [ref=e197]: redbus Customer since 2018
+            - generic [ref=e200]:
+              - generic [ref=e201]: Awesome travel experience with redBus. Excellent Staff
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - generic [ref=e204]: Vadde laxminarayana
+                  - generic [ref=e205]:
+                    - img [ref=e206]
+                    - text: "5.0"
+                - generic [ref=e207]: redbus Customer since 2018
+            - generic [ref=e210]:
+              - generic [ref=e211]: Amazing services. Always a best time with redBus
+              - generic [ref=e212]:
+                - generic [ref=e213]:
+                  - generic [ref=e214]: Gurmeet Singh
+                  - generic [ref=e215]:
+                    - img [ref=e216]
+                    - text: "5.0"
+                - generic [ref=e217]: redbus Customer since 2018
+            - generic [ref=e220]:
+              - generic [ref=e221]: Bus was clean and the journey was smooth
+              - generic [ref=e222]:
+                - generic [ref=e223]:
+                  - generic [ref=e224]: Ravikumar C
+                  - generic [ref=e225]:
+                    - img [ref=e226]
+                    - text: "5.0"
+                - generic [ref=e227]: redbus Customer since 2018
+            - generic [ref=e230]:
+              - generic [ref=e231]: All time favourite buses
+              - generic [ref=e232]:
+                - generic [ref=e233]:
+                  - generic [ref=e234]: Mohit Patil
+                  - generic [ref=e235]:
+                    - img [ref=e236]
+                    - text: "5.0"
+                - generic [ref=e237]: redbus Customer since 2018
+            - generic [ref=e240]:
+              - generic [ref=e241]: Perfect Ride. Best bus ever.
+              - generic [ref=e242]:
+                - generic [ref=e243]:
+                  - generic [ref=e244]: Bensha Bennet
+                  - generic [ref=e245]:
+                    - img [ref=e246]
+                    - text: "5.0"
+                - generic [ref=e247]: redbus Customer since 2018
+            - generic [ref=e250]:
+              - generic [ref=e251]: Punctual and clean buses
+              - generic [ref=e252]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Ranjith Kumar
+                  - generic [ref=e255]:
+                    - img [ref=e256]
+                    - text: "5.0"
+                - generic [ref=e257]: redbus Customer since 2018
+            - generic [ref=e260]:
+              - generic [ref=e261]: Awesome travel experience with redBus. Excellent Staff
+              - generic [ref=e262]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Vadde laxminarayana
+                  - generic [ref=e265]:
+                    - img [ref=e266]
+                    - text: "5.0"
+                - generic [ref=e267]: redbus Customer since 2018
+            - generic [ref=e270]:
+              - generic [ref=e271]: Amazing services. Always a best time with redBus
+              - generic [ref=e272]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Gurmeet Singh
+                  - generic [ref=e275]:
+                    - img [ref=e276]
+                    - text: "5.0"
+                - generic [ref=e277]: redbus Customer since 2018
+            - generic [ref=e280]:
+              - generic [ref=e281]: Bus was clean and the journey was smooth
+              - generic [ref=e282]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Ravikumar C
+                  - generic [ref=e285]:
+                    - img [ref=e286]
+                    - text: "5.0"
+                - generic [ref=e287]: redbus Customer since 2018
+            - generic [ref=e290]:
+              - generic [ref=e291]: All time favourite buses
+              - generic [ref=e292]:
+                - generic [ref=e293]:
+                  - generic [ref=e294]: Mohit Patil
+                  - generic [ref=e295]:
+                    - img [ref=e296]
+                    - text: "5.0"
+                - generic [ref=e297]: redbus Customer since 2018
+            - generic [ref=e300]:
+              - generic [ref=e301]: Perfect Ride. Best bus ever.
+              - generic [ref=e302]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Bensha Bennet
+                  - generic [ref=e305]:
+                    - img [ref=e306]
+                    - text: "5.0"
+                - generic [ref=e307]: redbus Customer since 2018
+            - generic [ref=e310]:
+              - generic [ref=e311]: Punctual and clean buses
+              - generic [ref=e312]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Ranjith Kumar
+                  - generic [ref=e315]:
+                    - img [ref=e316]
+                    - text: "5.0"
+                - generic [ref=e317]: redbus Customer since 2018
+          - generic [ref=e319] [cursor=pointer]: 
+      - generic [ref=e320]:
+        - generic [ref=e321]:
+          - generic [ref=e322]: We’ve partnered with the world’s best bus companies
+          - generic [ref=e323]: More than 3500 trusted travel partners across trains, busses, ferries and airport transfers
+        - generic [ref=e324]:
+          - generic [ref=e325]:
+            - img [ref=e326]
+            - img [ref=e327]
+            - img [ref=e328]
+          - generic [ref=e329]:
+            - img [ref=e330]
+            - img [ref=e331]
+            - img [ref=e332]
+          - generic [ref=e333]:
+            - img [ref=e334]
+            - img [ref=e335]
+            - img [ref=e336]
+          - generic [ref=e337]:
+            - img [ref=e338]
+            - img [ref=e339]
+            - img [ref=e340]
+      - generic [ref=e341]:
+        - img [ref=e342]
+        - generic [ref=e343]:
+          - heading "We Are About Bus Travel" [level=2] [ref=e345]
+          - generic [ref=e346]:
+            - paragraph [ref=e347]: redBus is the best platform in the world for booking bus tickets online. redBus is serving 6 countries around the world (India, Malaysia, Singapore, Indonesia, Peru, and Colombia), and would be launching bus ticket booking services in more countries. Trusted by over 17 million customers worldwide, redBus offers an easy, fast, and secure platform for booking cheap bus tickets. You only need to select your origin, destination, and date of departure, and you will find plenty of buses to travel by within a few seconds. You can book bus based on your preferred schedule, choose a pick-up and dropping point, preferred bus type, and book a bus ticket online with just a few clicks!
+            - paragraph [ref=e348]: redBus operates on over 7000 routes and has on-boarded over 2,300 bus operators globally. In addition to bus tickets booking for popular tourist destinations, one can also book cheap bus tickets to the remote and less popular places in India, Malaysia, Singapore, Indonesia, Peru, and Colombia through redBus. redBus has sold over 180 million tickets globally through its websit... Read More
+      - generic [ref=e349]:
+        - img [ref=e350]
+        - generic [ref=e351]:
+          - generic [ref=e352]: A new way of travelling
+          - generic [ref=e353]: Stay up to date with the latest tips on navigating travel during COVID-19, based on your location
+        - generic [ref=e355] [cursor=pointer]: Know More
+      - generic [ref=e356]:
+        - generic [ref=e357]: Most popular bus routes
+        - generic [ref=e359]:
+          - link "Singapore to Kuala Lumpur Bus" [ref=e360] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/singapore-to-kuala-lumpur
+          - link "Singapore to Penang Bus" [ref=e361] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/singapore-to-penang
+          - link "Singapore to Malacca Bus" [ref=e362] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/singapore-to-malacca
+          - link "Singapore to Klia Bus" [ref=e363] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/singapore-to-klia2
+          - link "Singapore to Klia2 Bus" [ref=e364] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/singapore-to-penang
+          - link "Singapore To KL Sentral Bus" [ref=e365] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/singapore-to-kl-sentral
+          - link "Kuala Lumpur to Singapore Bus" [ref=e366] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/kuala-lumpur-to-singapore
+          - link "Kuala Lumpur to Penang Bus" [ref=e367] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/kuala-lumpur-to-penang
+          - link "Penang to Kuala Lumpur Bus" [ref=e368] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/penang-to-kuala-lumpur
+          - link "Kuala Lumpur to Malacca Bus" [ref=e369] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/kuala-lumpur-to-malacca
+          - link "Klia to KL Sentral Bus" [ref=e370] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/klia-to-kl-sentral
+          - link "Klia2 to KL sentral Bus" [ref=e371] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/klia2-to-kl-sentral
+          - link "Johor Bahru to Kuala Lumpur Bus" [ref=e372] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/johor-bahru-to-kuala-lumpur
+          - link "Lpoh to Penang Bus" [ref=e373] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ipoh-to-penang
+          - link "Bandung to Jakarta Bus" [ref=e374] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/bandung-to-jakarta
+          - link "Jakarta to Bandung Bus" [ref=e375] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/jakarta-to-bandung
+          - link "Jogja to Semarang Bus" [ref=e376] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/yogyakarta-jogja-to-semarang
+          - link "Surabaya to Bali Bus" [ref=e377] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/surabaya-to-bali
+          - link "Bekasi to Bandung Bus" [ref=e378] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/bekasi-to-bandung
+          - link "Bali to Surabaya Bus" [ref=e379] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/denpasar-bali-to-surabaya
+          - link "Semarang to Jakarta Bus" [ref=e380] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/semarang-to-jakarta
+          - link "Bangkok to Phuket Bus" [ref=e381] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/bangkok-to-phuket
+          - link "Bangkok to Chiang Mai Bus" [ref=e382] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/bangkok-to-chiang-mai
+          - link "Phuket to Bangkok Bus" [ref=e383] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/phuket-to-bangkok
+          - link "Bangkok to Krabi Bus" [ref=e384] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/bangkok-to-krabi
+          - link "Bangkok to Kanchanaburi Bus" [ref=e385] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/bangkok-to-kanchanaburi
+          - link "Bangkok to Surat Thani Bus" [ref=e386] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/bangkok-to-surat-thani
+          - link "Chiang Mai to Bangkok Bus" [ref=e387] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/chiang-mai-to-bangkok
+          - link "Krabi to Bangkok Bus" [ref=e388] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/krabi-to-bangkok
+          - link "Bangkok to Chiang Rai Bus" [ref=e389] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/bangkok-to-chiang-rai
+          - link "Bangkok to Sukhothai Bus" [ref=e390] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/bangkok-to-sukhothai
+          - link "Phnom Penh to Siem Reap Bus" [ref=e391] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/phnom-penh-to-siem-reap
+          - link "Siem Reap to Phnom Penh Bus" [ref=e392] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/siem-reap-to-phnom-penh
+          - link "Phnom Penh to Sihanoukville Bus" [ref=e393] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/phnom-penh-to-sihanoukville
+          - link "Siem Reap to Sihanoukville Bus" [ref=e394] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/siem-reap-to-sihanoukville
+          - link "Sihanoukville to Phnom Penh Bus" [ref=e395] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/sihanoukville-to-phnom-penh
+          - link "Phnom Penh to Ho Chi Minh Bus" [ref=e396] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/phnom-penh-to-ho-chi-minh
+          - link "Sihanoukville to Siem Reap Bus" [ref=e397] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/sihanoukville-to-siem-reap
+          - link "Siem Reap to Ho Chi Minh Bus" [ref=e398] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/siem-reap-to-ho-chi-minh
+          - link "Sihanoukville to Kampot Bus" [ref=e399] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/sihanoukville-to-kampot
+          - link "Kampot to Phnom Penh Bus" [ref=e400] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/kampot-to-phnom-penh
+          - link "Ho Chi Minh to Can Tho Bus" [ref=e401] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ho-chi-minh-to-can-tho
+          - link "Can Tho to Ho Chi Minh Bus" [ref=e402] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/can-tho-to-ho-chi-minh
+          - link "Ha Noi to Hai Phong Bus" [ref=e403] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ha-noi-to-hai-phong
+          - link "Ha Noi to Sa Pa Bus" [ref=e404] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ha-noi-to-sa-pa
+          - link "Hai Phong to Sa Pa Bus" [ref=e405] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/hai-phong-to-sa-pa
+          - link "Sa Pa to Ha Noi Bus" [ref=e406] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/sa-pa-to-ha-noi
+          - link "Ha Noi to Ho Chi Minh Bus" [ref=e407] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ha-noi-to-ho-chi-minh
+          - link "Bus from Ho Chi Minh to Phnom Penh" [ref=e408] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ho-chi-minh-to-phnom-penh
+          - link "Ho Chi Minh to Dalat Bus" [ref=e409] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ho-chi-minh-to-da-lat
+          - link "Da Lat to Ho Chi Minh Bus" [ref=e410] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/da-lat-to-ho-chi-minh
+          - link "Hanoi to Ha Giang Bus" [ref=e411] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ha-noi-to-ha-giang
+          - link "Ho Chi Minh to Nha Trang Bus" [ref=e412] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ho-chi-minh-to-nha-trang
+          - link "Hanoi to Da Nang Bus" [ref=e413] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ha-noi-to-da-nang
+          - link "Ho Chi Minh to Phan Thiet Bus" [ref=e414] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ho-chi-minh-to-phan-thiet
+          - link "Hanoi to Hạ Long Bus" [ref=e415] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ha-noi-to-ha-long
+          - link "Ho Chi Minh to Nuoc Ngoai Bus" [ref=e416] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ho-chi-minh-to-nuoc-ngoai
+          - link "Ho Chi Minh to Nha Trang Bus" [ref=e417] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ho-chi-minh-to-nha-trang
+          - link "Quang Nam to Hue Bus" [ref=e418] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/quang-nam-to-hue
+          - link "Delhi to Chandigarh Bus" [ref=e419] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/delhi-to-chandigarh
+          - link "Chennai to Pondicherry Bus" [ref=e420] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/chennai-to-pondicherry
+          - link "Bangalore to Mangalore Bus" [ref=e421] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/bangalore-to-mangalore
+          - link "Chennai to Tirupathi Bus" [ref=e422] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/chennai-to-tirupathi
+          - link "Chennai to Trichy Bus" [ref=e423] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/chennai-to-tiruchirapalli
+          - link "Goa to Bangalore Bus" [ref=e424] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/goa-to-bangalore
+          - link "Mumbai to Hyderabad Bus" [ref=e425] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/mumbai-to-hyderabad
+          - link "Ahmedabad to Jamnagar Bus" [ref=e426] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/ahmedabad-to-jamnagar
+          - link "Chennai to Kodaikanal Bus" [ref=e427] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/chennai-to-kodaikanal
+          - link "Delhi to Gorakhpur Bus" [ref=e428] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/delhi-to-gorakhpur
+          - link "Mumbai to Lonavala Bus" [ref=e429] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/mumbai-to-lonavala
+          - link "Alicante to Madrid Bus" [ref=e430] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/alicante-to-madrid
+          - link "Barcelona to Valencia Bus" [ref=e431] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/barcelona-to-valencia
+          - link "Madrid to Barcelona Bus" [ref=e432] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/madrid-to-barcelona
+          - link "Madrid to Segovia Bus" [ref=e433] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/madrid-to-segovia
+          - link "Madrid to Seville Bus" [ref=e434] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/madrid-to-seville
+          - link "Seville to Madrid Bus" [ref=e435] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/seville-to-madrid
+          - link "Valencia to Barcelona Bus" [ref=e436] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/valencia-to-barcelona
+          - link "Berlin to Krakow Bus" [ref=e437] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/berlin-to-krakow
+          - link "Berlin to Prague Bus" [ref=e438] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/berlin-to-prague
+          - link "Berlin to Szczecin Bus" [ref=e439] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/berlin-to-szczecin
+          - link "Berlin to Warsaw Bus" [ref=e440] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/berlin-to-warsaw
+          - link "Dresden to Prague Bus" [ref=e441] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/dresden-to-prague
+          - link "Munich to Paris Bus" [ref=e442] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/munich-to-paris
+          - link "Stuttgart to Paris Bus" [ref=e443] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/stuttgart-to-paris
+          - link "Bath to Bristol Bus" [ref=e444] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/bath-to-bristol
+          - link "Leeds to Bradford Bus" [ref=e445] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/leeds-to-bradford
+          - link "London to Luton Bus" [ref=e446] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/london-to-luton
+          - link "London to Oxford Bus" [ref=e447] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/london-to-oxford
+          - link "Luton to London Bus" [ref=e448] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/luton-to-london
+          - link "Shipley to Leeds Bus" [ref=e449] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/shipley-to-leeds
+          - link "Plovdiv to Sofia Bus" [ref=e450] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/plovdiv-to-sofia
+          - link "Sofia to Burgas Bus" [ref=e451] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/sofia-to-burgas
+          - link "Sofia to Plovdiv Bus" [ref=e452] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/sofia-to-plovdiv
+          - link "Sofia to Sunny Beach Bus" [ref=e453] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/sofia-to-sunny-beach
+          - link "Sofia to Sozopol Bus" [ref=e454] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/sofia-to-sozopol
+          - link "Sofia to Varna Bus" [ref=e455] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/sofia-to-varna
+          - link "Burgas to Sofia Bus" [ref=e456] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/burgas-to-sofia
+          - link "Sofia to Pleven Bus" [ref=e457] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/sofia-to-pleven
+          - link "Pleven to Sofia Bus" [ref=e458] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/pleven-to-sofia
+          - link "Sofia to Stara Zagora Bus" [ref=e459] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/sofia-to-stara-zagora
+          - link "Blagoevgrad to Sofia Bus" [ref=e460] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/blagoevgrad-to-sofia
+          - link "Varna to Sofia Bus" [ref=e461] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/varna-to-sofia
+          - link "Buses Sofia Istanbul Bus" [ref=e462] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/sofia-to-istanbul
+          - link "Pula to Rovinj Bus" [ref=e463] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/pula-to-rovinj
+          - link "Split to Zadar Bus" [ref=e464] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/split-to-zadar
+          - link "Split to Zagreb Bus" [ref=e465] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/split-to-zagreb
+          - link "Turin to Rome Bus" [ref=e466] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/turin-to-rome
+          - link "Vela Luka to Split Bus" [ref=e467] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/vela-luka-to-split
+          - link "Zadar to Zagreb Bus" [ref=e468] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/zadar-to-zagreb
+          - link "Zagreb to Ljubljana Bus" [ref=e469] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/zagreb-to-ljubljana
+          - link "La Serena to Santiago Bus" [ref=e470] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/la-serena-to-santiago
+          - link "Santiago to Temuco Bus" [ref=e471] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/santiago-to-temuco
+          - link "Santiago to Talca Bus" [ref=e472] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/santiago-to-talca
+          - link "Arica to Santiago Bus" [ref=e473] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/arica-to-santiago
+          - link "Iquique to Santiago Bus" [ref=e474] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/iquique-to-santiago
+          - link "Santiago to Iquique Bus" [ref=e475] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/santiago-to-iquique
+          - link "Santiago to Rancagua Bus" [ref=e476] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/santiago-to-rancagua
+          - link "Santiago to Quillota Bus" [ref=e477] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/santiago-to-quillota
+          - link "Temuco to Valdivia Bus" [ref=e478] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/temuco-to-valdivia
+          - link "Concepcion to Santiago Bus" [ref=e479] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-ticket/concepcion-to-santiago
+          - link "Supernice Grassland Bus" [ref=e480] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/supernice-grassland
+          - link "Causeway Link Bus" [ref=e481] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/causeway-link
+          - link "Jasmine Express Bus" [ref=e482] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/jasmine-express
+          - link "V Express Bus" [ref=e483] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/v-express
+          - link "KKKL Express Bus" [ref=e484] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/kkkl-express
+          - link "Star Shuttle Bus" [ref=e485] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/star-shuttle
+          - link "Super Liner Bus" [ref=e486] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/star-shuttle
+          - link "Queen Express Bus" [ref=e487] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/queen-express
+          - link "Transtar Travel Bus" [ref=e488] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/transtar-travel
+          - link "Starmart Express Bus" [ref=e489] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/starmart-express
+          - link "Sombat Tour Bus" [ref=e490] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/sombat-tour
+          - link "Bangkok Busline" [ref=e491] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/bangkok-busline
+          - link "Kanchanaburi Express" [ref=e492] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/kanchanaburi-express
+          - link "Rungprasert Tour" [ref=e493] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/rungprasert-tour
+          - link "Orange Travels" [ref=e494] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/orange-travels-orange
+          - link "SRS Travels" [ref=e495] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/srs-travels-srs
+          - link "Royal Travels" [ref=e496] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/royal-travels
+          - link "YBM Travels" [ref=e497] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/ybm-travels
+          - link "MR Travels" [ref=e498] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/mr-travels
+          - link "Eagle Travels" [ref=e499] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/eagle-travels
+          - link "Andimar" [ref=e500] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/buses-andimar
+          - link "Cormar" [ref=e501] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/cormar-bus
+          - link "Karat s" [ref=e502] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/karat-s
+          - link "Union Ivkoni" [ref=e503] [cursor=pointer]:
+            - /url: https://www.redbus.com/bus-travels/union-ivkoni
+    - generic [ref=e506]:
+      - heading "FAQs" [level=2] [ref=e507]
+      - generic [ref=e510]:
+        - generic [ref=e512] [cursor=pointer]:
+          - generic [ref=e513]: Why redBus for online bus ticket booking?
+          - generic [ref=e514]: 
+        - generic [ref=e516] [cursor=pointer]:
+          - generic [ref=e517]: Can I cancel my bus ticket?
+          - generic [ref=e518]: 
+        - generic [ref=e520] [cursor=pointer]:
+          - generic [ref=e521]: Can I get refund on ticket cancellation?
+          - generic [ref=e522]: 
+        - generic [ref=e524] [cursor=pointer]:
+          - generic [ref=e525]: Do I need a print out of my bus ticket to board a bus?
+          - generic [ref=e526]: 
+        - generic [ref=e528] [cursor=pointer]:
+          - generic [ref=e529]: What are the payment methods for booking a bus ticket online on redBus?
+          - generic [ref=e530]: 
+        - generic [ref=e532] [cursor=pointer]:
+          - generic [ref=e533]: What is a PNR number on the ticket?
+          - generic [ref=e534]: 
+        - generic [ref=e536] [cursor=pointer]:
+          - generic [ref=e537]: What different currencies does redBus support for payments?
+          - generic [ref=e538]: 
+        - generic [ref=e540] [cursor=pointer]:
+          - generic [ref=e541]: Is payment on redBus.com safe?
+          - generic [ref=e542]: 
+  - generic [ref=e543]:
+    - list [ref=e546]:
+      - listitem [ref=e547]:
+        - generic [ref=e548] [cursor=pointer]:
+          - generic [ref=e549]:
+            - heading "Most popular bus routes" [level=2] [ref=e550]
+            - generic [ref=e551]: 
+          - text: "| | | | | | | | |"
+    - generic [ref=e555]:
+      - generic [ref=e556]:
+        - generic [ref=e557]:
+          - generic [ref=e558]: About redBus
+          - link "About Us" [ref=e559] [cursor=pointer]:
+            - /url: /info/aboutus
+          - link "Contact Us" [ref=e560] [cursor=pointer]:
+            - /url: /info/redcare
+          - link "Mobile Version" [ref=e561] [cursor=pointer]:
+            - /url: https://www.redbus.com
+        - generic [ref=e562]:
+          - generic [ref=e563]: Info
+          - link "T & C" [ref=e564] [cursor=pointer]:
+            - /url: /info/termscondition
+          - link "Privacy Policy" [ref=e565] [cursor=pointer]:
+            - /url: /info/privacypolicy
+          - link "Cookie Policy" [ref=e566] [cursor=pointer]:
+            - /url: /info/cookiepolicy
+          - link "FAQ" [ref=e567] [cursor=pointer]:
+            - /url: /info/faq
+          - link "Blog" [ref=e568] [cursor=pointer]:
+            - /url: http://blog.redbus.com/
+        - generic [ref=e569]:
+          - generic [ref=e570]: Global Sites
+          - link "India" [ref=e571] [cursor=pointer]:
+            - /url: https://www.redbus.in/
+          - link "Singapore" [ref=e572] [cursor=pointer]:
+            - /url: https://www.redbus.sg/
+          - link "Malaysia" [ref=e573] [cursor=pointer]:
+            - /url: https://www.redbus.my/
+          - link "Indonesia" [ref=e574] [cursor=pointer]:
+            - /url: https://www.redbus.id/
+          - link "Peru" [ref=e575] [cursor=pointer]:
+            - /url: https://www.redbus.pe/
+          - link "Colombia" [ref=e576] [cursor=pointer]:
+            - /url: https://www.redbus.co/
+          - link "Cambodia" [ref=e577] [cursor=pointer]:
+            - /url: https://www.redbus.com.kh/
+          - link "Vietnam" [ref=e578] [cursor=pointer]:
+            - /url: https://www.redbus.vn/
+        - generic [ref=e579]:
+          - generic [ref=e580]: Our Partners
+          - link "Goibibo Bus" [ref=e581] [cursor=pointer]:
+            - /url: https://www.goibibo.com/bus/
+          - link "Goibibo Hotels" [ref=e582] [cursor=pointer]:
+            - /url: https://www.goibibo.com/hotels/
+          - link "Makemytrip Bus" [ref=e583] [cursor=pointer]:
+            - /url: https://www.makemytrip.com/bus-tickets/
+          - link "Makemytrip Hotels" [ref=e584] [cursor=pointer]:
+            - /url: https://www.makemytrip.com/hotels/
+      - generic [ref=e585]:
+        - img [ref=e586]
+        - generic [ref=e587]: redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.
+        - generic [ref=e588]:
+          - link [ref=e589] [cursor=pointer]:
+            - /url: https://www.facebook.com/redBusglobal
+            - img [ref=e590]
+          - link [ref=e591] [cursor=pointer]:
+            - /url: https://www.instagram.com/accounts/login/?next=/redbusglobal/
+            - img [ref=e592]
+          - link [ref=e593] [cursor=pointer]:
+            - /url: https://twitter.com/redBus_sg
+            - img [ref=e594]
+        - generic [ref=e595]: 2024 ibibogroup All rights reserved
+```
