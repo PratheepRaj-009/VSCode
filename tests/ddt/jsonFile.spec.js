@@ -2,7 +2,7 @@ import{expect, test} from"@playwright/test"
 import fs from"fs"
 let datafile=fs.readFileSync("C:/Users/PRATHEEP RAJ S/OneDrive/Desktop/Playwrite/Testdata/jsondata.json")
 let data=JSON.parse(datafile)
-test.only("read json file",async({page})=>
+test("read json file",async({page})=>
 {
     await page.goto(data.url)
     await page.locator('#username').fill(data.username)
