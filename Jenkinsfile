@@ -41,7 +41,7 @@ pipeline {
                             error 'Please provide TEST_FILE when TEST_TYPE is specific'
                         }
 
-                        bat "npx playwright test \"${params.TEST_FILE}\""
+                        bat "npx playwright test ${params.TEST_FILE}"
 
                     } else {
                         error "Invalid TEST_TYPE: ${params.TEST_TYPE}"
