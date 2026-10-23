@@ -8,7 +8,9 @@ test("upload resume", async ({ page }) => {
 
     await page.goto("https://www.naukri.com/")
 
-    await page.locator("#login_Layer").click();
+    let loginBtn= page.locator("#login_Layer")
+    await loginBtn.waitFor({state:"visible"});
+    await loginBtn.click()
 
     await page.locator("//input[@placeholder='Enter your active Email ID / Username']").fill("pratheep.te09@gmail.com")
 
