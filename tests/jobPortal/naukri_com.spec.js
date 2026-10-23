@@ -1,12 +1,20 @@
-import { test, expect } from "@playwright/test"
+import { test, expect, chromium } from "@playwright/test"
 import path from "node:path";
 
-test("upload resume", async ({ page }) => {
+test("upload resume", async () => {
 
+   let browser=await chromium.launch({channel:'chrome'})
+    let context=await browser.newContext()
+    let page=await context.newPage()
+     const response = await page.goto('https://www.naukri.com/', {
+        waitUntil: 'domcontentloaded',
+        timeout: 60000
+    });
 
+    
     let expected = "Resume has been successfully uploaded.";
 
-    await page.goto("https://www.naukri.com/")
+    //await page.goto("https://www.naukri.com/")
     await page.waitForLoadState("load")
 
     let loginBtn= page.locator("#login_Layer")
