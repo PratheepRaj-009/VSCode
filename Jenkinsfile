@@ -1,20 +1,7 @@
+```groovy
 pipeline {
 
     agent any
-
-    parameters {
-        choice(
-            name: 'TEST_TYPE',
-            choices: ['regression', 'smoke', 'specific'],
-            description: 'Select test execution type'
-        )
-
-        string(
-            name: 'TEST_FILE',
-            defaultValue: '',
-            description: 'Enter test file only when TEST_TYPE is specific'
-        )
-    }
 
     stages {
 
@@ -48,13 +35,20 @@ pipeline {
 
                         bat 'npm run smoke'
 
+                    } else if (params.TEST_TYPE == 'specific') {
+
+                        if (!params.TEST_FILE?.trim()) {
+                            error 'Please provide TEST_FILE when TEST_TYPE is specific'
+                        }
+
+                        bat "npx playwright test \"${params.TEST_FILE}\""
+
                     } else {
-
-                        bat "npx playwright test ${params.TEST_FILE}"
-
+                        error "Invalid TEST_TYPE: ${params.TEST_TYPE}"
                     }
                 }
             }
         }
     }
 }
+```
