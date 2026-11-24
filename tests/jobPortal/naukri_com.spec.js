@@ -45,7 +45,7 @@ test("upload resume", async () => {
     }
 
 
-    await page.locator("//div[@aria-label='Resume']").scrollIntoViewIfNeeded()
+    //await page.locator("//div[@aria-label='Resume']").scrollIntoViewIfNeeded()
     try {
         console.log("try");
 
